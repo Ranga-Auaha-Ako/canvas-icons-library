@@ -2,7 +2,9 @@
 	import { onMount } from 'svelte';
 	import { expoInOut } from 'svelte/easing';
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
+	import { getIconUrl } from '$lib/icons';
 	import IconList from '$lib/icons/iconList.svelte';
+	import { nanoid } from 'nanoid';
 
 	// import { dev } from '$app/env';
 	import { base, assets } from '$app/paths';
@@ -21,7 +23,7 @@
 
 	let iconData: iconMeta;
 	let iconDiffs: {
-		newIcons: string[];
+		newIcons: Icon[];
 		removedIcons: Icon[];
 	}[] = [];
 	let loading = true;
@@ -39,9 +41,26 @@
 				// Loop through the meta categories and find differences between it and the actual files
 				const foundCategory = iconData.files.find(({ category }) => category === metaCategory.name);
 				if (!foundCategory) return { newIcons: [], removedIcons: metaCategory.icons };
-				const newIcons = foundCategory.icons.filter((iconUrl) => {
-					return !metaCategory.icons.find((i) => i.url == iconUrl);
-				});
+				let newIcons = foundCategory.icons
+					.filter((iconUrl) => {
+						return !metaCategory.icons.find((i) => i.url == iconUrl);
+					})
+					.map((url) => {
+						let tnp_id = '';
+						const foundID = url.match(/noun_[\w\d_]+_(\d+)/);
+						if (foundID && foundID[1]) {
+							tnp_id = foundID[1];
+						}
+						return <Icon>{
+							id: nanoid(),
+							width: 48,
+							height: 48,
+							tnp_id,
+							url,
+							tags: [],
+							collections: []
+						};
+					});
 				const removedIcons = metaCategory.icons.filter(({ url }) => {
 					return !foundCategory.icons.find((i) => i == url);
 				});
@@ -53,6 +72,10 @@
 
 	let chosenCategory = 0;
 	let chosenIcon: undefined | string;
+	$: chosenIconData = iconData?.meta[chosenCategory].icons.find((i) => i.id == chosenIcon);
+	$: iconNotDeleted = !iconDiffs[chosenCategory]?.removedIcons.find(
+		(i) => i.id == chosenIconData?.id
+	);
 
 	let unsaved = false;
 	const updateIcons = (e: CustomEvent) => {
@@ -89,15 +112,11 @@
 				{#if iconDiffs[chosenCategory]}
 					{#if iconDiffs[chosenCategory].newIcons.length}
 						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-						{#each iconDiffs[chosenCategory].newIcons as icon}
-							<p>{icon}</p>
-						{/each}
+						<IconList icons={iconDiffs[chosenCategory].newIcons} />
 					{/if}
 					{#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
-						{#each iconDiffs[chosenCategory].removedIcons as icon}
-							<p>{icon.url}</p>
-						{/each}
+						<IconList icons={iconDiffs[chosenCategory].removedIcons} />
 					{/if}
 				{/if}
 			</div>
@@ -114,7 +133,10 @@
 			<div class="icon-editor w-6/12">
 				<h2 class="text-xl font-bold mt-3">Icon Editor:</h2>
 				<h1>Selected Icon</h1>
-				{chosenIcon}
+				{#if chosenIconData && iconNotDeleted}
+					<p>Found Icon {chosenIconData}</p>
+					<img src={getIconUrl(chosenIconData)} alt="" />
+				{/if}
 			</div>
 		{/if}
 	</div>

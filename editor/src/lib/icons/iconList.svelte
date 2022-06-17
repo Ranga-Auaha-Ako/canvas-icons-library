@@ -1,12 +1,15 @@
 <script lang="ts">
-	import type { Icon } from '$lib/icons';
+	import { base, assets } from '$app/paths';
 	import { flip } from 'svelte/animate';
+	import type { Icon } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import { dndzone } from 'svelte-dnd-action';
-	import { nanoid } from 'nanoid';
 
 	export let icons: Icon[];
 	export let chosenIcon: string | null = null;
+
+	// Handle edge cases where the icons don't actually exist (yet) or are missing links
+	export let newIcon = false;
 
 	// Handle movement of Drag&Drop icons, animation
 	const flipDurationMs = 300;
@@ -23,6 +26,10 @@
 		} else {
 			icons = icons.filter((e, idx) => i !== idx);
 		}
+	};
+
+	const markMissing = (e: any, icon: Icon) => {
+		e.target.src = `${base}/missing-icon.svg`;
 	};
 </script>
 
@@ -60,7 +67,7 @@
 						</p>
 					</div> -->
 				{/if}
-				<img src={getIconUrl(icon)} alt={icon.title} />
+				<img src={getIconUrl(icon)} alt={icon.title} on:error={(e) => markMissing(e, icon)} />
 			</div>
 		{/each}
 	</div>
