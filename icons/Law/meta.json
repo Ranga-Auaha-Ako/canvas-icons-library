@@ -7,9 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3654760",
-			"tags": ["brief-case", "bag", "business", "office-stationery", "working"],
+			"tags": [ "brief-case", "bag", "business", "office-stationery", "working" ],
 			"term": "brief case",
-			"collections": ["Office Stationery Line"]
+			"collections": [ "Office Stationery Line" ]
 		},
 		{
 			"id": "icon8-2",
@@ -18,7 +18,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1304117",
-			"tags": ["diploma", "", "graduate"],
+			"tags": [ "diploma", "", "graduate" ],
 			"term": "Diploma",
 			"collections": []
 		},
@@ -29,9 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3415146",
-			"tags": ["gavel", "auction", "hammer", "justice", "law"],
+			"tags": [ "gavel", "auction", "hammer", "justice", "law" ],
 			"term": "Gavel",
-			"collections": ["E-Commerce"]
+			"collections": [ "E-Commerce" ]
 		},
 		{
 			"id": "icon8-4",
@@ -40,9 +40,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "740337",
-			"tags": ["law", "bible", "court", "legal"],
+			"tags": [ "law", "bible", "court", "legal" ],
 			"term": "Law",
-			"collections": ["Law and Justice"]
+			"collections": [ "Law and Justice" ]
 		},
 		{
 			"id": "icon8-5",
@@ -51,9 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3621444",
-			"tags": ["law", "education", "learn", "school", "university"],
+			"tags": [ "law", "education", "learn", "school", "university" ],
 			"term": "Law",
-			"collections": ["School and Education"]
+			"collections": [ "School and Education" ]
 		},
 		{
 			"id": "icon8-6",
@@ -62,9 +62,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3156646",
-			"tags": ["pillar", "architecture", "column", "greece", "parthenon"],
+			"tags": [ "pillar", "architecture", "column", "greece", "parthenon" ],
 			"term": "Pillar",
-			"collections": ["Ancient-Greece-Line"]
+			"collections": [ "Ancient-Greece-Line" ]
 		},
 		{
 			"id": "icon8-7",
@@ -73,9 +73,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "503470",
-			"tags": ["scale", "1", "application", "button", "interface", "software", "web"],
+			"tags": [ "scale", "1", "application", "button", "interface", "software", "web" ],
 			"term": "Scale",
-			"collections": ["Web Application"]
+			"collections": [ "Web Application" ]
 		}
 	]
 }

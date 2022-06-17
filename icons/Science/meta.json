@@ -7,9 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2943516",
-			"tags": ["atom", "lab", "physics", "school", "science"],
+			"tags": [ "atom", "lab", "physics", "school", "science" ],
 			"term": "atom",
-			"collections": ["academic_medium gap"]
+			"collections": [ "academic_medium gap" ]
 		},
 		{
 			"id": "icon12-2",
@@ -18,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3656825",
-			"tags": ["science", "atom", "education", "learning", "school"],
+			"tags": [ "science", "atom", "education", "learning", "school" ],
 			"term": "Science",
-			"collections": ["Education Line"]
+			"collections": [ "Education Line" ]
 		},
 		{
 			"id": "icon12-3",
@@ -29,9 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2238989",
-			"tags": ["beaker", "education", "equipment", "experiment", "scientific", "tool"],
+			"tags": [ "beaker", "education", "equipment", "experiment", "scientific", "tool" ],
 			"term": "Beaker",
-			"collections": ["Lab tool"]
+			"collections": [ "Lab tool" ]
 		},
 		{
 			"id": "icon12-4",
@@ -40,14 +40,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2280372",
-			"tags": [
-				"life-science",
-				"bioscience",
-				"biotechnology",
-				"botany",
-				"florence-flask",
-				"research"
-			],
+			"tags": [ "life-science", "bioscience", "biotechnology", "botany", "florence-flask", "research" ],
 			"term": "Life Science",
 			"collections": []
 		},
@@ -58,9 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3172170",
-			"tags": ["school", "chemical", "laboratory", "science"],
+			"tags": [ "school", "chemical", "laboratory", "science" ],
 			"term": "School",
-			"collections": ["Creatype School outline"]
+			"collections": [ "Creatype School outline" ]
 		},
 		{
 			"id": "icon12-6",
@@ -69,9 +62,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "985125",
-			"tags": ["science", "chemistry", "erlenmeyer-flask", "lab", "laboratory", "tube"],
+			"tags": [ "science", "chemistry", "erlenmeyer-flask", "lab", "laboratory", "tube" ],
 			"term": "Science",
-			"collections": ["Yumminky Easylines mix 1.01"]
+			"collections": [ "Yumminky Easylines mix 1.01" ]
 		},
 		{
 			"id": "icon12-7",
@@ -80,9 +73,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3422087",
-			"tags": ["science", "data", "lab", "personal", "scientist"],
+			"tags": [ "science", "data", "lab", "personal", "scientist" ],
 			"term": "Science",
-			"collections": ["LagotLine Science"]
+			"collections": [ "LagotLine Science" ]
 		},
 		{
 			"id": "icon12-8",
@@ -91,9 +84,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1410145",
-			"tags": ["tube", "chemistry", "erlenmeyer-flask", "laboratorium", "test-tube"],
+			"tags": [ "tube", "chemistry", "erlenmeyer-flask", "laboratorium", "test-tube" ],
 			"term": "tube",
-			"collections": ["Education"]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon12-9",
@@ -102,9 +95,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3113369",
-			"tags": ["tube", "health", "hospital", "medical", "test"],
+			"tags": [ "tube", "health", "hospital", "medical", "test" ],
 			"term": "tube",
-			"collections": ["medical and health"]
+			"collections": [ "medical and health" ]
 		},
 		{
 			"id": "icon12-10",
@@ -121,9 +114,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2762305",
-			"tags": ["science-experiment", "chemistry", "experiment", "flask", "science", "test-tube"],
+			"tags": [ "science-experiment", "chemistry", "experiment", "flask", "science", "test-tube" ],
 			"term": "science experiment",
-			"collections": ["Tiny"]
+			"collections": [ "Tiny" ]
 		},
 		{
 			"id": "icon12-12",
@@ -132,9 +125,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2239005",
-			"tags": ["science-experiment", "education", "equipment", "experiment", "scientific", "tool"],
+			"tags": [ "science-experiment", "education", "equipment", "experiment", "scientific", "tool" ],
 			"term": "science experiment",
-			"collections": ["Lab tool"]
+			"collections": [ "Lab tool" ]
 		},
 		{
 			"id": "icon12-13",
@@ -143,9 +136,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2433191",
-			"tags": ["education", "chemistry", "experiment", "lab", "sample"],
+			"tags": [ "education", "chemistry", "experiment", "lab", "sample" ],
 			"term": "education",
-			"collections": ["Round The World"]
+			"collections": [ "Round The World" ]
 		},
 		{
 			"id": "icon12-14",
@@ -154,9 +147,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1416305",
-			"tags": ["science", "chemistry", "experiment", "laboratory", "test-tube"],
+			"tags": [ "science", "chemistry", "experiment", "laboratory", "test-tube" ],
 			"term": "Science",
-			"collections": ["Medicine"]
+			"collections": [ "Medicine" ]
 		},
 		{
 			"id": "icon12-15",
@@ -165,9 +158,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1387340",
-			"tags": ["tube"],
+			"tags": [ "tube" ],
 			"term": "tube",
-			"collections": ["Whatsername Medical Line"]
+			"collections": [ "Whatsername Medical Line" ]
 		},
 		{
 			"id": "icon12-16",
@@ -176,9 +169,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2447495",
-			"tags": ["bowl", "science", "soup"],
+			"tags": [ "bowl", "science", "soup" ],
 			"term": "Bowl",
-			"collections": ["Science Line"]
+			"collections": [ "Science Line" ]
 		},
 		{
 			"id": "icon12-17",
@@ -187,9 +180,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1300016",
-			"tags": ["dna", "biology", "double-helix", "genetics", "science"],
+			"tags": [ "dna", "biology", "double-helix", "genetics", "science" ],
 			"term": "DNA",
-			"collections": ["Medical Science Outline"]
+			"collections": [ "Medical Science Outline" ]
 		},
 		{
 			"id": "icon12-18",
@@ -198,9 +191,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3692014",
-			"tags": ["dna", "case", "crispr", "gene", "genetics"],
+			"tags": [ "dna", "case", "crispr", "gene", "genetics" ],
 			"term": "DNA",
-			"collections": ["Biology solid style"]
+			"collections": [ "Biology solid style" ]
 		},
 		{
 			"id": "icon12-19",
@@ -209,9 +202,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "834837",
-			"tags": ["heat", "degrees", "mercury", "temperature", "thermometer"],
+			"tags": [ "heat", "degrees", "mercury", "temperature", "thermometer" ],
 			"term": "Heat",
-			"collections": ["iOS & Web User Interface line icons"]
+			"collections": [ "iOS & Web User Interface line icons" ]
 		},
 		{
 			"id": "icon12-20",
@@ -228,7 +221,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2799658",
-			"tags": ["microscope", "chemistry", "laboratory", "research", "science", "scientist"],
+			"tags": [ "microscope", "chemistry", "laboratory", "research", "science", "scientist" ],
 			"term": "Microscope",
 			"collections": []
 		},
@@ -239,9 +232,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3089076",
-			"tags": ["bacteria", "dish", "dropper", "germ", "petri", "petri-dish"],
+			"tags": [ "bacteria", "dish", "dropper", "germ", "petri", "petri-dish" ],
 			"term": "Bacteria",
-			"collections": ["Research-and-Development-Line"]
+			"collections": [ "Research-and-Development-Line" ]
 		},
 		{
 			"id": "icon12-23",
@@ -264,7 +257,7 @@
 				"scientific"
 			],
 			"term": "molecule",
-			"collections": ["Smashicons - Science Outline"]
+			"collections": [ "Smashicons - Science Outline" ]
 		},
 		{
 			"id": "icon12-24",
@@ -273,9 +266,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1849548",
-			"tags": ["molecules", "education", "physics", "science"],
+			"tags": [ "molecules", "education", "physics", "science" ],
 			"term": "molecules",
-			"collections": ["Physics - Outline"]
+			"collections": [ "Physics - Outline" ]
 		},
 		{
 			"id": "icon12-25",
@@ -284,9 +277,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3173338",
-			"tags": ["network-and-science", "chemistry", "drug", "epilepsy"],
+			"tags": [ "network-and-science", "chemistry", "drug", "epilepsy" ],
 			"term": "network and science",
-			"collections": ["Network and science icon set outline"]
+			"collections": [ "Network and science icon set outline" ]
 		},
 		{
 			"id": "icon12-26",
@@ -295,9 +288,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2131010",
-			"tags": ["pi", "circle", "greek", "mathematic", "symbol"],
+			"tags": [ "pi", "circle", "greek", "mathematic", "symbol" ],
 			"term": "pi",
-			"collections": ["Mathematical Symbol"]
+			"collections": [ "Mathematical Symbol" ]
 		},
 		{
 			"id": "icon12-27",
@@ -306,9 +299,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1849510",
-			"tags": ["pulley-weight", "education", "physics", "pulley", "science", "weight"],
+			"tags": [ "pulley-weight", "education", "physics", "pulley", "science", "weight" ],
 			"term": "Pulley Weight",
-			"collections": ["Physics - Outline"]
+			"collections": [ "Physics - Outline" ]
 		},
 		{
 			"id": "icon12-28",
@@ -317,9 +310,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1849509",
-			"tags": ["oscillation", "education", "physics", "science"],
+			"tags": [ "oscillation", "education", "physics", "science" ],
 			"term": "oscillation",
-			"collections": ["Physics - Outline"]
+			"collections": [ "Physics - Outline" ]
 		},
 		{
 			"id": "icon12-29",
@@ -328,9 +321,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1849507",
-			"tags": ["gravity", "education", "physics", "science"],
+			"tags": [ "gravity", "education", "physics", "science" ],
 			"term": "Gravity",
-			"collections": ["Physics - Outline"]
+			"collections": [ "Physics - Outline" ]
 		},
 		{
 			"id": "icon12-30",
@@ -339,16 +332,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "651994",
-			"tags": [
-				"radiation",
-				"atomic",
-				"ionizing-radiation",
-				"radiation-sign",
-				"radioactive",
-				"toxic"
-			],
+			"tags": [ "radiation", "atomic", "ionizing-radiation", "radiation-sign", "radioactive", "toxic" ],
 			"term": "Radiation",
-			"collections": ["Pure Lines"]
+			"collections": [ "Pure Lines" ]
 		},
 		{
 			"id": "icon12-31",
@@ -357,9 +343,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3248074",
-			"tags": ["safety", "antivirus", "shield"],
+			"tags": [ "safety", "antivirus", "shield" ],
 			"term": "Safety",
-			"collections": ["UI Icons"]
+			"collections": [ "UI Icons" ]
 		},
 		{
 			"id": "icon12-32",
@@ -368,16 +354,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3443846",
-			"tags": [
-				"safety-glass",
-				"covering",
-				"eye",
-				"laboratory-technician",
-				"safety",
-				"safety-glasses"
-			],
+			"tags": [ "safety-glass", "covering", "eye", "laboratory-technician", "safety", "safety-glasses" ],
 			"term": "safety glass",
-			"collections": ["Medical Equipment"]
+			"collections": [ "Medical Equipment" ]
 		},
 		{
 			"id": "icon12-33",
@@ -386,7 +365,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "43729",
-			"tags": ["scale", "food-scale", "lbs", "ounces", "pounds", "weigh", "weight"],
+			"tags": [ "scale", "food-scale", "lbs", "ounces", "pounds", "weigh", "weight" ],
 			"term": "Scale",
 			"collections": []
 		},
@@ -397,7 +376,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3189437",
-			"tags": ["science", "chemistry", "dna", "experiment", "honeycombs", "physics"],
+			"tags": [ "science", "chemistry", "dna", "experiment", "honeycombs", "physics" ],
 			"term": "Science",
 			"collections": []
 		},
@@ -408,9 +387,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3659899",
-			"tags": ["science", "education", "school"],
+			"tags": [ "science", "education", "school" ],
 			"term": "Science",
-			"collections": ["Education"]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon12-36",
@@ -419,9 +398,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3663964",
-			"tags": ["science", "book", "knowledge", "medical", "reading"],
+			"tags": [ "science", "book", "knowledge", "medical", "reading" ],
 			"term": "Science",
-			"collections": ["Medical and Healthcare-S (Pixel Prefect,Line&Glyphs)"]
+			"collections": [ "Medical and Healthcare-S (Pixel Prefect,Line&Glyphs)" ]
 		},
 		{
 			"id": "icon12-37",
@@ -430,9 +409,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1849513",
-			"tags": ["sound-wave", "education", "physics", "science", "sound", "wave"],
+			"tags": [ "sound-wave", "education", "physics", "science", "sound", "wave" ],
 			"term": "Sound Wave",
-			"collections": ["Physics - Outline"]
+			"collections": [ "Physics - Outline" ]
 		},
 		{
 			"id": "icon12-38",
@@ -441,9 +420,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2200261",
-			"tags": ["earth", "chemical", "chemistry", "education", "science"],
+			"tags": [ "earth", "chemical", "chemistry", "education", "science" ],
 			"term": "Earth",
-			"collections": ["Scientific Study"]
+			"collections": [ "Scientific Study" ]
 		},
 		{
 			"id": "icon12-39",
@@ -452,9 +431,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1738532",
-			"tags": ["earthquake", "cracked", "disaster", "ground", "homes"],
+			"tags": [ "earthquake", "cracked", "disaster", "ground", "homes" ],
 			"term": "Earthquake",
-			"collections": ["Ecology"]
+			"collections": [ "Ecology" ]
 		},
 		{
 			"id": "icon12-40",
@@ -463,9 +442,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3364855",
-			"tags": ["volcano", "eruption", "lava", "mountain", "natural-disaster"],
+			"tags": [ "volcano", "eruption", "lava", "mountain", "natural-disaster" ],
 			"term": "Volcano",
-			"collections": ["Pollution - Outline"]
+			"collections": [ "Pollution - Outline" ]
 		},
 		{
 			"id": "icon12-41",
@@ -474,9 +453,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "220708",
-			"tags": ["wave", "beach", "current", "ocean", "oscillation", "sea", "seashore", "water"],
+			"tags": [ "wave", "beach", "current", "ocean", "oscillation", "sea", "seashore", "water" ],
 			"term": "wave",
-			"collections": ["Weather"]
+			"collections": [ "Weather" ]
 		}
 	]
 }

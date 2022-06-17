@@ -7,9 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2827159",
-			"tags": ["alarm", "alarm-clock", "clock", "time", "timer", "watch"],
+			"tags": [ "alarm", "alarm-clock", "clock", "time", "timer", "watch" ],
 			"term": "Alarm",
-			"collections": ["Time"]
+			"collections": [ "Time" ]
 		},
 		{
 			"id": "icon14-2",
@@ -18,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3698321",
-			"tags": ["alert", "alarm", "alarm-clock", "clock", "real-time", "time"],
+			"tags": [ "alert", "alarm", "alarm-clock", "clock", "real-time", "time" ],
 			"term": "Alert",
-			"collections": ["Time Management"]
+			"collections": [ "Time Management" ]
 		},
 		{
 			"id": "icon14-3",
@@ -29,7 +29,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2047",
-			"tags": ["clock", "clock-time", "measure", "timekeeping", "timer", "watch"],
+			"tags": [ "clock", "clock-time", "measure", "timekeeping", "timer", "watch" ],
 			"term": "clock",
 			"collections": []
 		},
@@ -40,7 +40,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2048",
-			"tags": ["clock", "clock-time", "measure", "timekeeping", "timer", "watch"],
+			"tags": [ "clock", "clock-time", "measure", "timekeeping", "timer", "watch" ],
 			"term": "clock",
 			"collections": []
 		},
@@ -51,7 +51,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2049",
-			"tags": ["clock", "clock-time", "measure", "timekeeping", "timer", "watch"],
+			"tags": [ "clock", "clock-time", "measure", "timekeeping", "timer", "watch" ],
 			"term": "clock",
 			"collections": []
 		},
@@ -90,7 +90,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-7",
@@ -127,7 +127,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-8",
@@ -156,7 +156,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-9",
@@ -192,7 +192,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-10",
@@ -230,7 +230,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-11",
@@ -259,7 +259,7 @@
 				"watch"
 			],
 			"term": "clock",
-			"collections": ["timing"]
+			"collections": [ "timing" ]
 		},
 		{
 			"id": "icon14-12",
@@ -268,9 +268,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015968",
-			"tags": ["clock", "fifteen", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "fifteen", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-13",
@@ -279,9 +279,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015969",
-			"tags": ["clock", "3", "fifteen", "hours", "time", "watch"],
+			"tags": [ "clock", "3", "fifteen", "hours", "time", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-14",
@@ -290,9 +290,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015970",
-			"tags": ["clock", "half", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "half", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-15",
@@ -301,9 +301,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015971",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-16",
@@ -312,9 +312,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015972",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-17",
@@ -323,9 +323,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015973",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-18",
@@ -334,9 +334,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015974",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-19",
@@ -345,9 +345,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015975",
-			"tags": ["clock", "fifteen", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "fifteen", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-20",
@@ -356,9 +356,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015976",
-			"tags": ["clock", "hours", "quarter", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "quarter", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-21",
@@ -367,9 +367,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015977",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-22",
@@ -378,9 +378,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015978",
-			"tags": ["clock", "half", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "half", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-23",
@@ -389,9 +389,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015979",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-24",
@@ -400,9 +400,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015980",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-25",
@@ -411,9 +411,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015981",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-26",
@@ -422,9 +422,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015982",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-27",
@@ -433,9 +433,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015983",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-28",
@@ -444,9 +444,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015984",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-29",
@@ -455,9 +455,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015985",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-30",
@@ -466,9 +466,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015986",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-31",
@@ -477,9 +477,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015987",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-32",
@@ -488,9 +488,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015988",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-33",
@@ -499,9 +499,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015989",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-34",
@@ -510,9 +510,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015990",
-			"tags": ["clock", "hours", "six", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "six", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-35",
@@ -521,9 +521,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015991",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-36",
@@ -532,9 +532,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015992",
-			"tags": ["clock", "half", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "half", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-37",
@@ -543,9 +543,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015993",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-38",
@@ -554,9 +554,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015994",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-39",
@@ -565,9 +565,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015995",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-40",
@@ -576,9 +576,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015996",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-41",
@@ -587,9 +587,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015997",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-42",
@@ -598,9 +598,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015998",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-43",
@@ -609,9 +609,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1015999",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-44",
@@ -620,9 +620,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016000",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-45",
@@ -631,9 +631,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016001",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-46",
@@ -642,9 +642,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016002",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-47",
@@ -653,9 +653,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016003",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-48",
@@ -664,9 +664,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016004",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-49",
@@ -675,9 +675,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016005",
-			"tags": ["clock", "hours", "time", "twenty-one", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "twenty-one", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-50",
@@ -686,9 +686,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016006",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-51",
@@ -697,9 +697,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016007",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-52",
@@ -708,9 +708,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016008",
-			"tags": ["clock", "hours", "quarter", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "quarter", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-53",
@@ -719,9 +719,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016009",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-54",
@@ -730,9 +730,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016010",
-			"tags": ["clock", "hours", "quarter", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "quarter", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-55",
@@ -741,9 +741,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016011",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-56",
@@ -752,9 +752,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016012",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-57",
@@ -763,9 +763,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016013",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-58",
@@ -774,9 +774,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016014",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-59",
@@ -785,9 +785,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016015",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-60",
@@ -796,9 +796,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016016",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-61",
@@ -807,9 +807,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016017",
-			"tags": ["clock", "count", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "count", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-62",
@@ -818,9 +818,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016018",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-63",
@@ -829,9 +829,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016019",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-64",
@@ -840,9 +840,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016020",
-			"tags": ["clock", "hours", "time", "twelve", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "twelve", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-65",
@@ -851,9 +851,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016021",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-66",
@@ -862,9 +862,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016022",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-67",
@@ -873,9 +873,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016023",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-68",
@@ -884,9 +884,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016024",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-69",
@@ -895,9 +895,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016025",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-70",
@@ -906,9 +906,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016026",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-71",
@@ -917,9 +917,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016027",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-72",
@@ -928,9 +928,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016028",
-			"tags": ["clock", "half", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "half", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-73",
@@ -939,9 +939,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016029",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-74",
@@ -950,9 +950,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1016030",
-			"tags": ["clock", "hours", "time", "wait", "watch"],
+			"tags": [ "clock", "hours", "time", "wait", "watch" ],
 			"term": "clock",
-			"collections": ["Clock time"]
+			"collections": [ "Clock time" ]
 		},
 		{
 			"id": "icon14-75",
@@ -961,9 +961,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1243336",
-			"tags": ["clock", "round-clock", "timer", "wall-clock"],
+			"tags": [ "clock", "round-clock", "timer", "wall-clock" ],
 			"term": "clock",
-			"collections": ["Clocks-2"]
+			"collections": [ "Clocks-2" ]
 		},
 		{
 			"id": "icon14-76",
@@ -972,7 +972,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2818382",
-			"tags": ["clock", "face", "hours", "schedule", "time", "watch"],
+			"tags": [ "clock", "face", "hours", "schedule", "time", "watch" ],
 			"term": "clock",
 			"collections": []
 		},
@@ -983,9 +983,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3721414",
-			"tags": ["time", "clock", "deadline", "stopwatch", "watch"],
+			"tags": [ "time", "clock", "deadline", "stopwatch", "watch" ],
 			"term": "Time",
-			"collections": ["Industrial-A (Line and Glyph)"]
+			"collections": [ "Industrial-A (Line and Glyph)" ]
 		},
 		{
 			"id": "icon14-78",
@@ -994,7 +994,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "123203",
-			"tags": ["hourglass", "sand", "time", "timer", "glass-hour"],
+			"tags": [ "hourglass", "sand", "time", "timer", "glass-hour" ],
 			"term": "hourglass",
 			"collections": []
 		},
@@ -1005,7 +1005,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "135481",
-			"tags": ["hourglass", "count", "glass", "hour", "minute", "second", "time"],
+			"tags": [ "hourglass", "count", "glass", "hour", "minute", "second", "time" ],
 			"term": "hourglass",
 			"collections": []
 		},
@@ -1016,9 +1016,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2133976",
-			"tags": ["hourglass", "clock", "time", "timer"],
+			"tags": [ "hourglass", "clock", "time", "timer" ],
 			"term": "hourglass",
-			"collections": ["School Education outline"]
+			"collections": [ "School Education outline" ]
 		}
 	]
 }

@@ -7,7 +7,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "43133",
-			"tags": ["baseball", "athletics", "ball", "game", "sports"],
+			"tags": [ "baseball", "athletics", "ball", "game", "sports" ],
 			"term": "Baseball",
 			"collections": []
 		},
@@ -40,7 +40,7 @@
 				"work-out"
 			],
 			"term": "Tennis",
-			"collections": ["City"]
+			"collections": [ "City" ]
 		},
 		{
 			"id": "icon13-3",
@@ -49,9 +49,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2125615",
-			"tags": ["sports", "baseball", "baseball-bat", "exercise", "physical-education", "workout"],
+			"tags": [ "sports", "baseball", "baseball-bat", "exercise", "physical-education", "workout" ],
 			"term": "Sports",
-			"collections": ["School"]
+			"collections": [ "School" ]
 		},
 		{
 			"id": "icon13-4",
@@ -60,9 +60,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "887337",
-			"tags": ["carabiner", "adventure", "climb", "hiking", "mountain", "tool"],
+			"tags": [ "carabiner", "adventure", "climb", "hiking", "mountain", "tool" ],
 			"term": "Carabiner",
-			"collections": ["Camping and Outdoors"]
+			"collections": [ "Camping and Outdoors" ]
 		},
 		{
 			"id": "icon13-5",
@@ -71,9 +71,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2140867",
-			"tags": ["cricket", "bat-and-ball", "game-sport", "play", "england-game"],
+			"tags": [ "cricket", "bat-and-ball", "game-sport", "play", "england-game" ],
 			"term": "Cricket",
-			"collections": ["United Kingdom England Elements"]
+			"collections": [ "United Kingdom England Elements" ]
 		},
 		{
 			"id": "icon13-6",
@@ -82,9 +82,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2529235",
-			"tags": ["education", "ball", "basketball"],
+			"tags": [ "education", "ball", "basketball" ],
 			"term": "education",
-			"collections": ["School Regular Outline"]
+			"collections": [ "School Regular Outline" ]
 		},
 		{
 			"id": "icon13-7",
@@ -93,7 +93,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "909449",
-			"tags": ["sports", "basketball", "game", "sport-ball", "sports-icons"],
+			"tags": [ "sports", "basketball", "game", "sport-ball", "sports-icons" ],
 			"term": "Sports",
 			"collections": []
 		},
@@ -104,9 +104,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1209071",
-			"tags": ["sports", "diving", "man", "sea", "swim", "swimming"],
+			"tags": [ "sports", "diving", "man", "sea", "swim", "swimming" ],
 			"term": "Sports",
-			"collections": ["Sports & Fitness Glphs icon"]
+			"collections": [ "Sports & Fitness Glphs icon" ]
 		},
 		{
 			"id": "icon13-9",
@@ -115,9 +115,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2588935",
-			"tags": ["sports", "ball", "basket", "sport"],
+			"tags": [ "sports", "ball", "basket", "sport" ],
 			"term": "Sports",
-			"collections": ["Education Line Icons"]
+			"collections": [ "Education Line Icons" ]
 		},
 		{
 			"id": "icon13-10",
@@ -126,9 +126,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3336005",
-			"tags": ["sports", "ball", "communication", "internet", "multimedia"],
+			"tags": [ "sports", "ball", "communication", "internet", "multimedia" ],
 			"term": "Sports",
-			"collections": ["multimedia icon set"]
+			"collections": [ "multimedia icon set" ]
 		},
 		{
 			"id": "icon13-11",
@@ -137,9 +137,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2126046",
-			"tags": ["sports-flag", "golf-flag", "olympic-flag", "winner", "sport-emblem"],
+			"tags": [ "sports-flag", "golf-flag", "olympic-flag", "winner", "sport-emblem" ],
 			"term": "Sports flag",
-			"collections": ["American Football Line Icons"]
+			"collections": [ "American Football Line Icons" ]
 		},
 		{
 			"id": "icon13-12",
@@ -148,9 +148,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3059680",
-			"tags": ["sports-flag", "destination-flag", "ensign", "flag", "location-flag"],
+			"tags": [ "sports-flag", "destination-flag", "ensign", "flag", "location-flag" ],
 			"term": "Sports flag",
-			"collections": ["Set of Sports and Awards Line Vector Icons"]
+			"collections": [ "Set of Sports and Awards Line Vector Icons" ]
 		},
 		{
 			"id": "icon13-13",
@@ -159,9 +159,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3059721",
-			"tags": ["sports-flag", "destination-flag", "ensign", "flag", "golf-flag", "location-flag"],
+			"tags": [ "sports-flag", "destination-flag", "ensign", "flag", "golf-flag", "location-flag" ],
 			"term": "Sports flag",
-			"collections": ["Set of Sports and Awards Line Vector Icons"]
+			"collections": [ "Set of Sports and Awards Line Vector Icons" ]
 		},
 		{
 			"id": "icon13-14",
@@ -170,16 +170,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3314511",
-			"tags": [
-				"sports-football",
-				"field-ball",
-				"football",
-				"game",
-				"soccer-ball",
-				"sports-equipment"
-			],
+			"tags": [ "sports-football", "field-ball", "football", "game", "soccer-ball", "sports-equipment" ],
 			"term": "sports football",
-			"collections": ["Set of Travelling and Holiday Line Vector Icons"]
+			"collections": [ "Set of Travelling and Holiday Line Vector Icons" ]
 		},
 		{
 			"id": "icon13-15",
@@ -188,15 +181,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1973964",
-			"tags": [
-				"sports-medal",
-				"military-medal",
-				"star-medal",
-				"campaign-medal",
-				"performance-award"
-			],
+			"tags": [ "sports-medal", "military-medal", "star-medal", "campaign-medal", "performance-award" ],
 			"term": "sports medal",
-			"collections": ["Football and Soccer Line Icons"]
+			"collections": [ "Football and Soccer Line Icons" ]
 		},
 		{
 			"id": "icon13-16",
@@ -205,9 +192,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1974046",
-			"tags": ["sports-trophy", "champion-trophy", "trophy", "winner-symbol", "world-cup"],
+			"tags": [ "sports-trophy", "champion-trophy", "trophy", "winner-symbol", "world-cup" ],
 			"term": "sports trophy",
-			"collections": ["Rugby Line Icons"]
+			"collections": [ "Rugby Line Icons" ]
 		},
 		{
 			"id": "icon13-17",
@@ -216,9 +203,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1002244",
-			"tags": ["target", "", "arrow"],
+			"tags": [ "target", "", "arrow" ],
 			"term": "Target",
-			"collections": ["Business: Line Vol. 8"]
+			"collections": [ "Business: Line Vol. 8" ]
 		},
 		{
 			"id": "icon13-18",
@@ -250,7 +237,7 @@
 				"working-out"
 			],
 			"term": "Tennis",
-			"collections": ["Sports"]
+			"collections": [ "Sports" ]
 		},
 		{
 			"id": "icon13-19",
@@ -259,9 +246,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3391252",
-			"tags": ["tennis", "game", "match", "playing", "sports"],
+			"tags": [ "tennis", "game", "match", "playing", "sports" ],
 			"term": "Tennis",
-			"collections": ["Sports1"]
+			"collections": [ "Sports1" ]
 		},
 		{
 			"id": "icon13-20",
@@ -270,7 +257,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2595862",
-			"tags": ["whistle", "alert", "attention", "health", "sound"],
+			"tags": [ "whistle", "alert", "attention", "health", "sound" ],
 			"term": "Whistle",
 			"collections": []
 		}

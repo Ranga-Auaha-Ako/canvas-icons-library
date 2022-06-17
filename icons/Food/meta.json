@@ -28,7 +28,7 @@
 				"west-coast"
 			],
 			"term": "Apple",
-			"collections": ["Seattle Icons"]
+			"collections": [ "Seattle Icons" ]
 		},
 		{
 			"id": "icon7-2",
@@ -37,9 +37,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3440864",
-			"tags": ["beer", "festival", "germany", "glass", "oktoberfest"],
+			"tags": [ "beer", "festival", "germany", "glass", "oktoberfest" ],
 			"term": "Beer",
-			"collections": ["Oktoberfest"]
+			"collections": [ "Oktoberfest" ]
 		},
 		{
 			"id": "icon7-3",
@@ -48,7 +48,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1995998",
-			"tags": ["bread", "cake", "fastfood", "food", "junkfood"],
+			"tags": [ "bread", "cake", "fastfood", "food", "junkfood" ],
 			"term": "Bread",
 			"collections": []
 		},
@@ -59,9 +59,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3512052",
-			"tags": ["cheese", "food", "milk", "restaurant", "sweet"],
+			"tags": [ "cheese", "food", "milk", "restaurant", "sweet" ],
 			"term": "Cheese",
-			"collections": ["Western Food"]
+			"collections": [ "Western Food" ]
 		},
 		{
 			"id": "icon7-5",
@@ -92,9 +92,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2296400",
-			"tags": ["garlic", "food", "italy", "pizza", "plant"],
+			"tags": [ "garlic", "food", "italy", "pizza", "plant" ],
 			"term": "Garlic",
-			"collections": ["Pizza"]
+			"collections": [ "Pizza" ]
 		},
 		{
 			"id": "icon7-7",
@@ -126,9 +126,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3489673",
-			"tags": ["matcha", "cuisine", "food", "japanese", "tea"],
+			"tags": [ "matcha", "cuisine", "food", "japanese", "tea" ],
 			"term": "matcha",
-			"collections": ["Japanese Cuisine"]
+			"collections": [ "Japanese Cuisine" ]
 		},
 		{
 			"id": "icon7-9",
@@ -137,9 +137,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "263308",
-			"tags": ["tea", "beverage", "cup", "drink", "england", "flavor", "hot", "winter"],
+			"tags": [ "tea", "beverage", "cup", "drink", "england", "flavor", "hot", "winter" ],
 			"term": "Tea",
-			"collections": ["Wayfind"]
+			"collections": [ "Wayfind" ]
 		},
 		{
 			"id": "icon7-10",
@@ -148,9 +148,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1316686",
-			"tags": ["teapot", "china", "coffee", "drink", "england", "tea"],
+			"tags": [ "teapot", "china", "coffee", "drink", "england", "tea" ],
 			"term": "Teapot",
-			"collections": ["Food & Drink"]
+			"collections": [ "Food & Drink" ]
 		},
 		{
 			"id": "icon7-11",
@@ -159,9 +159,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2320617",
-			"tags": ["teapot", "chinese", "culture", "traditional"],
+			"tags": [ "teapot", "chinese", "culture", "traditional" ],
 			"term": "Teapot",
-			"collections": ["Chinese Culture (line)"]
+			"collections": [ "Chinese Culture (line)" ]
 		},
 		{
 			"id": "icon7-12",
@@ -182,7 +182,7 @@
 				"salad"
 			],
 			"term": "Japanese Salad",
-			"collections": ["Smashicons - Gastronomy Outline"]
+			"collections": [ "Smashicons - Gastronomy Outline" ]
 		},
 		{
 			"id": "icon7-13",
@@ -191,9 +191,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3328578",
-			"tags": ["udon", "food", "japan", "japanese-food"],
+			"tags": [ "udon", "food", "japan", "japanese-food" ],
 			"term": "udon",
-			"collections": ["Japanese Food Outline"]
+			"collections": [ "Japanese Food Outline" ]
 		},
 		{
 			"id": "icon7-14",
@@ -202,9 +202,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1568073",
-			"tags": ["mandarin-orange", "celebration", "china", "chinese", "festival", "new-year"],
+			"tags": [ "mandarin-orange", "celebration", "china", "chinese", "festival", "new-year" ],
 			"term": "mandarin orange",
-			"collections": ["Chinese New Year"]
+			"collections": [ "Chinese New Year" ]
 		},
 		{
 			"id": "icon7-15",
@@ -213,9 +213,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3359157",
-			"tags": ["chinese-food", "asian-food", "box", "chinese", "noodles"],
+			"tags": [ "chinese-food", "asian-food", "box", "chinese", "noodles" ],
 			"term": "chinese food",
-			"collections": ["Chinese Food"]
+			"collections": [ "Chinese Food" ]
 		},
 		{
 			"id": "icon7-16",
@@ -224,9 +224,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2213463",
-			"tags": ["noodles", "chinese", "food", "ramen"],
+			"tags": [ "noodles", "chinese", "food", "ramen" ],
 			"term": "Noodles",
-			"collections": ["Food"]
+			"collections": [ "Food" ]
 		},
 		{
 			"id": "icon7-17",
@@ -235,9 +235,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3142196",
-			"tags": ["noodles", "chinese", "food", "italian", "japanese"],
+			"tags": [ "noodles", "chinese", "food", "italian", "japanese" ],
 			"term": "Noodles",
-			"collections": ["Restaurant Design vol.1"]
+			"collections": [ "Restaurant Design vol.1" ]
 		},
 		{
 			"id": "icon7-18",
@@ -246,9 +246,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1940797",
-			"tags": ["spaghetti", "food", "italian", "pasta"],
+			"tags": [ "spaghetti", "food", "italian", "pasta" ],
 			"term": "spaghetti",
-			"collections": ["Food and Drink - 001"]
+			"collections": [ "Food and Drink - 001" ]
 		},
 		{
 			"id": "icon7-19",
@@ -257,9 +257,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3339256",
-			"tags": ["chinese-dessert", "bowl", "chinese", "chopsticks", "dessert", "sweet"],
+			"tags": [ "chinese-dessert", "bowl", "chinese", "chopsticks", "dessert", "sweet" ],
 			"term": "Chinese dessert",
-			"collections": ["Chinese New Year outline"]
+			"collections": [ "Chinese New Year outline" ]
 		},
 		{
 			"id": "icon7-20",
@@ -282,7 +282,7 @@
 				"vegetable"
 			],
 			"term": "olives",
-			"collections": ["Vegetables"]
+			"collections": [ "Vegetables" ]
 		},
 		{
 			"id": "icon7-21",
@@ -291,9 +291,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1132471",
-			"tags": ["farfalle", "food", "italian-food", "kitchen", "pasta"],
+			"tags": [ "farfalle", "food", "italian-food", "kitchen", "pasta" ],
 			"term": "farfalle",
-			"collections": ["Food Outline Set 2"]
+			"collections": [ "Food Outline Set 2" ]
 		},
 		{
 			"id": "icon7-22",
@@ -302,9 +302,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1696957",
-			"tags": ["pasta", "europe", "food", "italian", "italy", "travel"],
+			"tags": [ "pasta", "europe", "food", "italian", "italy", "travel" ],
 			"term": "Pasta",
-			"collections": ["Italy"]
+			"collections": [ "Italy" ]
 		},
 		{
 			"id": "icon7-23",
@@ -313,9 +313,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1723762",
-			"tags": ["ravioli", "food", "italian", "pasta"],
+			"tags": [ "ravioli", "food", "italian", "pasta" ],
 			"term": "Ravioli",
-			"collections": ["Pasta"]
+			"collections": [ "Pasta" ]
 		},
 		{
 			"id": "icon7-24",
@@ -324,9 +324,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3664084",
-			"tags": ["ravioli", "food", "pasta"],
+			"tags": [ "ravioli", "food", "pasta" ],
 			"term": "Ravioli",
-			"collections": ["food various"]
+			"collections": [ "food various" ]
 		},
 		{
 			"id": "icon7-25",
@@ -335,9 +335,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2008628",
-			"tags": ["pizza", "food", "italy", "restaurant"],
+			"tags": [ "pizza", "food", "italy", "restaurant" ],
 			"term": "Pizza",
-			"collections": ["Pizza"]
+			"collections": [ "Pizza" ]
 		},
 		{
 			"id": "icon7-26",
@@ -346,9 +346,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2524041",
-			"tags": ["pizza", "food", "italian", "party", "slice"],
+			"tags": [ "pizza", "food", "italian", "party", "slice" ],
 			"term": "Pizza",
-			"collections": ["Party"]
+			"collections": [ "Party" ]
 		},
 		{
 			"id": "icon7-27",
@@ -357,9 +357,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2071596",
-			"tags": ["pizza-slice", "italian-cuisine", "italian-food", "italian-pizza", "pizza"],
+			"tags": [ "pizza-slice", "italian-cuisine", "italian-food", "italian-pizza", "pizza" ],
 			"term": "pizza slice",
-			"collections": ["Italy Symbols Line Icons"]
+			"collections": [ "Italy Symbols Line Icons" ]
 		},
 		{
 			"id": "icon7-28",
@@ -368,7 +368,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1234417",
-			"tags": ["pizza-cutter", "cook", "kitchen", "pizza", "slicer", "utensil"],
+			"tags": [ "pizza-cutter", "cook", "kitchen", "pizza", "slicer", "utensil" ],
 			"term": "Pizza Cutter",
 			"collections": []
 		},
@@ -379,9 +379,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3369391",
-			"tags": ["prosciutto-e-melone", "food", "italian-food", "italy", "snack"],
+			"tags": [ "prosciutto-e-melone", "food", "italian-food", "italy", "snack" ],
 			"term": "prosciutto e melone",
-			"collections": ["Italian Food (Line)"]
+			"collections": [ "Italian Food (Line)" ]
 		},
 		{
 			"id": "icon7-30",
@@ -390,9 +390,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2346801",
-			"tags": ["service", "food", "hand", "kitchen", "meat"],
+			"tags": [ "service", "food", "hand", "kitchen", "meat" ],
 			"term": "service",
-			"collections": ["Food and Kitchen"]
+			"collections": [ "Food and Kitchen" ]
 		},
 		{
 			"id": "icon7-31",
@@ -401,9 +401,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2296383",
-			"tags": ["shrimp", "food", "italy", "pizza", "sea"],
+			"tags": [ "shrimp", "food", "italy", "pizza", "sea" ],
 			"term": "Shrimp",
-			"collections": ["Pizza"]
+			"collections": [ "Pizza" ]
 		},
 		{
 			"id": "icon7-32",
@@ -412,9 +412,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "631855",
-			"tags": ["grape", "berry", "fruit", "fruits", "grocery"],
+			"tags": [ "grape", "berry", "fruit", "fruits", "grocery" ],
 			"term": "Grape",
-			"collections": ["Fruits"]
+			"collections": [ "Fruits" ]
 		},
 		{
 			"id": "icon7-33",
@@ -423,9 +423,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1696960",
-			"tags": ["wine", "europe", "food", "hand", "italian", "italy"],
+			"tags": [ "wine", "europe", "food", "hand", "italian", "italy" ],
 			"term": "Wine",
-			"collections": ["Italy"]
+			"collections": [ "Italy" ]
 		},
 		{
 			"id": "icon7-34",
@@ -434,9 +434,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2160846",
-			"tags": ["wine", "alcohol", "cup", "ice"],
+			"tags": [ "wine", "alcohol", "cup", "ice" ],
 			"term": "Wine",
-			"collections": ["Party - Outline"]
+			"collections": [ "Party - Outline" ]
 		},
 		{
 			"id": "icon7-35",
@@ -445,9 +445,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2940811",
-			"tags": ["wine", "alcohol", "cooling", "grape", "winemaking"],
+			"tags": [ "wine", "alcohol", "cooling", "grape", "winemaking" ],
 			"term": "Wine",
-			"collections": ["Alcohol"]
+			"collections": [ "Alcohol" ]
 		}
 	]
 }

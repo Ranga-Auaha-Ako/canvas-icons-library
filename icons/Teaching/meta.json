@@ -7,9 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "808313",
-			"tags": ["aim", "bullseye", "gear", "goal", "objective"],
+			"tags": [ "aim", "bullseye", "gear", "goal", "objective" ],
 			"term": "aim",
-			"collections": ["Web Design & Development"]
+			"collections": [ "Web Design & Development" ]
 		},
 		{
 			"id": "icon15-2",
@@ -18,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2920507",
-			"tags": ["alert", "caution", "dangerous", "exclamation", "warning"],
+			"tags": [ "alert", "caution", "dangerous", "exclamation", "warning" ],
 			"term": "Alert",
-			"collections": ["Alert"]
+			"collections": [ "Alert" ]
 		},
 		{
 			"id": "icon15-3",
@@ -43,7 +43,7 @@
 				"transmitter"
 			],
 			"term": "Satellite Dish",
-			"collections": ["Live stream"]
+			"collections": [ "Live stream" ]
 		},
 		{
 			"id": "icon15-4",
@@ -52,9 +52,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1433104",
-			"tags": ["bell", "bell-ring"],
+			"tags": [ "bell", "bell-ring" ],
 			"term": "Bell",
-			"collections": ["Communication: Lines Vol. 3"]
+			"collections": [ "Communication: Lines Vol. 3" ]
 		},
 		{
 			"id": "icon15-5",
@@ -63,9 +63,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3721614",
-			"tags": ["bell", "alert", "buzzer", "reception", "ring"],
+			"tags": [ "bell", "alert", "buzzer", "reception", "ring" ],
 			"term": "Bell",
-			"collections": ["Hotel Service-1 (Line and Glyph)"]
+			"collections": [ "Hotel Service-1 (Line and Glyph)" ]
 		},
 		{
 			"id": "icon15-6",
@@ -74,9 +74,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3325658",
-			"tags": ["caution", "danger", "exclamation", "notice", "warning"],
+			"tags": [ "caution", "danger", "exclamation", "notice", "warning" ],
 			"term": "Caution",
-			"collections": ["Miscellaneous 001 (Line) - Bold"]
+			"collections": [ "Miscellaneous 001 (Line) - Bold" ]
 		},
 		{
 			"id": "icon15-7",
@@ -85,9 +85,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3522049",
-			"tags": ["notification", "alarm", "alarm-bell", "bell", "notification-bell"],
+			"tags": [ "notification", "alarm", "alarm-bell", "bell", "notification-bell" ],
 			"term": "notification",
-			"collections": ["Blogger And Influencer"]
+			"collections": [ "Blogger And Influencer" ]
 		},
 		{
 			"id": "icon15-8",
@@ -120,9 +120,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1998377",
-			"tags": ["search", "document", "file", "journal", "reading"],
+			"tags": [ "search", "document", "file", "journal", "reading" ],
 			"term": "Search",
-			"collections": ["Education"]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon15-10",
@@ -131,7 +131,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1142952",
-			"tags": ["magnifying-glass", "detective", "loupe", "search", "zoom"],
+			"tags": [ "magnifying-glass", "detective", "loupe", "search", "zoom" ],
 			"term": "Magnifying Glass",
 			"collections": []
 		},
@@ -142,7 +142,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2612255",
-			"tags": ["analytics", "analyse", "seo", "web"],
+			"tags": [ "analytics", "analyse", "seo", "web" ],
 			"term": "analytics",
 			"collections": []
 		},
@@ -153,9 +153,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3100939",
-			"tags": ["paper-airplane", "learning", "school", "study"],
+			"tags": [ "paper-airplane", "learning", "school", "study" ],
 			"term": "Paper Airplane",
-			"collections": ["Back To School Outline"]
+			"collections": [ "Back To School Outline" ]
 		},
 		{
 			"id": "icon15-13",
@@ -203,9 +203,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2330179",
-			"tags": ["letter", "back-to-school", "education", "envelope", "student"],
+			"tags": [ "letter", "back-to-school", "education", "envelope", "student" ],
 			"term": "Letter",
-			"collections": ["Back to School LineArt"]
+			"collections": [ "Back to School LineArt" ]
 		},
 		{
 			"id": "icon15-15",
@@ -214,9 +214,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3761828",
-			"tags": ["letter", "communication", "mail", "message", "offer", "send"],
+			"tags": [ "letter", "communication", "mail", "message", "offer", "send" ],
 			"term": "Letter",
-			"collections": ["IT Company"]
+			"collections": [ "IT Company" ]
 		},
 		{
 			"id": "icon15-16",
@@ -225,9 +225,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3049047",
-			"tags": ["newspaper", "article", "document", "journal", "magazine"],
+			"tags": [ "newspaper", "article", "document", "journal", "magazine" ],
 			"term": "Newspaper",
-			"collections": ["Telecommunication-Line"]
+			"collections": [ "Telecommunication-Line" ]
 		},
 		{
 			"id": "icon15-17",
@@ -236,9 +236,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1001591",
-			"tags": ["puzzle", "labyrinth", "maze", "network", "paths"],
+			"tags": [ "puzzle", "labyrinth", "maze", "network", "paths" ],
 			"term": "Puzzle",
-			"collections": ["Maze & Labyrinth"]
+			"collections": [ "Maze & Labyrinth" ]
 		},
 		{
 			"id": "icon15-18",
@@ -247,7 +247,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1252502",
-			"tags": ["task"],
+			"tags": [ "task" ],
 			"term": "task",
 			"collections": []
 		},
@@ -258,9 +258,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3615919",
-			"tags": ["letter", "email", "mail", "message", "text"],
+			"tags": [ "letter", "email", "mail", "message", "text" ],
 			"term": "Letter",
-			"collections": ["E-Mail"]
+			"collections": [ "E-Mail" ]
 		},
 		{
 			"id": "icon15-20",
@@ -269,9 +269,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3379025",
-			"tags": ["study", "lecture", "note", "notebook", "pencil"],
+			"tags": [ "study", "lecture", "note", "notebook", "pencil" ],
 			"term": "study",
-			"collections": ["online learning in outline style"]
+			"collections": [ "online learning in outline style" ]
 		},
 		{
 			"id": "icon15-21",
@@ -288,9 +288,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1786658",
-			"tags": ["task", "document", "form", "survey"],
+			"tags": [ "task", "document", "form", "survey" ],
 			"term": "task",
-			"collections": ["Icons"]
+			"collections": [ "Icons" ]
 		},
 		{
 			"id": "icon15-23",
@@ -299,9 +299,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1437811",
-			"tags": ["decision-tree", "hierarchy", "machine-learning"],
+			"tags": [ "decision-tree", "hierarchy", "machine-learning" ],
 			"term": "decision tree",
-			"collections": ["Technology Elements"]
+			"collections": [ "Technology Elements" ]
 		},
 		{
 			"id": "icon15-24",
@@ -310,9 +310,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1666917",
-			"tags": ["chat", "answer", "conversation", "message", "send"],
+			"tags": [ "chat", "answer", "conversation", "message", "send" ],
 			"term": "chat",
-			"collections": ["Basic"]
+			"collections": [ "Basic" ]
 		},
 		{
 			"id": "icon15-25",
@@ -321,7 +321,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1942662",
-			"tags": ["speech-bubble", "answer", "asking", "question", "speaking"],
+			"tags": [ "speech-bubble", "answer", "asking", "question", "speaking" ],
 			"term": "Speech Bubble",
 			"collections": []
 		},
@@ -332,9 +332,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2406232",
-			"tags": ["message", "answer", "chat", "dialog", "speech"],
+			"tags": [ "message", "answer", "chat", "dialog", "speech" ],
 			"term": "message",
-			"collections": ["User Interface"]
+			"collections": [ "User Interface" ]
 		},
 		{
 			"id": "icon15-27",
@@ -343,7 +343,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3082072",
-			"tags": ["notice", "alert", "chat", "notification", "warning"],
+			"tags": [ "notice", "alert", "chat", "notification", "warning" ],
 			"term": "notice",
 			"collections": []
 		},
@@ -354,16 +354,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3657058",
-			"tags": [
-				"discussion",
-				"communication",
-				"e-learning",
-				"education",
-				"group",
-				"online-learning"
-			],
+			"tags": [ "discussion", "communication", "e-learning", "education", "group", "online-learning" ],
 			"term": "discussion",
-			"collections": ["Online Learning Line"]
+			"collections": [ "Online Learning Line" ]
 		},
 		{
 			"id": "icon15-29",
@@ -372,9 +365,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2317296",
-			"tags": ["reply", "answer", "arrow", "comment", "response"],
+			"tags": [ "reply", "answer", "arrow", "comment", "response" ],
 			"term": "Reply",
-			"collections": ["UI / User Interface"]
+			"collections": [ "UI / User Interface" ]
 		},
 		{
 			"id": "icon15-30",
@@ -383,9 +376,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2101137",
-			"tags": ["reply-all", "answer", "arrow", "mail", "response"],
+			"tags": [ "reply-all", "answer", "arrow", "mail", "response" ],
 			"term": "Reply All",
-			"collections": ["Basic Icons All Sizes"]
+			"collections": [ "Basic Icons All Sizes" ]
 		},
 		{
 			"id": "icon15-31",
@@ -394,9 +387,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1187700",
-			"tags": ["group", "partner", "people", "team", "user"],
+			"tags": [ "group", "partner", "people", "team", "user" ],
 			"term": "group",
-			"collections": ["business school - bolder"]
+			"collections": [ "business school - bolder" ]
 		},
 		{
 			"id": "icon15-32",
@@ -405,9 +398,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3558673",
-			"tags": ["sharing", "network", "share"],
+			"tags": [ "sharing", "network", "share" ],
 			"term": "Sharing",
-			"collections": ["SEO & WEB Set 1"]
+			"collections": [ "SEO & WEB Set 1" ]
 		},
 		{
 			"id": "icon15-33",
@@ -416,7 +409,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2625548",
-			"tags": ["paperclip", "attach", "clip", "document", "paper", "school"],
+			"tags": [ "paperclip", "attach", "clip", "document", "paper", "school" ],
 			"term": "Paperclip",
 			"collections": []
 		},
@@ -427,9 +420,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1510389",
-			"tags": ["task", "", "notes", "thumb-tack"],
+			"tags": [ "task", "", "notes", "thumb-tack" ],
 			"term": "task",
-			"collections": ["office"]
+			"collections": [ "office" ]
 		},
 		{
 			"id": "icon15-35",
@@ -438,9 +431,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2413381",
-			"tags": ["graph", "business", "chart", "growth", "increase"],
+			"tags": [ "graph", "business", "chart", "growth", "increase" ],
 			"term": "Graph",
-			"collections": ["Basic Icons All Sizes"]
+			"collections": [ "Basic Icons All Sizes" ]
 		},
 		{
 			"id": "icon15-36",
@@ -449,7 +442,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1552337",
-			"tags": ["goal", "flag", "mountain", "objective"],
+			"tags": [ "goal", "flag", "mountain", "objective" ],
 			"term": "goal",
 			"collections": []
 		},
@@ -460,7 +453,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2776905",
-			"tags": ["objective", "accomplishment", "achievement", "cognition", "success"],
+			"tags": [ "objective", "accomplishment", "achievement", "cognition", "success" ],
 			"term": "objective",
 			"collections": []
 		},
@@ -471,9 +464,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "972630",
-			"tags": ["target", "aim", "focus", "goal", "objective", "point-of-interest"],
+			"tags": [ "target", "aim", "focus", "goal", "objective", "point-of-interest" ],
 			"term": "Target",
-			"collections": ["Sharpicons (24px grid / 1px stroke)"]
+			"collections": [ "Sharpicons (24px grid / 1px stroke)" ]
 		},
 		{
 			"id": "icon15-39",
@@ -482,9 +475,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2193137",
-			"tags": ["charter", "champion", "learning", "school"],
+			"tags": [ "charter", "champion", "learning", "school" ],
 			"term": "charter",
-			"collections": ["Education"]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon15-40",
@@ -493,9 +486,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1877430",
-			"tags": ["target", "aim", "goal", "object", "objective"],
+			"tags": [ "target", "aim", "goal", "object", "objective" ],
 			"term": "Target",
-			"collections": ["user interface bold"]
+			"collections": [ "user interface bold" ]
 		},
 		{
 			"id": "icon15-41",
@@ -504,9 +497,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1561654",
-			"tags": ["okr", "achievement", "goal", "objectives"],
+			"tags": [ "okr", "achievement", "goal", "objectives" ],
 			"term": "OKR",
-			"collections": ["Methods"]
+			"collections": [ "Methods" ]
 		},
 		{
 			"id": "icon15-42",
@@ -515,9 +508,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2399047",
-			"tags": ["handshake", "cooperation", "deal", "partner", "partnership"],
+			"tags": [ "handshake", "cooperation", "deal", "partner", "partnership" ],
 			"term": "Handshake",
-			"collections": ["Business"]
+			"collections": [ "Business" ]
 		},
 		{
 			"id": "icon15-43",
@@ -526,7 +519,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1995134",
-			"tags": ["users", "buddy", "friends", "partner", "people"],
+			"tags": [ "users", "buddy", "friends", "partner", "people" ],
 			"term": "users",
 			"collections": []
 		},
@@ -537,15 +530,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "111248",
-			"tags": [
-				"digital-learning",
-				"book",
-				"mouse",
-				"notebook",
-				"notepad",
-				"pointer",
-				"mouse-on-book"
-			],
+			"tags": [ "digital-learning", "book", "mouse", "notebook", "notepad", "pointer", "mouse-on-book" ],
 			"term": "digital learning",
 			"collections": []
 		},
@@ -556,9 +541,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3632397",
-			"tags": ["online-learning", "academy", "education", "learning", "online", "school"],
+			"tags": [ "online-learning", "academy", "education", "learning", "online", "school" ],
 			"term": "online learning",
-			"collections": ["online learning and academy (outline)"]
+			"collections": [ "online learning and academy (outline)" ]
 		},
 		{
 			"id": "icon15-46",
@@ -567,9 +552,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2064524",
-			"tags": ["puzzle", "idea", "intellect", "jigsaw", "mind", "rubiks-cube"],
+			"tags": [ "puzzle", "idea", "intellect", "jigsaw", "mind", "rubiks-cube" ],
 			"term": "Puzzle",
-			"collections": ["Intellect"]
+			"collections": [ "Intellect" ]
 		},
 		{
 			"id": "icon15-47",
@@ -578,9 +563,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2064551",
-			"tags": ["puzzle", "idea", "intellect", "jigsaw", "mind", "rubiks-cube"],
+			"tags": [ "puzzle", "idea", "intellect", "jigsaw", "mind", "rubiks-cube" ],
 			"term": "Puzzle",
-			"collections": ["Intellect"]
+			"collections": [ "Intellect" ]
 		},
 		{
 			"id": "icon15-48",
@@ -589,7 +574,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3429092",
-			"tags": ["puzzles", "game", "idea", "puzzle", "solution"],
+			"tags": [ "puzzles", "game", "idea", "puzzle", "solution" ],
 			"term": "puzzles",
 			"collections": []
 		},
@@ -600,7 +585,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "47362",
-			"tags": ["statistics", "bar-graph", "chart", "data", "graph", "graphc"],
+			"tags": [ "statistics", "bar-graph", "chart", "data", "graph", "graphc" ],
 			"term": "statistics",
 			"collections": []
 		},
@@ -634,9 +619,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1616505",
-			"tags": ["venn-diagram", "combine", "intersection", "set-theory", "subset"],
+			"tags": [ "venn-diagram", "combine", "intersection", "set-theory", "subset" ],
 			"term": "Venn Diagram",
-			"collections": ["Graphs"]
+			"collections": [ "Graphs" ]
 		},
 		{
 			"id": "icon15-52",
@@ -645,9 +630,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1779446",
-			"tags": ["intelligence", "brain", "knowledge", "mind", "thinking"],
+			"tags": [ "intelligence", "brain", "knowledge", "mind", "thinking" ],
 			"term": "intelligence",
-			"collections": ["Start Up"]
+			"collections": [ "Start Up" ]
 		},
 		{
 			"id": "icon15-53",
@@ -656,9 +641,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1945508",
-			"tags": ["knowledge", "brain", "creative", "idea", "thinking"],
+			"tags": [ "knowledge", "brain", "creative", "idea", "thinking" ],
 			"term": "knowledge",
-			"collections": ["Management"]
+			"collections": [ "Management" ]
 		},
 		{
 			"id": "icon15-54",
@@ -667,9 +652,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3448934",
-			"tags": ["knowledge", "creative", "head", "light-bulb"],
+			"tags": [ "knowledge", "creative", "head", "light-bulb" ],
 			"term": "knowledge",
-			"collections": ["Education icon"]
+			"collections": [ "Education icon" ]
 		},
 		{
 			"id": "icon15-55",
@@ -678,9 +663,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3085470",
-			"tags": ["knowledge", "jigsaw", "puzzle", "puzzle-piece", "seo", "strategy"],
+			"tags": [ "knowledge", "jigsaw", "puzzle", "puzzle-piece", "seo", "strategy" ],
 			"term": "knowledge",
-			"collections": ["25 E-Learning Line Icons"]
+			"collections": [ "25 E-Learning Line Icons" ]
 		},
 		{
 			"id": "icon15-56",
@@ -697,7 +682,7 @@
 				"open-book"
 			],
 			"term": "Structuring Knowledge",
-			"collections": ["Human Resource Line Icons"]
+			"collections": [ "Human Resource Line Icons" ]
 		},
 		{
 			"id": "icon15-57",
@@ -706,9 +691,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3534348",
-			"tags": ["video-call", "chat", "conference", "job", "online"],
+			"tags": [ "video-call", "chat", "conference", "job", "online" ],
 			"term": "Video Call",
-			"collections": ["Advertising"]
+			"collections": [ "Advertising" ]
 		},
 		{
 			"id": "icon15-58",
@@ -740,7 +725,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2696233",
-			"tags": ["survey", "opinion", "poll", "questionnaire", "quiz"],
+			"tags": [ "survey", "opinion", "poll", "questionnaire", "quiz" ],
 			"term": "Survey",
 			"collections": []
 		},
@@ -751,9 +736,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2387986",
-			"tags": ["question-and-answer", "answer", "education", "interface", "message", "question"],
+			"tags": [ "question-and-answer", "answer", "education", "interface", "message", "question" ],
 			"term": "question and answer",
-			"collections": ["E-Learning Outline"]
+			"collections": [ "E-Learning Outline" ]
 		},
 		{
 			"id": "icon15-61",
@@ -762,7 +747,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3194613",
-			"tags": ["question", "questionnaire", "quiz", "survey", "test"],
+			"tags": [ "question", "questionnaire", "quiz", "survey", "test" ],
 			"term": "Question",
 			"collections": []
 		},
@@ -773,7 +758,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "577207",
-			"tags": ["questionnaire", "answer", "poll", "polling", "quiz", "vote"],
+			"tags": [ "questionnaire", "answer", "poll", "polling", "quiz", "vote" ],
 			"term": "questionnaire",
 			"collections": []
 		},
@@ -784,7 +769,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3194575",
-			"tags": ["quiz", "exam", "game", "questionnaire", "test"],
+			"tags": [ "quiz", "exam", "game", "questionnaire", "test" ],
 			"term": "quiz",
 			"collections": []
 		},
@@ -795,9 +780,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3377455",
-			"tags": ["quiz", "question", "task", "test", "verification"],
+			"tags": [ "quiz", "question", "task", "test", "verification" ],
 			"term": "quiz",
-			"collections": ["Distance education outline (part 2)"]
+			"collections": [ "Distance education outline (part 2)" ]
 		},
 		{
 			"id": "icon15-65",
@@ -806,7 +791,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1833864",
-			"tags": ["random-questions", "query", "question", "quiz"],
+			"tags": [ "random-questions", "query", "question", "quiz" ],
 			"term": "random questions",
 			"collections": []
 		},
@@ -817,9 +802,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3378158",
-			"tags": ["quiz", "question", "relationship", "users", "work"],
+			"tags": [ "quiz", "question", "relationship", "users", "work" ],
 			"term": "quiz",
-			"collections": ["Computer techologies outline (part 1)"]
+			"collections": [ "Computer techologies outline (part 1)" ]
 		},
 		{
 			"id": "icon15-67",
@@ -828,9 +813,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1352676",
-			"tags": ["reading", "book", "coffee", "hobby", "recreation"],
+			"tags": [ "reading", "book", "coffee", "hobby", "recreation" ],
 			"term": "Reading",
-			"collections": ["Books and Reading"]
+			"collections": [ "Books and Reading" ]
 		},
 		{
 			"id": "icon15-68",
@@ -839,7 +824,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1684286",
-			"tags": ["folder", "data-storage", "file-storage", "interface", "office-material", "storage"],
+			"tags": [ "folder", "data-storage", "file-storage", "interface", "office-material", "storage" ],
 			"term": "Folder",
 			"collections": []
 		},
@@ -850,9 +835,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2850730",
-			"tags": ["archive", "folder", "journal", "office", "stationery"],
+			"tags": [ "archive", "folder", "journal", "office", "stationery" ],
 			"term": "archive",
-			"collections": ["Stationary"]
+			"collections": [ "Stationary" ]
 		},
 		{
 			"id": "icon15-70",
@@ -861,9 +846,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1906450",
-			"tags": ["knowledge", "book", "education", "learning"],
+			"tags": [ "knowledge", "book", "education", "learning" ],
 			"term": "knowledge",
-			"collections": ["Science"]
+			"collections": [ "Science" ]
 		},
 		{
 			"id": "icon15-71",
@@ -881,7 +866,7 @@
 				"online-education"
 			],
 			"term": "Global Knowledge",
-			"collections": ["E Learning Line Icons"]
+			"collections": [ "E Learning Line Icons" ]
 		},
 		{
 			"id": "icon15-72",
@@ -890,9 +875,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3263114",
-			"tags": ["global-knowledge", "education", "global", "knowledge", "literature", "world"],
+			"tags": [ "global-knowledge", "education", "global", "knowledge", "literature", "world" ],
 			"term": "Global Knowledge",
-			"collections": ["Education"]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon15-73",
@@ -901,9 +886,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3583100",
-			"tags": ["stopwatch", "stop-watch", "time-watch", "timer"],
+			"tags": [ "stopwatch", "stop-watch", "time-watch", "timer" ],
 			"term": "Stopwatch",
-			"collections": ["Fitness Outline"]
+			"collections": [ "Fitness Outline" ]
 		},
 		{
 			"id": "icon15-74",
@@ -912,9 +897,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1829721",
-			"tags": ["share", "connected", "connection", "server", "sharing"],
+			"tags": [ "share", "connected", "connection", "server", "sharing" ],
 			"term": "Share",
-			"collections": ["Web application and UI"]
+			"collections": [ "Web application and UI" ]
 		},
 		{
 			"id": "icon15-75",
@@ -923,9 +908,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2074817",
-			"tags": ["share"],
+			"tags": [ "share" ],
 			"term": "Share",
-			"collections": ["Communication"]
+			"collections": [ "Communication" ]
 		},
 		{
 			"id": "icon15-76",
@@ -934,9 +919,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3869768",
-			"tags": ["share", "arrow", "forward", "reply"],
+			"tags": [ "share", "arrow", "forward", "reply" ],
 			"term": "Share",
-			"collections": ["Social Media V8"]
+			"collections": [ "Social Media V8" ]
 		},
 		{
 			"id": "icon15-77",
@@ -945,9 +930,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1652831",
-			"tags": ["graph", "chart", "diagram", "mobile", "statistic"],
+			"tags": [ "graph", "chart", "diagram", "mobile", "statistic" ],
 			"term": "Graph",
-			"collections": ["Mobile UI Design"]
+			"collections": [ "Mobile UI Design" ]
 		},
 		{
 			"id": "icon15-78",
@@ -956,9 +941,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3731920",
-			"tags": ["statistics", "chart", "finance", "graph", "pie-chart", "report"],
+			"tags": [ "statistics", "chart", "finance", "graph", "pie-chart", "report" ],
 			"term": "statistics",
-			"collections": ["Business Management (Line and Glyph)"]
+			"collections": [ "Business Management (Line and Glyph)" ]
 		},
 		{
 			"id": "icon15-79",
@@ -967,9 +952,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2894223",
-			"tags": ["graph", "analytics", "chart", "dashboard", "pie-chart", "statistics"],
+			"tags": [ "graph", "analytics", "chart", "dashboard", "pie-chart", "statistics" ],
 			"term": "Graph",
-			"collections": ["Business 3 Line"]
+			"collections": [ "Business 3 Line" ]
 		},
 		{
 			"id": "icon15-80",
@@ -978,7 +963,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1987078",
-			"tags": ["graph", "bar-chart", "chart", "data", "graphics", "infographic"],
+			"tags": [ "graph", "bar-chart", "chart", "data", "graphics", "infographic" ],
 			"term": "Graph",
 			"collections": []
 		},
@@ -989,9 +974,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2742487",
-			"tags": ["graph", "business", "chart", "finance", "statistics"],
+			"tags": [ "graph", "business", "chart", "finance", "statistics" ],
 			"term": "Graph",
-			"collections": ["Finance Line & Glyphs Icons"]
+			"collections": [ "Finance Line & Glyphs Icons" ]
 		},
 		{
 			"id": "icon15-82",
@@ -1000,9 +985,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1018335",
-			"tags": ["analysis", "business", "data", "report", "summary"],
+			"tags": [ "analysis", "business", "data", "report", "summary" ],
 			"term": "analysis",
-			"collections": ["Business Essential 2"]
+			"collections": [ "Business Essential 2" ]
 		},
 		{
 			"id": "icon15-83",
@@ -1011,9 +996,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1985551",
-			"tags": ["statistics", "chart", "economy", "graph", "summary"],
+			"tags": [ "statistics", "chart", "economy", "graph", "summary" ],
 			"term": "statistics",
-			"collections": ["Business"]
+			"collections": [ "Business" ]
 		},
 		{
 			"id": "icon15-84",
@@ -1022,9 +1007,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2913138",
-			"tags": ["column", "data", "summary"],
+			"tags": [ "column", "data", "summary" ],
 			"term": "column",
-			"collections": ["Digital Media"]
+			"collections": [ "Digital Media" ]
 		},
 		{
 			"id": "icon15-85",
@@ -1033,9 +1018,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2613721",
-			"tags": ["study-lamp", "electronic", "lamp"],
+			"tags": [ "study-lamp", "electronic", "lamp" ],
 			"term": "study lamp",
-			"collections": ["ELECTRONIC"]
+			"collections": [ "ELECTRONIC" ]
 		},
 		{
 			"id": "icon15-86",
@@ -1063,9 +1048,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2025000",
-			"tags": ["study", "reading", "reading-book", "reading-newspaper", "studying"],
+			"tags": [ "study", "reading", "reading-book", "reading-newspaper", "studying" ],
 			"term": "study",
-			"collections": ["28 - 08 - 2018"]
+			"collections": [ "28 - 08 - 2018" ]
 		},
 		{
 			"id": "icon15-88",
@@ -1074,9 +1059,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2423484",
-			"tags": ["study", "book", "books", "diploma", "education", "library"],
+			"tags": [ "study", "book", "books", "diploma", "education", "library" ],
 			"term": "study",
-			"collections": ["Modern Education"]
+			"collections": [ "Modern Education" ]
 		},
 		{
 			"id": "icon15-89",
@@ -1085,9 +1070,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3867451",
-			"tags": ["study", "book", "learning", "read"],
+			"tags": [ "study", "book", "learning", "read" ],
 			"term": "study",
-			"collections": ["business 2"]
+			"collections": [ "business 2" ]
 		},
 		{
 			"id": "icon15-90",
@@ -1096,9 +1081,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "862310",
-			"tags": ["video", "video-play", "videos"],
+			"tags": [ "video", "video-play", "videos" ],
 			"term": "Video",
-			"collections": ["Interface"]
+			"collections": [ "Interface" ]
 		},
 		{
 			"id": "icon15-91",
@@ -1107,7 +1092,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1093011",
-			"tags": ["video", "video-play"],
+			"tags": [ "video", "video-play" ],
 			"term": "Video",
 			"collections": []
 		},
@@ -1118,7 +1103,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2839614",
-			"tags": ["video", "film", "recording", "shooting", "video-player"],
+			"tags": [ "video", "film", "recording", "shooting", "video-player" ],
 			"term": "Video",
 			"collections": []
 		},
@@ -1129,9 +1114,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3470243",
-			"tags": ["satellite-dish", "communications", "radio-antenna", "signal", "spaceship"],
+			"tags": [ "satellite-dish", "communications", "radio-antenna", "signal", "spaceship" ],
 			"term": "Satellite Dish",
-			"collections": ["Space And Galaxy - Outline"]
+			"collections": [ "Space And Galaxy - Outline" ]
 		},
 		{
 			"id": "icon15-94",
@@ -1140,9 +1125,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3565311",
-			"tags": ["network", "connection", "internet", "lan"],
+			"tags": [ "network", "connection", "internet", "lan" ],
 			"term": "Network",
-			"collections": ["Business essential"]
+			"collections": [ "Business essential" ]
 		}
 	]
 }

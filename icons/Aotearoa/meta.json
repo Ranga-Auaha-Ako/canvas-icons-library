@@ -18,7 +18,7 @@
 				"the-beehive"
 			],
 			"term": "Beehive",
-			"collections": ["Things I Drew"]
+			"collections": [ "Things I Drew" ]
 		},
 		{
 			"id": "icon2-2",
@@ -27,9 +27,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3121861",
-			"tags": ["buzzy-bee-toy", "kids-toy", "kiwiana", "nz", "wooden-toy", "buzzy-bee"],
+			"tags": [ "buzzy-bee-toy", "kids-toy", "kiwiana", "nz", "wooden-toy", "buzzy-bee" ],
 			"term": "buzzy bee toy",
-			"collections": ["NZ Kiwiana"]
+			"collections": [ "NZ Kiwiana" ]
 		},
 		{
 			"id": "icon2-3",
@@ -38,7 +38,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2266954",
-			"tags": ["fern-leaf", "new-zealand", "tattoo", "maori-style", "koru-design"],
+			"tags": [ "fern-leaf", "new-zealand", "tattoo", "maori-style", "koru-design" ],
 			"term": "fern leaf",
 			"collections": []
 		},
@@ -49,7 +49,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2647195",
-			"tags": ["kiwi", "food", "fresh", "fruit", "healthy", "organic"],
+			"tags": [ "kiwi", "food", "fresh", "fruit", "healthy", "organic" ],
 			"term": "Kiwi",
 			"collections": []
 		},
@@ -69,7 +69,7 @@
 				"new-zealand-flower"
 			],
 			"term": "kowhai flower",
-			"collections": ["NZ Kiwiana"]
+			"collections": [ "NZ Kiwiana" ]
 		},
 		{
 			"id": "icon2-6",
@@ -91,7 +91,7 @@
 				"portfolio"
 			],
 			"term": "new zealand",
-			"collections": ["World Maps"]
+			"collections": [ "World Maps" ]
 		},
 		{
 			"id": "icon2-7",
@@ -100,9 +100,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "610175",
-			"tags": ["new-zealand", "country", "flag", "kiwi", "national"],
+			"tags": [ "new-zealand", "country", "flag", "kiwi", "national" ],
 			"term": "new zealand",
-			"collections": ["World Flags - Outlines"]
+			"collections": [ "World Flags - Outlines" ]
 		},
 		{
 			"id": "icon2-8",
@@ -111,9 +111,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3100161",
-			"tags": ["nz-tiki", "maori", "new-zealand", "nz", "tiki", "kiwiana"],
+			"tags": [ "nz-tiki", "maori", "new-zealand", "nz", "tiki", "kiwiana" ],
 			"term": "nz tiki",
-			"collections": ["NZ Kiwiana"]
+			"collections": [ "NZ Kiwiana" ]
 		},
 		{
 			"id": "icon2-9",
@@ -143,9 +143,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "719025",
-			"tags": ["rugby", "ball", "football", "new-zealand", "sport"],
+			"tags": [ "rugby", "ball", "football", "new-zealand", "sport" ],
 			"term": "Rugby",
-			"collections": ["New Zealand"]
+			"collections": [ "New Zealand" ]
 		},
 		{
 			"id": "icon2-11",
@@ -171,7 +171,7 @@
 				"thongs"
 			],
 			"term": "sandals",
-			"collections": ["Shoes and Footwear"]
+			"collections": [ "Shoes and Footwear" ]
 		},
 		{
 			"id": "icon2-12",
@@ -189,7 +189,7 @@
 				"tomato"
 			],
 			"term": "tomato sauce bottle",
-			"collections": ["NZ Kiwiana"]
+			"collections": [ "NZ Kiwiana" ]
 		},
 		{
 			"id": "icon2-13",
@@ -228,7 +228,7 @@
 		{
 			"id": "icon2-14",
 			"url": "noun_Pigeon_136533.svg",
-			"title": "kerer\u016b",
+			"title": "kererū",
 			"width": 48,
 			"height": 48,
 			"tnp_id": "136533",

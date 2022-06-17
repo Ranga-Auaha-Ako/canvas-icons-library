@@ -7,16 +7,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "48330",
-			"tags": [
-				"fetus",
-				"baby",
-				"child",
-				"conception",
-				"embryo",
-				"pregnancy",
-				"unborn",
-				"unborn-baby"
-			],
+			"tags": [ "fetus", "baby", "child", "conception", "embryo", "pregnancy", "unborn", "unborn-baby" ],
 			"term": "fetus",
 			"collections": []
 		},
@@ -27,7 +18,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2569021",
-			"tags": ["weight", "baby", "child", "infant", "meter"],
+			"tags": [ "weight", "baby", "child", "infant", "meter" ],
 			"term": "Weight",
 			"collections": []
 		},
@@ -38,9 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "955001",
-			"tags": ["baby", "infant", "newborn", "peaceful", "swaddling-clothes"],
+			"tags": [ "baby", "infant", "newborn", "peaceful", "swaddling-clothes" ],
 			"term": "Baby",
-			"collections": ["Baby Faces"]
+			"collections": [ "Baby Faces" ]
 		},
 		{
 			"id": "icon9-4",
@@ -49,9 +40,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "690877",
-			"tags": ["baby", "crying", "hungry", "infant", "scream"],
+			"tags": [ "baby", "crying", "hungry", "infant", "scream" ],
 			"term": "Baby",
-			"collections": ["Yummy Baby"]
+			"collections": [ "Yummy Baby" ]
 		},
 		{
 			"id": "icon9-5",
@@ -60,9 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "690878",
-			"tags": ["baby", "happy", "infant", "kids", "pacifier"],
+			"tags": [ "baby", "happy", "infant", "kids", "pacifier" ],
 			"term": "Baby",
-			"collections": ["Yummy Baby"]
+			"collections": [ "Yummy Baby" ]
 		},
 		{
 			"id": "icon9-6",
@@ -71,9 +62,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1593082",
-			"tags": ["baby", "child", "infant", "kid", "pacifier"],
+			"tags": [ "baby", "child", "infant", "kid", "pacifier" ],
 			"term": "Baby",
-			"collections": ["household"]
+			"collections": [ "household" ]
 		},
 		{
 			"id": "icon9-7",
@@ -82,9 +73,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2012995",
-			"tags": ["baby-angry", "angry", "baby", "child", "infant", "newborn"],
+			"tags": [ "baby-angry", "angry", "baby", "child", "infant", "newborn" ],
 			"term": "Baby Angry",
-			"collections": ["Baby (Outline)"]
+			"collections": [ "Baby (Outline)" ]
 		},
 		{
 			"id": "icon9-8",
@@ -93,9 +84,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2013002",
-			"tags": ["baby-angry", "angry", "baby", "child", "girl", "infant"],
+			"tags": [ "baby-angry", "angry", "baby", "child", "girl", "infant" ],
 			"term": "Baby Angry",
-			"collections": ["Baby (Outline)"]
+			"collections": [ "Baby (Outline)" ]
 		},
 		{
 			"id": "icon9-9",
@@ -104,9 +95,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3094950",
-			"tags": ["baby-boy", "baby", "child", "diaper", "infant"],
+			"tags": [ "baby-boy", "baby", "child", "diaper", "infant" ],
 			"term": "baby boy",
-			"collections": ["Baby boy"]
+			"collections": [ "Baby boy" ]
 		},
 		{
 			"id": "icon9-10",
@@ -115,9 +106,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2158249",
-			"tags": ["baby-bibs", "baby-product", "bib", "infant", "newborn"],
+			"tags": [ "baby-bibs", "baby-product", "bib", "infant", "newborn" ],
 			"term": "baby bibs",
-			"collections": ["Baby"]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon9-11",
@@ -126,9 +117,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2648381",
-			"tags": ["baby-teether", "baby", "child", "infant", "kids", "toys"],
+			"tags": [ "baby-teether", "baby", "child", "infant", "kids", "toys" ],
 			"term": "baby teether",
-			"collections": ["Baby"]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon9-12",
@@ -137,19 +128,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "320120",
-			"tags": [
-				"pacifier",
-				"accesories",
-				"baby",
-				"child",
-				"hungry",
-				"infant",
-				"nipple",
-				"toy",
-				"binki"
-			],
+			"tags": [ "pacifier", "accesories", "baby", "child", "hungry", "infant", "nipple", "toy", "binki" ],
 			"term": "Pacifier",
-			"collections": ["Smashicons - Baby Outline"]
+			"collections": [ "Smashicons - Baby Outline" ]
 		},
 		{
 			"id": "icon9-13",
@@ -158,9 +139,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "871200",
-			"tags": ["sports-bottle", "drink", "gym", "liquid", "water", "workout"],
+			"tags": [ "sports-bottle", "drink", "gym", "liquid", "water", "workout" ],
 			"term": "sports bottle",
-			"collections": ["Lifestyle"]
+			"collections": [ "Lifestyle" ]
 		},
 		{
 			"id": "icon9-14",
@@ -182,7 +163,7 @@
 				"pinned"
 			],
 			"term": "diaper",
-			"collections": ["Smashicons - Baby Outline"]
+			"collections": [ "Smashicons - Baby Outline" ]
 		},
 		{
 			"id": "icon9-15",
@@ -191,9 +172,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3242983",
-			"tags": ["safety-pin", "baby-pin", "brooch-pin", "clothespin", "needle-safety"],
+			"tags": [ "safety-pin", "baby-pin", "brooch-pin", "clothespin", "needle-safety" ],
 			"term": "Safety Pin",
-			"collections": ["set of Sewing Line Vector Icons"]
+			"collections": [ "set of Sewing Line Vector Icons" ]
 		},
 		{
 			"id": "icon9-16",
@@ -215,7 +196,7 @@
 				"toy"
 			],
 			"term": "Rattle",
-			"collections": ["Simple curly icons"]
+			"collections": [ "Simple curly icons" ]
 		},
 		{
 			"id": "icon9-17",
@@ -224,7 +205,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1178609",
-			"tags": ["bear", "baby", "child", "infant", "teddy-bear", "toy"],
+			"tags": [ "bear", "baby", "child", "infant", "teddy-bear", "toy" ],
 			"term": "Bear",
 			"collections": []
 		},
@@ -235,9 +216,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1183103",
-			"tags": ["nursery", "baby", "bookshelf", "child", "infant", "room"],
+			"tags": [ "nursery", "baby", "bookshelf", "child", "infant", "room" ],
 			"term": "Nursery",
-			"collections": ["Baby"]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon9-19",
@@ -246,9 +227,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1189888",
-			"tags": ["nursery", "baby", "baby-room", "cot", "crib", "mobile"],
+			"tags": [ "nursery", "baby", "baby-room", "cot", "crib", "mobile" ],
 			"term": "Nursery",
-			"collections": ["Baby"]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon9-20",
@@ -257,9 +238,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1549524",
-			"tags": ["stroller", "baby", "carriage", "infant", "pram"],
+			"tags": [ "stroller", "baby", "carriage", "infant", "pram" ],
 			"term": "Stroller",
-			"collections": ["Stroller"]
+			"collections": [ "Stroller" ]
 		},
 		{
 			"id": "icon9-21",
@@ -268,9 +249,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2129628",
-			"tags": ["stroller", "baby", "infant", "pushchair"],
+			"tags": [ "stroller", "baby", "infant", "pushchair" ],
 			"term": "Stroller",
-			"collections": ["Domestic"]
+			"collections": [ "Domestic" ]
 		},
 		{
 			"id": "icon9-22",
@@ -279,9 +260,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3685906",
-			"tags": ["bandage", "gauze", "injured", "protection", "wound"],
+			"tags": [ "bandage", "gauze", "injured", "protection", "wound" ],
 			"term": "Bandage",
-			"collections": ["Hospital Line 000035"]
+			"collections": [ "Hospital Line 000035" ]
 		},
 		{
 			"id": "icon9-23",
@@ -290,9 +271,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1695884",
-			"tags": ["bandage", "blood", "cut", "first-aid", "injury", "medical"],
+			"tags": [ "bandage", "blood", "cut", "first-aid", "injury", "medical" ],
 			"term": "Bandage",
-			"collections": ["Health Care"]
+			"collections": [ "Health Care" ]
 		},
 		{
 			"id": "icon9-24",
@@ -301,9 +282,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1866723",
-			"tags": ["bandage", "foot", "gauze", "injury"],
+			"tags": [ "bandage", "foot", "gauze", "injury" ],
 			"term": "Bandage",
-			"collections": ["Running"]
+			"collections": [ "Running" ]
 		},
 		{
 			"id": "icon9-25",
@@ -312,9 +293,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2196540",
-			"tags": ["bandage", "hand", "health-care", "injury", "medical", "wound"],
+			"tags": [ "bandage", "hand", "health-care", "injury", "medical", "wound" ],
 			"term": "Bandage",
-			"collections": ["Medical Outline"]
+			"collections": [ "Medical Outline" ]
 		},
 		{
 			"id": "icon9-26",
@@ -323,9 +304,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2478509",
-			"tags": ["bandage"],
+			"tags": [ "bandage" ],
 			"term": "Bandage",
-			"collections": ["Medical Health v1"]
+			"collections": [ "Medical Health v1" ]
 		},
 		{
 			"id": "icon9-27",
@@ -334,9 +315,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1913337",
-			"tags": ["bandaged", "clumsy", "emoji", "hurt", "injured"],
+			"tags": [ "bandaged", "clumsy", "emoji", "hurt", "injured" ],
 			"term": "Bandaged",
-			"collections": ["pemoji"]
+			"collections": [ "pemoji" ]
 		},
 		{
 			"id": "icon9-28",
@@ -345,9 +326,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1905592",
-			"tags": ["bandaid", "antiseptic", "band-aid", "first-aid", "injury-protection", "plaster"],
+			"tags": [ "bandaid", "antiseptic", "band-aid", "first-aid", "injury-protection", "plaster" ],
 			"term": "bandaid",
-			"collections": ["Medical Set"]
+			"collections": [ "Medical Set" ]
 		},
 		{
 			"id": "icon9-29",
@@ -356,7 +337,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "123221",
-			"tags": ["bandage", "band-aid", "plaster"],
+			"tags": [ "bandage", "band-aid", "plaster" ],
 			"term": "Bandage",
 			"collections": []
 		},
@@ -367,9 +348,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2559054",
-			"tags": ["bandage", "athletics", "heavy", "sportswear", "strength"],
+			"tags": [ "bandage", "athletics", "heavy", "sportswear", "strength" ],
 			"term": "Bandage",
-			"collections": ["Heavy Athletics"]
+			"collections": [ "Heavy Athletics" ]
 		},
 		{
 			"id": "icon9-31",
@@ -378,9 +359,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2967702",
-			"tags": ["bone", "broken-bone", "emergency", "healthcare", "hospital", "medical"],
+			"tags": [ "bone", "broken-bone", "emergency", "healthcare", "hospital", "medical" ],
 			"term": "Bone",
-			"collections": ["Medical And Healthcare"]
+			"collections": [ "Medical And Healthcare" ]
 		},
 		{
 			"id": "icon9-32",
@@ -414,9 +395,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3340032",
-			"tags": ["cancer", "aids", "diseases", "ribbon", "tape"],
+			"tags": [ "cancer", "aids", "diseases", "ribbon", "tape" ],
 			"term": "cancer",
-			"collections": ["Diseases"]
+			"collections": [ "Diseases" ]
 		},
 		{
 			"id": "icon9-34",
@@ -425,9 +406,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1683605",
-			"tags": ["clean", "broom", "brush", "glass", "sponge", "wash"],
+			"tags": [ "clean", "broom", "brush", "glass", "sponge", "wash" ],
 			"term": "Clean",
-			"collections": ["Clean"]
+			"collections": [ "Clean" ]
 		},
 		{
 			"id": "icon9-35",
@@ -436,9 +417,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1683623",
-			"tags": ["clean", "broom", "brush", "glass", "sponge", "wash"],
+			"tags": [ "clean", "broom", "brush", "glass", "sponge", "wash" ],
 			"term": "Clean",
-			"collections": ["Clean"]
+			"collections": [ "Clean" ]
 		},
 		{
 			"id": "icon9-36",
@@ -447,9 +428,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2447828",
-			"tags": ["cleaning", "hand", "soap", "wash"],
+			"tags": [ "cleaning", "hand", "soap", "wash" ],
 			"term": "cleaning",
-			"collections": ["Hygiene Routine Line"]
+			"collections": [ "Hygiene Routine Line" ]
 		},
 		{
 			"id": "icon9-37",
@@ -458,9 +439,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3480126",
-			"tags": ["cleaning", "hobby", "house"],
+			"tags": [ "cleaning", "hobby", "house" ],
 			"term": "cleaning",
-			"collections": ["Hobbies"]
+			"collections": [ "Hobbies" ]
 		},
 		{
 			"id": "icon9-38",
@@ -469,9 +450,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3511203",
-			"tags": ["hand-sanitizer", "bottle", "gel", "hand", "liquid", "sanitizer"],
+			"tags": [ "hand-sanitizer", "bottle", "gel", "hand", "liquid", "sanitizer" ],
 			"term": "hand sanitizer",
-			"collections": ["Coronavirus Treatment"]
+			"collections": [ "Coronavirus Treatment" ]
 		},
 		{
 			"id": "icon9-39",
@@ -480,9 +461,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3434774",
-			"tags": ["cleaning-hand", "clean", "hand", "hygiene", "prevention", "soap"],
+			"tags": [ "cleaning-hand", "clean", "hand", "hygiene", "prevention", "soap" ],
 			"term": "cleaning hand",
-			"collections": ["Hand washing"]
+			"collections": [ "Hand washing" ]
 		},
 		{
 			"id": "icon9-40",
@@ -491,9 +472,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3472070",
-			"tags": ["hand-dryer", "hand", "healthcare", "heat", "hygiene"],
+			"tags": [ "hand-dryer", "hand", "healthcare", "heat", "hygiene" ],
 			"term": "Hand Dryer",
-			"collections": ["Hand Washing And Hygiene - Outline"]
+			"collections": [ "Hand Washing And Hygiene - Outline" ]
 		},
 		{
 			"id": "icon9-41",
@@ -502,9 +483,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3472074",
-			"tags": ["hand-dryer", "hand", "healthcare", "heat", "hygiene"],
+			"tags": [ "hand-dryer", "hand", "healthcare", "heat", "hygiene" ],
 			"term": "Hand Dryer",
-			"collections": ["Hand Washing And Hygiene - Outline"]
+			"collections": [ "Hand Washing And Hygiene - Outline" ]
 		},
 		{
 			"id": "icon9-42",
@@ -513,9 +494,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2541283",
-			"tags": ["drip", "infusion", "iv", "iv-bag", "medical"],
+			"tags": [ "drip", "infusion", "iv", "iv-bag", "medical" ],
 			"term": "drip",
-			"collections": ["Healthcare Line"]
+			"collections": [ "Healthcare Line" ]
 		},
 		{
 			"id": "icon9-43",
@@ -547,7 +528,7 @@
 				"treatment"
 			],
 			"term": "first aid kit",
-			"collections": ["Science and Medical"]
+			"collections": [ "Science and Medical" ]
 		},
 		{
 			"id": "icon9-44",
@@ -556,9 +537,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3671201",
-			"tags": ["bacteria", "cells", "germs", "infection", "microbe"],
+			"tags": [ "bacteria", "cells", "germs", "infection", "microbe" ],
 			"term": "Bacteria",
-			"collections": ["Bacteria and Probiotic-K (Line&Glyphs)"]
+			"collections": [ "Bacteria and Probiotic-K (Line&Glyphs)" ]
 		},
 		{
 			"id": "icon9-45",
@@ -594,9 +575,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "710454",
-			"tags": ["germs", "bacteria", "microbes", "microorganism", "pathogen", "virus"],
+			"tags": [ "germs", "bacteria", "microbes", "microorganism", "pathogen", "virus" ],
 			"term": "Germs",
-			"collections": ["Hygiene"]
+			"collections": [ "Hygiene" ]
 		},
 		{
 			"id": "icon9-47",
@@ -605,9 +586,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2447522",
-			"tags": ["germs", "laboratory", "magnifier", "science"],
+			"tags": [ "germs", "laboratory", "magnifier", "science" ],
 			"term": "Germs",
-			"collections": ["Science Line"]
+			"collections": [ "Science Line" ]
 		},
 		{
 			"id": "icon9-48",
@@ -616,9 +597,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3680210",
-			"tags": ["hand", "bacteria", "germs", "microbe", "virus"],
+			"tags": [ "hand", "bacteria", "germs", "microbe", "virus" ],
 			"term": "Hand",
-			"collections": ["Hand Washing-K (Line&Glyphs)"]
+			"collections": [ "Hand Washing-K (Line&Glyphs)" ]
 		},
 		{
 			"id": "icon9-49",
@@ -627,7 +608,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3212807",
-			"tags": ["germs", "bacteria", "bacterium", "fungus", "microbe", "virus"],
+			"tags": [ "germs", "bacteria", "bacterium", "fungus", "microbe", "virus" ],
 			"term": "Germs",
 			"collections": []
 		},
@@ -638,9 +619,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3337945",
-			"tags": ["microbe", "disease", "germ", "microorganism", "pathogen"],
+			"tags": [ "microbe", "disease", "germ", "microorganism", "pathogen" ],
 			"term": "Microbe",
-			"collections": ["Virus"]
+			"collections": [ "Virus" ]
 		},
 		{
 			"id": "icon9-51",
@@ -649,20 +630,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "322969",
-			"tags": [
-				"virus",
-				"sickness",
-				"sick",
-				"part",
-				"medical",
-				"ill",
-				"health",
-				"germ",
-				"body",
-				"viral"
-			],
+			"tags": [ "virus", "sickness", "sick", "part", "medical", "ill", "health", "germ", "body", "viral" ],
 			"term": "virus",
-			"collections": ["Smashicons - Medical Outline"]
+			"collections": [ "Smashicons - Medical Outline" ]
 		},
 		{
 			"id": "icon9-52",
@@ -671,7 +641,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2775741",
-			"tags": ["virus", "bug", "infection", "sickness", "viral"],
+			"tags": [ "virus", "bug", "infection", "sickness", "viral" ],
 			"term": "virus",
 			"collections": []
 		},
@@ -682,9 +652,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3623191",
-			"tags": ["virus", "corona", "coronavirus", "covid19", "eye"],
+			"tags": [ "virus", "corona", "coronavirus", "covid19", "eye" ],
 			"term": "virus",
-			"collections": ["Coronavirus"]
+			"collections": [ "Coronavirus" ]
 		},
 		{
 			"id": "icon9-54",
@@ -693,9 +663,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3667502",
-			"tags": ["virus", "bacteria", "cell", "disease", "germs"],
+			"tags": [ "virus", "bacteria", "cell", "disease", "germs" ],
 			"term": "virus",
-			"collections": ["Coronavirus"]
+			"collections": [ "Coronavirus" ]
 		},
 		{
 			"id": "icon9-55",
@@ -704,9 +674,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3715042",
-			"tags": ["virus", "bacteria", "corona", "disease", "infection", "microbe"],
+			"tags": [ "virus", "bacteria", "corona", "disease", "infection", "microbe" ],
 			"term": "virus",
-			"collections": ["Corona Virus - Outline"]
+			"collections": [ "Corona Virus - Outline" ]
 		},
 		{
 			"id": "icon9-57",
@@ -715,9 +685,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3443815",
-			"tags": ["injection", "drug", "medicine", "syringe", "vaccine"],
+			"tags": [ "injection", "drug", "medicine", "syringe", "vaccine" ],
 			"term": "injection",
-			"collections": ["Medical Equipment"]
+			"collections": [ "Medical Equipment" ]
 		},
 		{
 			"id": "icon9-58",
@@ -726,9 +696,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3558538",
-			"tags": ["lungs-cancer", "cancer", "lungs", "pneumonia"],
+			"tags": [ "lungs-cancer", "cancer", "lungs", "pneumonia" ],
 			"term": "lungs cancer",
-			"collections": ["Diseases"]
+			"collections": [ "Diseases" ]
 		},
 		{
 			"id": "icon9-59",
@@ -737,9 +707,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3594835",
-			"tags": ["medical", "doctor", "health", "hospital"],
+			"tags": [ "medical", "doctor", "health", "hospital" ],
 			"term": "medical",
-			"collections": ["medical set 1"]
+			"collections": [ "medical set 1" ]
 		},
 		{
 			"id": "icon9-60",
@@ -748,9 +718,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2368877",
-			"tags": ["medicine", "greece", "health", "healthcare", "medical"],
+			"tags": [ "medicine", "greece", "health", "healthcare", "medical" ],
 			"term": "Medicine",
-			"collections": ["Greece Independence Day __ Bold Dotted Line"]
+			"collections": [ "Greece Independence Day __ Bold Dotted Line" ]
 		},
 		{
 			"id": "icon9-61",
@@ -759,9 +729,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "952768",
-			"tags": ["medicine", "medical", "panadol", "pills", "tablets"],
+			"tags": [ "medicine", "medical", "panadol", "pills", "tablets" ],
 			"term": "Medicine",
-			"collections": ["Medical"]
+			"collections": [ "Medical" ]
 		},
 		{
 			"id": "icon9-62",
@@ -770,9 +740,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1750433",
-			"tags": ["panadol", "baby", "children", "infant", "pregnancy", "pregnant"],
+			"tags": [ "panadol", "baby", "children", "infant", "pregnancy", "pregnant" ],
 			"term": "panadol",
-			"collections": ["Baby"]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon9-63",
@@ -781,9 +751,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2186100",
-			"tags": ["science-medicine", "health", "medical", "medicine", "pharmacy", "treatment"],
+			"tags": [ "science-medicine", "health", "medical", "medicine", "pharmacy", "treatment" ],
 			"term": "science medicine",
-			"collections": ["Types of Science Outline"]
+			"collections": [ "Types of Science Outline" ]
 		},
 		{
 			"id": "icon9-64",
@@ -792,9 +762,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3047837",
-			"tags": ["smoking", "addict", "cancer", "cigarette", "lung"],
+			"tags": [ "smoking", "addict", "cancer", "cigarette", "lung" ],
 			"term": "Smoking",
-			"collections": ["Allergy-Line"]
+			"collections": [ "Allergy-Line" ]
 		},
 		{
 			"id": "icon9-65",
@@ -803,9 +773,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "70908",
-			"tags": ["stethoscope", "beat", "doctor", "heart", "heartbeat", "medical", "pulse"],
+			"tags": [ "stethoscope", "beat", "doctor", "heart", "heartbeat", "medical", "pulse" ],
 			"term": "Stethoscope",
-			"collections": ["Simplicicons"]
+			"collections": [ "Simplicicons" ]
 		},
 		{
 			"id": "icon9-66",
@@ -814,9 +784,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2736683",
-			"tags": ["stomach", "cancer", "intestines", "organ", "tumor"],
+			"tags": [ "stomach", "cancer", "intestines", "organ", "tumor" ],
 			"term": "Stomach",
-			"collections": ["Cancer"]
+			"collections": [ "Cancer" ]
 		},
 		{
 			"id": "icon9-67",
@@ -825,9 +795,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2736686",
-			"tags": ["stomach", "cancer", "digestive", "indigestion", "organ"],
+			"tags": [ "stomach", "cancer", "digestive", "indigestion", "organ" ],
 			"term": "Stomach",
-			"collections": ["Cancer"]
+			"collections": [ "Cancer" ]
 		},
 		{
 			"id": "icon9-68",
@@ -836,9 +806,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2390315",
-			"tags": ["stomach-disorder", "disease", "pain", "stomach-infection", "stomach-cancer"],
+			"tags": [ "stomach-disorder", "disease", "pain", "stomach-infection", "stomach-cancer" ],
 			"term": "stomach disorder",
-			"collections": ["Diseases, Diabetes, Heart Attack Line Icons"]
+			"collections": [ "Diseases, Diabetes, Heart Attack Line Icons" ]
 		},
 		{
 			"id": "icon9-69",
@@ -847,17 +817,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "42646",
-			"tags": [
-				"tooth",
-				"care",
-				"dental",
-				"dentist",
-				"dentistry",
-				"health",
-				"mouth",
-				"oral",
-				"teeth"
-			],
+			"tags": [ "tooth", "care", "dental", "dentist", "dentistry", "health", "mouth", "oral", "teeth" ],
 			"term": "Tooth",
 			"collections": []
 		},
@@ -868,9 +828,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3138017",
-			"tags": ["tooth", "clean", "dentist", "molar", "teeth"],
+			"tags": [ "tooth", "clean", "dentist", "molar", "teeth" ],
 			"term": "Tooth",
-			"collections": ["Dental Bold Line-Set-513"]
+			"collections": [ "Dental Bold Line-Set-513" ]
 		},
 		{
 			"id": "icon9-71",
@@ -879,9 +839,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3138072",
-			"tags": ["tooth", "brush", "dental", "paste", "tooth-paste", "toothpaste-tube"],
+			"tags": [ "tooth", "brush", "dental", "paste", "tooth-paste", "toothpaste-tube" ],
 			"term": "Tooth",
-			"collections": ["Dental Bold Line-Set-513"]
+			"collections": [ "Dental Bold Line-Set-513" ]
 		},
 		{
 			"id": "icon9-72",
@@ -890,9 +850,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3623210",
-			"tags": ["virus", "corona", "covid19", "mask", "protect"],
+			"tags": [ "virus", "corona", "covid19", "mask", "protect" ],
 			"term": "virus",
-			"collections": ["Coronavirus"]
+			"collections": [ "Coronavirus" ]
 		}
 	]
 }

@@ -31,9 +31,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "840023",
-			"tags": ["engineer", "constractor", "engineering", "mechanical", "professional"],
+			"tags": [ "engineer", "constractor", "engineering", "mechanical", "professional" ],
 			"term": "engineer",
-			"collections": ["People"]
+			"collections": [ "People" ]
 		},
 		{
 			"id": "icon10-3",
@@ -42,9 +42,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "990858",
-			"tags": ["footprints", "feet", "foot", "footprint", "shoes", "step"],
+			"tags": [ "footprints", "feet", "foot", "footprint", "shoes", "step" ],
 			"term": "footprints",
-			"collections": ["Interface Elements Line"]
+			"collections": [ "Interface Elements Line" ]
 		},
 		{
 			"id": "icon10-4",
@@ -72,7 +72,7 @@
 				"users"
 			],
 			"term": "group",
-			"collections": ["Line Style"]
+			"collections": [ "Line Style" ]
 		},
 		{
 			"id": "icon10-5",
@@ -81,9 +81,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1775901",
-			"tags": ["group", "networking", "team", "users"],
+			"tags": [ "group", "networking", "team", "users" ],
 			"term": "group",
-			"collections": ["Trade and Shipping"]
+			"collections": [ "Trade and Shipping" ]
 		},
 		{
 			"id": "icon10-6",
@@ -128,9 +128,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2518554",
-			"tags": ["group", "collaboration", "company", "member", "team"],
+			"tags": [ "group", "collaboration", "company", "member", "team" ],
 			"term": "group",
-			"collections": ["Team"]
+			"collections": [ "Team" ]
 		},
 		{
 			"id": "icon10-8",
@@ -139,9 +139,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2935769",
-			"tags": ["hair", "bavarian", "braids", "german", "octoberfest", "traditional"],
+			"tags": [ "hair", "bavarian", "braids", "german", "octoberfest", "traditional" ],
 			"term": "hair",
-			"collections": ["Oktoberfest"]
+			"collections": [ "Oktoberfest" ]
 		},
 		{
 			"id": "icon10-9",
@@ -150,9 +150,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2083107",
-			"tags": ["hand", "finger", "gesture", "swipe", "tap"],
+			"tags": [ "hand", "finger", "gesture", "swipe", "tap" ],
 			"term": "Hand",
-			"collections": ["Gestures Outline"]
+			"collections": [ "Gestures Outline" ]
 		},
 		{
 			"id": "icon10-10",
@@ -161,20 +161,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "428416",
-			"tags": [
-				"pointer",
-				"this-way",
-				"that-way",
-				"link",
-				"hey",
-				"hand",
-				"go",
-				"cursor",
-				"click",
-				"you"
-			],
+			"tags": [ "pointer", "this-way", "that-way", "link", "hey", "hand", "go", "cursor", "click", "you" ],
 			"term": "Pointer",
-			"collections": ["Line Icons"]
+			"collections": [ "Line Icons" ]
 		},
 		{
 			"id": "icon10-11",
@@ -183,9 +172,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2732991",
-			"tags": ["hand", "finger", "hand-finger", "right", "tag"],
+			"tags": [ "hand", "finger", "hand-finger", "right", "tag" ],
 			"term": "Hand",
-			"collections": ["Common Icon"]
+			"collections": [ "Common Icon" ]
 		},
 		{
 			"id": "icon10-12",
@@ -194,9 +183,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3205106",
-			"tags": ["hand", "couple", "hand-in-hand", "hands", "holding-hands", "in-love"],
+			"tags": [ "hand", "couple", "hand-in-hand", "hands", "holding-hands", "in-love" ],
 			"term": "Hand",
-			"collections": ["Ui vol.5"]
+			"collections": [ "Ui vol.5" ]
 		},
 		{
 			"id": "icon10-13",
@@ -205,9 +194,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3205100",
-			"tags": ["hand", "couple", "hand-in-hand", "hands", "holding-hands", "in-love"],
+			"tags": [ "hand", "couple", "hand-in-hand", "hands", "holding-hands", "in-love" ],
 			"term": "Hand",
-			"collections": ["Ui vol.5"]
+			"collections": [ "Ui vol.5" ]
 		},
 		{
 			"id": "icon10-14",
@@ -216,7 +205,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "11675",
-			"tags": ["hands", "art-direction", "cinema", "design", "direction", "frame", "pointing"],
+			"tags": [ "hands", "art-direction", "cinema", "design", "direction", "frame", "pointing" ],
 			"term": "hands",
 			"collections": []
 		},
@@ -227,9 +216,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "537906",
-			"tags": ["handshake", "friendship", "greeting", "introduction", "partner"],
+			"tags": [ "handshake", "friendship", "greeting", "introduction", "partner" ],
 			"term": "Handshake",
-			"collections": ["business - medium"]
+			"collections": [ "business - medium" ]
 		},
 		{
 			"id": "icon10-16",
@@ -238,9 +227,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "840037",
-			"tags": ["japanese-woman", "culture", "japan", "japanese", "woman"],
+			"tags": [ "japanese-woman", "culture", "japan", "japanese", "woman" ],
 			"term": "japanese woman",
-			"collections": ["People"]
+			"collections": [ "People" ]
 		},
 		{
 			"id": "icon10-17",
@@ -249,9 +238,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2130921",
-			"tags": ["king", "board", "chess", "game"],
+			"tags": [ "king", "board", "chess", "game" ],
 			"term": "King",
-			"collections": ["Chess"]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon10-18",
@@ -260,7 +249,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3141342",
-			"tags": ["king", "crown", "king-crown", "prince"],
+			"tags": [ "king", "crown", "king-crown", "prince" ],
 			"term": "King",
 			"collections": []
 		},
@@ -271,7 +260,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3141344",
-			"tags": ["king", "crown", "king-crown", "prince"],
+			"tags": [ "king", "crown", "king-crown", "prince" ],
 			"term": "King",
 			"collections": []
 		},
@@ -282,7 +271,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3141346",
-			"tags": ["queen", "crown", "princess", "queen-crown"],
+			"tags": [ "queen", "crown", "princess", "queen-crown" ],
 			"term": "queen",
 			"collections": []
 		},
@@ -293,7 +282,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2099040",
-			"tags": ["science", "instruct", "lecture", "professor", "teacher"],
+			"tags": [ "science", "instruct", "lecture", "professor", "teacher" ],
 			"term": "Science",
 			"collections": []
 		},
@@ -304,9 +293,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2526411",
-			"tags": ["spartan", "helmet", "roman", "war", "warrior"],
+			"tags": [ "spartan", "helmet", "roman", "war", "warrior" ],
 			"term": "Spartan",
-			"collections": ["History"]
+			"collections": [ "History" ]
 		},
 		{
 			"id": "icon10-23",
@@ -315,9 +304,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1429552",
-			"tags": ["voice", "voice-recognition"],
+			"tags": [ "voice", "voice-recognition" ],
 			"term": "voice",
-			"collections": ["Communication: Lines Vol. 7"]
+			"collections": [ "Communication: Lines Vol. 7" ]
 		}
 	]
 }

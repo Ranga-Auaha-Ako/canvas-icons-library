@@ -37,7 +37,6 @@
 		(i) => i.id == chosenIconData?.id
 	);
 
-	let unsaved = false;
 	const updateIcons = (e: CustomEvent) => {
 		const { icons } = e.detail;
 	};
@@ -150,12 +149,9 @@
 				},
 				body: JSON.stringify(iconData.meta)
 			});
-			if (!res.ok) {
-				throw new Error(res.statusText);
-			} else {
-				console.log(res);
+			if (res.status == 200) {
+				needSave = false;
 			}
-			unsaved = false;
 		}
 	};
 
@@ -173,7 +169,11 @@
 		class="my-3 rounded shadow bg-yellow-100 p-5 border-dashed border-2 border-yellow-400"
 	>
 		<p class="m-0 text-yellow-800">
-			⚠️ You have unsaved changes. Please save or discard them before proceeding.
+			⚠️ You have unsaved changes. Please save or discard them before proceeding.<br />
+			<b
+				>Note: You will need to rebuild before these changes are reflected in <pre
+					class="inline-block">/dist/</pre></b
+			>
 			<span class="btn-group inline float-right">
 				<button class="btn" on:click={saveData}>Save</button>
 				<button
@@ -200,7 +200,7 @@
 						? 'bg-green-300 hover:bg-green-400'
 						: 'bg-gray-100 hover:bg-gray-300'
 				} ring-gray-200 ring-1 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
-				on:click={() => (chosenCategory = unsaved ? chosenCategory : index)}
+				on:click={() => (chosenCategory = needSave ? chosenCategory : index)}
 			>
 				{category.name}
 			</button>

@@ -7,7 +7,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1693",
-			"tags": ["ruler", "measure", "measurement", "meter", "size"],
+			"tags": [ "ruler", "measure", "measurement", "meter", "size" ],
 			"term": "Ruler",
 			"collections": []
 		},
@@ -18,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1907190",
-			"tags": ["ruler", "configuration", "design-tools", "drawing-tools", "scale"],
+			"tags": [ "ruler", "configuration", "design-tools", "drawing-tools", "scale" ],
 			"term": "Ruler",
-			"collections": ["Automation Testing"]
+			"collections": [ "Automation Testing" ]
 		},
 		{
 			"id": "icon3-3",
@@ -29,9 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2218164",
-			"tags": ["ruler", "liner", "straight", "tool", "triangle"],
+			"tags": [ "ruler", "liner", "straight", "tool", "triangle" ],
 			"term": "Ruler",
-			"collections": ["Tools vol.1"]
+			"collections": [ "Tools vol.1" ]
 		},
 		{
 			"id": "icon3-4",
@@ -40,9 +40,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3258115",
-			"tags": ["ruler", "draw", "measure", "school", "stationary"],
+			"tags": [ "ruler", "draw", "measure", "school", "stationary" ],
 			"term": "Ruler",
-			"collections": ["School Line"]
+			"collections": [ "School Line" ]
 		},
 		{
 			"id": "icon3-5",
@@ -51,9 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3052849",
-			"tags": ["architecture", "drawing-compass", "engineering"],
+			"tags": [ "architecture", "drawing-compass", "engineering" ],
 			"term": "Architecture",
-			"collections": ["Architecture"]
+			"collections": [ "Architecture" ]
 		},
 		{
 			"id": "icon3-6",
@@ -62,7 +62,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3212205",
-			"tags": ["architecture", "compass-tool", "design", "geometry", "geometry-compass"],
+			"tags": [ "architecture", "compass-tool", "design", "geometry", "geometry-compass" ],
 			"term": "Architecture",
 			"collections": []
 		},
@@ -73,9 +73,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3716390",
-			"tags": ["compass", "draw", "drawing", "miscellaneous", "school-materials"],
+			"tags": [ "compass", "draw", "drawing", "miscellaneous", "school-materials" ],
 			"term": "Compass",
-			"collections": ["School"]
+			"collections": [ "School" ]
 		},
 		{
 			"id": "icon3-8",
@@ -84,9 +84,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3427149",
-			"tags": ["architecture", "construction", "design", "draft", "sketch"],
+			"tags": [ "architecture", "construction", "design", "draft", "sketch" ],
 			"term": "Architecture",
-			"collections": ["Design Thinking 1 Line"]
+			"collections": [ "Design Thinking 1 Line" ]
 		},
 		{
 			"id": "icon3-9",
@@ -95,9 +95,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3547112",
-			"tags": ["architecture-work", "architecture", "construction", "industrial", "work"],
+			"tags": [ "architecture-work", "architecture", "construction", "industrial", "work" ],
 			"term": "architecture work",
-			"collections": ["Industrial and Construction Vol. 2"]
+			"collections": [ "Industrial and Construction Vol. 2" ]
 		},
 		{
 			"id": "icon3-10",
@@ -106,7 +106,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "43418",
-			"tags": ["column", "atenas", "columna", "corinthian", "grecia", "greece", "greek"],
+			"tags": [ "column", "atenas", "columna", "corinthian", "grecia", "greece", "greek" ],
 			"term": "column",
 			"collections": []
 		},
@@ -117,9 +117,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "549818",
-			"tags": ["column", "architecture", "capital", "structure", "column-top"],
+			"tags": [ "column", "architecture", "capital", "structure", "column-top" ],
 			"term": "column",
-			"collections": ["Academic"]
+			"collections": [ "Academic" ]
 		},
 		{
 			"id": "icon3-12",
@@ -128,9 +128,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "568858",
-			"tags": ["culture", "editorial", "greek", "history", "pillar"],
+			"tags": [ "culture", "editorial", "greek", "history", "pillar" ],
 			"term": "Culture",
-			"collections": ["Editorial"]
+			"collections": [ "Editorial" ]
 		},
 		{
 			"id": "icon3-13",
@@ -139,9 +139,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3239272",
-			"tags": ["earthquake", "apocalypse", "calamity", "inundation", "natural-disaster"],
+			"tags": [ "earthquake", "apocalypse", "calamity", "inundation", "natural-disaster" ],
 			"term": "Earthquake",
-			"collections": ["Insurance Related Icons as Car Protection Line Icons Collections"]
+			"collections": [ "Insurance Related Icons as Car Protection Line Icons Collections" ]
 		},
 		{
 			"id": "icon3-14",
@@ -150,9 +150,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3188898",
-			"tags": ["earthquakes", "destruction", "disaster", "quake", "shake"],
+			"tags": [ "earthquakes", "destruction", "disaster", "quake", "shake" ],
 			"term": "earthquakes",
-			"collections": ["Business risks"]
+			"collections": [ "Business risks" ]
 		},
 		{
 			"id": "icon3-15",
@@ -161,9 +161,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3484831",
-			"tags": ["flood", "dangerous", "disaster", "tsunami", "wave"],
+			"tags": [ "flood", "dangerous", "disaster", "tsunami", "wave" ],
 			"term": "Flood",
-			"collections": ["Ecology - Line"]
+			"collections": [ "Ecology - Line" ]
 		},
 		{
 			"id": "icon3-16",
@@ -172,9 +172,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3190224",
-			"tags": ["roman-balcony", "balcony", "love", "relationship", "roman", "valentines-day"],
+			"tags": [ "roman-balcony", "balcony", "love", "relationship", "roman", "valentines-day" ],
 			"term": "roman balcony",
-			"collections": ["Love & Valentine's Day LineArt"]
+			"collections": [ "Love & Valentine's Day LineArt" ]
 		},
 		{
 			"id": "icon3-17",
@@ -183,7 +183,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "873828",
-			"tags": ["bridge", "architecture", "river"],
+			"tags": [ "bridge", "architecture", "river" ],
 			"term": "bridge",
 			"collections": []
 		},
@@ -194,9 +194,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "902948",
-			"tags": ["bridge", "building", "city", "road"],
+			"tags": [ "bridge", "building", "city", "road" ],
 			"term": "bridge",
-			"collections": ["Cityscape"]
+			"collections": [ "Cityscape" ]
 		},
 		{
 			"id": "icon3-19",
@@ -205,9 +205,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1780887",
-			"tags": ["bridge", "cowboy", "mexico", "ranch", "western", "wild-west"],
+			"tags": [ "bridge", "cowboy", "mexico", "ranch", "western", "wild-west" ],
 			"term": "bridge",
-			"collections": ["Wild West"]
+			"collections": [ "Wild West" ]
 		},
 		{
 			"id": "icon3-20",
@@ -234,7 +234,7 @@
 				"abutment"
 			],
 			"term": "arch",
-			"collections": ["Assemblage"]
+			"collections": [ "Assemblage" ]
 		},
 		{
 			"id": "icon3-21",
@@ -243,9 +243,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1080612",
-			"tags": ["arch", "architecture", "column", "historic", "monument", "roman"],
+			"tags": [ "arch", "architecture", "column", "historic", "monument", "roman" ],
 			"term": "arch",
-			"collections": ["Real Estate"]
+			"collections": [ "Real Estate" ]
 		},
 		{
 			"id": "icon3-22",
@@ -254,9 +254,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1095808",
-			"tags": ["arch", "architecture", "building", "estate"],
+			"tags": [ "arch", "architecture", "building", "estate" ],
 			"term": "arch",
-			"collections": ["Smashicons Arhitecture - Outline"]
+			"collections": [ "Smashicons Arhitecture - Outline" ]
 		}
 	]
 }

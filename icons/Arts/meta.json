@@ -28,7 +28,7 @@
 				"string-instrument"
 			],
 			"term": "Banjo",
-			"collections": ["Musical Instrument"]
+			"collections": [ "Musical Instrument" ]
 		},
 		{
 			"id": "icon4-2",
@@ -37,9 +37,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1942162",
-			"tags": ["clapboard", "clapper", "film", "movie", "video"],
+			"tags": [ "clapboard", "clapper", "film", "movie", "video" ],
 			"term": "clapboard",
-			"collections": ["17-07-2018"]
+			"collections": [ "17-07-2018" ]
 		},
 		{
 			"id": "icon4-3",
@@ -65,7 +65,7 @@
 				"sound"
 			],
 			"term": "Garmon",
-			"collections": ["Musical Instrument"]
+			"collections": [ "Musical Instrument" ]
 		},
 		{
 			"id": "icon4-4",
@@ -74,7 +74,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "15758",
-			"tags": ["guitar", "band", "instrument", "music", "outline"],
+			"tags": [ "guitar", "band", "instrument", "music", "outline" ],
 			"term": "Guitar",
 			"collections": []
 		},
@@ -85,7 +85,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3191",
-			"tags": ["music", "art", "band", "concert", "melody", "music-note", "sound"],
+			"tags": [ "music", "art", "band", "concert", "melody", "music-note", "sound" ],
 			"term": "Music",
 			"collections": []
 		},
@@ -96,9 +96,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3022336",
-			"tags": ["music", "melody", "music-playlist", "note", "sound"],
+			"tags": [ "music", "melody", "music-playlist", "note", "sound" ],
 			"term": "Music",
-			"collections": ["Multimedia Dotted Line-Set-232"]
+			"collections": [ "Multimedia Dotted Line-Set-232" ]
 		},
 		{
 			"id": "icon4-7",
@@ -107,7 +107,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "36715",
-			"tags": ["music", "classical", "clef", "disco", "melody", "note", "tone", "treble-clef"],
+			"tags": [ "music", "classical", "clef", "disco", "melody", "note", "tone", "treble-clef" ],
 			"term": "Music",
 			"collections": []
 		},
@@ -118,9 +118,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "600048",
-			"tags": ["music", "media", "player", "sing", "song"],
+			"tags": [ "music", "media", "player", "sing", "song" ],
 			"term": "Music",
-			"collections": ["general"]
+			"collections": [ "general" ]
 		},
 		{
 			"id": "icon4-9",
@@ -129,9 +129,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1952166",
-			"tags": ["music", "harmony", "keyboard", "piano", "romantic", "sound"],
+			"tags": [ "music", "harmony", "keyboard", "piano", "romantic", "sound" ],
 			"term": "Music",
-			"collections": ["music"]
+			"collections": [ "music" ]
 		},
 		{
 			"id": "icon4-10",
@@ -140,9 +140,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3239124",
-			"tags": ["paint", "computer", "desk", "electronics", "stationery", "workspace"],
+			"tags": [ "paint", "computer", "desk", "electronics", "stationery", "workspace" ],
 			"term": "paint",
-			"collections": ["Workspace"]
+			"collections": [ "Workspace" ]
 		},
 		{
 			"id": "icon4-11",
@@ -151,9 +151,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3668747",
-			"tags": ["paint", "material", "office"],
+			"tags": [ "paint", "material", "office" ],
 			"term": "paint",
-			"collections": ["Office Material - Outline"]
+			"collections": [ "Office Material - Outline" ]
 		},
 		{
 			"id": "icon4-12",
@@ -162,7 +162,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3356822",
-			"tags": ["paint", "brush", "colors", "painting", "tool"],
+			"tags": [ "paint", "brush", "colors", "painting", "tool" ],
 			"term": "paint",
 			"collections": []
 		},
@@ -220,7 +220,7 @@
 				"kugikly"
 			],
 			"term": "Pan Flute",
-			"collections": ["culture outline"]
+			"collections": [ "culture outline" ]
 		},
 		{
 			"id": "icon4-15",
@@ -249,7 +249,7 @@
 				"string-instrument"
 			],
 			"term": "Violin",
-			"collections": ["Musical Instrument"]
+			"collections": [ "Musical Instrument" ]
 		}
 	]
 }

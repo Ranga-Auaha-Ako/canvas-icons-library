@@ -1,5 +1,4 @@
 {
-	"name": "Emojis",
 	"icons": [
 		{
 			"id": "KYb0tncR1AFC-BgwVYKxs",
@@ -8,9 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3009777",
-			"tags": ["sad", "emoji", "emoticon", "face", "upset"],
+			"tags": [ "sad", "emoji", "emoticon", "face", "upset" ],
 			"term": "Sad",
-			"collections": ["Emoticon Collection"]
+			"collections": [ "Emoticon Collection" ]
 		},
 		{
 			"id": "8ebdH5uyqdAbMx_F_YtDd",
@@ -19,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3009778",
-			"tags": ["flat", "emoji", "emoticon", "expression", "face"],
+			"tags": [ "flat", "emoji", "emoticon", "expression", "face" ],
 			"term": "Flat",
-			"collections": ["Emoticon Collection"]
+			"collections": [ "Emoticon Collection" ]
 		},
 		{
 			"id": "wmvtnsvA2bhHOQKdlxJ4s",
@@ -30,9 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3009776",
-			"tags": ["happy", "emoji", "emoticon", "face", "smile"],
+			"tags": [ "happy", "emoji", "emoticon", "face", "smile" ],
 			"term": "Happy",
-			"collections": ["Emoticon Collection"]
+			"collections": [ "Emoticon Collection" ]
 		}
 	]
 }

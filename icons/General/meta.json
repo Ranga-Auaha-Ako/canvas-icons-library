@@ -1,5 +1,4 @@
 {
-	"name": "General",
 	"icons": [
 		{
 			"id": "Kl_TcTnawSONuTn9P3Vvc",
@@ -8,16 +7,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "975769",
-			"tags": [
-				"accessibility",
-				"human",
-				"person",
-				"user"
-			],
+			"tags": [ "accessibility", "human", "person", "user" ],
 			"term": "Accessibility",
-			"collections": [
-				"Benefits"
-			]
+			"collections": [ "Benefits" ]
 		},
 		{
 			"id": "bLXw_LvCtcHvp9BHU75du",
@@ -26,13 +18,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1502539",
-			"tags": [
-				"laptop",
-				"laptop-computer",
-				"laptop-game",
-				"laptop-interface",
-				"laptop-pc"
-			],
+			"tags": [ "laptop", "laptop-computer", "laptop-game", "laptop-interface", "laptop-pc" ],
 			"term": "Laptop",
 			"collections": []
 		},
@@ -43,18 +29,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1567711",
-			"tags": [
-				"abacus",
-				"baby",
-				"infant",
-				"newborn",
-				"toddler",
-				"toy"
-			],
+			"tags": [ "abacus", "baby", "infant", "newborn", "toddler", "toy" ],
 			"term": "Abacus",
-			"collections": [
-				"Baby"
-			]
+			"collections": [ "Baby" ]
 		},
 		{
 			"id": "icon1-2",
@@ -63,17 +40,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3507669",
-			"tags": [
-				"alarm",
-				"alert",
-				"flashlight",
-				"police",
-				"urgent"
-			],
+			"tags": [ "alarm", "alert", "flashlight", "police", "urgent" ],
 			"term": "Alarm",
-			"collections": [
-				"Emergencies"
-			]
+			"collections": [ "Emergencies" ]
 		},
 		{
 			"id": "icon1-3",
@@ -82,17 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "982233",
-			"tags": [
-				"alert",
-				"",
-				"attention",
-				"danger",
-				"warning"
-			],
+			"tags": [ "alert", "", "attention", "danger", "warning" ],
 			"term": "Alert",
-			"collections": [
-				"Construction"
-			]
+			"collections": [ "Construction" ]
 		},
 		{
 			"id": "icon1-4",
@@ -101,17 +62,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3376228",
-			"tags": [
-				"tower",
-				"bts",
-				"signal",
-				"telecommunication",
-				"transmitter"
-			],
+			"tags": [ "tower", "bts", "signal", "telecommunication", "transmitter" ],
 			"term": "Tower",
-			"collections": [
-				"Telecommunication Icon Set - Outline"
-			]
+			"collections": [ "Telecommunication Icon Set - Outline" ]
 		},
 		{
 			"id": "icon1-5",
@@ -133,9 +86,7 @@
 				"volition"
 			],
 			"term": "Apps",
-			"collections": [
-				"UI outline"
-			]
+			"collections": [ "UI outline" ]
 		},
 		{
 			"id": "icon1-6",
@@ -144,18 +95,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3109563",
-			"tags": [
-				"headphone",
-				"audio",
-				"customer-care",
-				"earphone",
-				"headphones",
-				"support"
-			],
+			"tags": [ "headphone", "audio", "customer-care", "earphone", "headphones", "support" ],
 			"term": "Headphone",
-			"collections": [
-				"Simple web Icon"
-			]
+			"collections": [ "Simple web Icon" ]
 		},
 		{
 			"id": "icon1-7",
@@ -164,17 +106,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2828733",
-			"tags": [
-				"audio",
-				"design",
-				"graphic",
-				"speaker",
-				"volume"
-			],
+			"tags": [ "audio", "design", "graphic", "speaker", "volume" ],
 			"term": "Audio",
-			"collections": [
-				"Graphic Design | Line Icons"
-			]
+			"collections": [ "Graphic Design | Line Icons" ]
 		},
 		{
 			"id": "icon1-8",
@@ -183,17 +117,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "747846",
-			"tags": [
-				"music",
-				"ear-phone",
-				"head-phone",
-				"song",
-				"sound"
-			],
+			"tags": [ "music", "ear-phone", "head-phone", "song", "sound" ],
 			"term": "Music",
-			"collections": [
-				"Random - collection 09"
-			]
+			"collections": [ "Random - collection 09" ]
 		},
 		{
 			"id": "icon1-9",
@@ -202,16 +128,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3141605",
-			"tags": [
-				"audio",
-				"equalizer",
-				"music",
-				"sound"
-			],
+			"tags": [ "audio", "equalizer", "music", "sound" ],
 			"term": "Audio",
-			"collections": [
-				"Computer and Devices"
-			]
+			"collections": [ "Computer and Devices" ]
 		},
 		{
 			"id": "icon1-10",
@@ -220,17 +139,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3408322",
-			"tags": [
-				"speaker",
-				"announce",
-				"loudspeaker",
-				"sound",
-				"volume"
-			],
+			"tags": [ "speaker", "announce", "loudspeaker", "sound", "volume" ],
 			"term": "Speaker",
-			"collections": [
-				"Speaker"
-			]
+			"collections": [ "Speaker" ]
 		},
 		{
 			"id": "icon1-11",
@@ -260,9 +171,7 @@
 				"wave"
 			],
 			"term": "voice",
-			"collections": [
-				"Music - Solid"
-			]
+			"collections": [ "Music - Solid" ]
 		},
 		{
 			"id": "icon1-12",
@@ -271,17 +180,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3408370",
-			"tags": [
-				"audio",
-				"equalizer",
-				"music",
-				"rhythm",
-				"soundwave"
-			],
+			"tags": [ "audio", "equalizer", "music", "rhythm", "soundwave" ],
 			"term": "Audio",
-			"collections": [
-				"Music"
-			]
+			"collections": [ "Music" ]
 		},
 		{
 			"id": "icon1-13",
@@ -290,13 +191,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1150552",
-			"tags": [
-				"record"
-			],
+			"tags": [ "record" ],
 			"term": "Record",
-			"collections": [
-				"UI Controls"
-			]
+			"collections": [ "UI Controls" ]
 		},
 		{
 			"id": "icon1-14",
@@ -305,17 +202,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2115637",
-			"tags": [
-				"record",
-				"karaoke",
-				"mic",
-				"microphone",
-				"music"
-			],
+			"tags": [ "record", "karaoke", "mic", "microphone", "music" ],
 			"term": "Record",
-			"collections": [
-				"Video and Music Player"
-			]
+			"collections": [ "Video and Music Player" ]
 		},
 		{
 			"id": "icon1-15",
@@ -324,17 +213,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2762881",
-			"tags": [
-				"record",
-				"media",
-				"mic",
-				"microphone",
-				"radio"
-			],
+			"tags": [ "record", "media", "mic", "microphone", "radio" ],
 			"term": "Record",
-			"collections": [
-				"mix icon 1"
-			]
+			"collections": [ "mix icon 1" ]
 		},
 		{
 			"id": "icon1-16",
@@ -343,16 +224,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2142576",
-			"tags": [
-				"bell",
-				"customer",
-				"hotel",
-				"restaurant"
-			],
+			"tags": [ "bell", "customer", "hotel", "restaurant" ],
 			"term": "Bell",
-			"collections": [
-				"Hotel - Line"
-			]
+			"collections": [ "Hotel - Line" ]
 		},
 		{
 			"id": "icon1-17",
@@ -361,21 +235,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "223240",
-			"tags": [
-				"pawn",
-				"advance",
-				"battle",
-				"checkmate",
-				"chess",
-				"figure",
-				"game",
-				"move",
-				"powerless"
-			],
+			"tags": [ "pawn", "advance", "battle", "checkmate", "chess", "figure", "game", "move", "powerless" ],
 			"term": "Pawn",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-18",
@@ -384,21 +246,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "223242",
-			"tags": [
-				"bishop",
-				"battle",
-				"checkmate",
-				"chess",
-				"figure",
-				"game",
-				"pawn",
-				"player",
-				"sport"
-			],
+			"tags": [ "bishop", "battle", "checkmate", "chess", "figure", "game", "pawn", "player", "sport" ],
 			"term": "Bishop",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-19",
@@ -420,9 +270,7 @@
 				"reverse"
 			],
 			"term": "Knight",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-20",
@@ -444,9 +292,7 @@
 				"strategy"
 			],
 			"term": "rook",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-21",
@@ -455,21 +301,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "223244",
-			"tags": [
-				"king",
-				"battle",
-				"checkmate",
-				"chess",
-				"figure",
-				"game",
-				"important",
-				"leader",
-				"queen"
-			],
+			"tags": [ "king", "battle", "checkmate", "chess", "figure", "game", "important", "leader", "queen" ],
 			"term": "King",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-22",
@@ -478,22 +312,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "223243",
-			"tags": [
-				"queen",
-				"move",
-				"game",
-				"figure",
-				"chess",
-				"checkmate",
-				"boss",
-				"best",
-				"battle",
-				"piece"
-			],
+			"tags": [ "queen", "move", "game", "figure", "chess", "checkmate", "boss", "best", "battle", "piece" ],
 			"term": "queen",
-			"collections": [
-				"Chess"
-			]
+			"collections": [ "Chess" ]
 		},
 		{
 			"id": "icon1-23",
@@ -502,17 +323,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3413235",
-			"tags": [
-				"school-journal",
-				"book",
-				"education",
-				"journal",
-				"stationary"
-			],
+			"tags": [ "school-journal", "book", "education", "journal", "stationary" ],
 			"term": "school journal",
-			"collections": [
-				"School"
-			]
+			"collections": [ "School" ]
 		},
 		{
 			"id": "icon1-24",
@@ -521,18 +334,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3584635",
-			"tags": [
-				"science-book",
-				"apple",
-				"book",
-				"knowledge",
-				"lab",
-				"science"
-			],
+			"tags": [ "science-book", "apple", "book", "knowledge", "lab", "science" ],
 			"term": "Science Book",
-			"collections": [
-				"Lab - line"
-			]
+			"collections": [ "Lab - line" ]
 		},
 		{
 			"id": "icon1-25",
@@ -541,14 +345,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2768185",
-			"tags": [
-				"book",
-				"journal",
-				"knowledge",
-				"learn",
-				"literature",
-				"pages"
-			],
+			"tags": [ "book", "journal", "knowledge", "learn", "literature", "pages" ],
 			"term": "Book",
 			"collections": []
 		},
@@ -559,15 +356,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "103089",
-			"tags": [
-				"box",
-				"",
-				"cardboard",
-				"carton-box",
-				"flap",
-				"joint",
-				"storage"
-			],
+			"tags": [ "box", "", "cardboard", "carton-box", "flap", "joint", "storage" ],
 			"term": "Box",
 			"collections": []
 		},
@@ -591,9 +380,7 @@
 				"square"
 			],
 			"term": "Box",
-			"collections": [
-				"Fribeez"
-			]
+			"collections": [ "Fribeez" ]
 		},
 		{
 			"id": "icon1-28",
@@ -602,18 +389,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1989565",
-			"tags": [
-				"open-box",
-				"box",
-				"cargo",
-				"delivery",
-				"logistics",
-				"package"
-			],
+			"tags": [ "open-box", "box", "cargo", "delivery", "logistics", "package" ],
 			"term": "open box",
-			"collections": [
-				"Boxes"
-			]
+			"collections": [ "Boxes" ]
 		},
 		{
 			"id": "icon1-29",
@@ -622,13 +400,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1664460",
-			"tags": [
-				"box",
-				"cardboard-box",
-				"delivery",
-				"package",
-				"storage"
-			],
+			"tags": [ "box", "cardboard-box", "delivery", "package", "storage" ],
 			"term": "Box",
 			"collections": []
 		},
@@ -639,16 +411,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2873388",
-			"tags": [
-				"box",
-				"boxes",
-				"logistic",
-				"packages"
-			],
+			"tags": [ "box", "boxes", "logistic", "packages" ],
 			"term": "Box",
-			"collections": [
-				"Delivery And Logistic"
-			]
+			"collections": [ "Delivery And Logistic" ]
 		},
 		{
 			"id": "icon1-31",
@@ -657,17 +422,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "585486",
-			"tags": [
-				"box",
-				"cube",
-				"filing-box",
-				"open",
-				"package"
-			],
+			"tags": [ "box", "cube", "filing-box", "open", "package" ],
 			"term": "Box",
-			"collections": [
-				"basic - bolder"
-			]
+			"collections": [ "basic - bolder" ]
 		},
 		{
 			"id": "icon1-32",
@@ -676,18 +433,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709141",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-33",
@@ -696,18 +444,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709142",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-34",
@@ -716,18 +455,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709150",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-35",
@@ -736,18 +466,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709161",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-36",
@@ -756,18 +477,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709169",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-37",
@@ -776,17 +488,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2309262",
-			"tags": [
-				"box",
-				"hand",
-				"parcel",
-				"protection",
-				"secure"
-			],
+			"tags": [ "box", "hand", "parcel", "protection", "secure" ],
 			"term": "Box",
-			"collections": [
-				"Cloud Computing line"
-			]
+			"collections": [ "Cloud Computing line" ]
 		},
 		{
 			"id": "icon1-38",
@@ -811,9 +515,7 @@
 				"rubiks-cube"
 			],
 			"term": "cube",
-			"collections": [
-				"EDC - everyday carry"
-			]
+			"collections": [ "EDC - everyday carry" ]
 		},
 		{
 			"id": "icon1-39",
@@ -822,21 +524,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "486937",
-			"tags": [
-				"cube",
-				"3-d-square",
-				"3d",
-				"block",
-				"box",
-				"crate",
-				"parcel",
-				"see-through",
-				"transparent"
-			],
+			"tags": [ "cube", "3-d-square", "3d", "block", "box", "crate", "parcel", "see-through", "transparent" ],
 			"term": "cube",
-			"collections": [
-				"Software Tools and Interfaces"
-			]
+			"collections": [ "Software Tools and Interfaces" ]
 		},
 		{
 			"id": "icon1-40",
@@ -845,18 +535,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709152",
-			"tags": [
-				"square",
-				"box",
-				"corners",
-				"edit",
-				"hexahedron",
-				"vector"
-			],
+			"tags": [ "square", "box", "corners", "edit", "hexahedron", "vector" ],
 			"term": "square",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-41",
@@ -865,17 +546,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3697101",
-			"tags": [
-				"cube",
-				"boxes",
-				"reality",
-				"technology",
-				"virtual"
-			],
+			"tags": [ "cube", "boxes", "reality", "technology", "virtual" ],
 			"term": "cube",
-			"collections": [
-				"Virtual Reality and Drones-K (Line&Glyphs)"
-			]
+			"collections": [ "Virtual Reality and Drones-K (Line&Glyphs)" ]
 		},
 		{
 			"id": "icon1-42",
@@ -917,9 +590,7 @@
 				"triangle"
 			],
 			"term": "dimension",
-			"collections": [
-				"Technical Drawing"
-			]
+			"collections": [ "Technical Drawing" ]
 		},
 		{
 			"id": "icon1-43",
@@ -964,9 +635,7 @@
 				"metres"
 			],
 			"term": "height",
-			"collections": [
-				"Technical Drawing"
-			]
+			"collections": [ "Technical Drawing" ]
 		},
 		{
 			"id": "icon1-44",
@@ -975,18 +644,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709160",
-			"tags": [
-				"box",
-				"",
-				"decor",
-				"design",
-				"hexahedron",
-				"pattern"
-			],
+			"tags": [ "box", "", "decor", "design", "hexahedron", "pattern" ],
 			"term": "Box",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-45",
@@ -995,11 +655,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2134290",
-			"tags": [
-				"brain",
-				"circuit",
-				"technology"
-			],
+			"tags": [ "brain", "circuit", "technology" ],
 			"term": "Brain",
 			"collections": []
 		},
@@ -1010,14 +666,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1194",
-			"tags": [
-				"calendar",
-				"date",
-				"event",
-				"month",
-				"time",
-				"year"
-			],
+			"tags": [ "calendar", "date", "event", "month", "time", "year" ],
 			"term": "Calendar",
 			"collections": []
 		},
@@ -1064,17 +713,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1585327",
-			"tags": [
-				"calendar",
-				"calendars",
-				"daily-calendar",
-				"monthly-calendar",
-				"weekly-calendar"
-			],
+			"tags": [ "calendar", "calendars", "daily-calendar", "monthly-calendar", "weekly-calendar" ],
 			"term": "Calendar",
-			"collections": [
-				"Calendar Set Line"
-			]
+			"collections": [ "Calendar Set Line" ]
 		},
 		{
 			"id": "icon1-49",
@@ -1083,17 +724,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2402327",
-			"tags": [
-				"calla-lily",
-				"bloom",
-				"blossom",
-				"flower",
-				"plant"
-			],
+			"tags": [ "calla-lily", "bloom", "blossom", "flower", "plant" ],
 			"term": "Calla Lily",
-			"collections": [
-				"Wildlife"
-			]
+			"collections": [ "Wildlife" ]
 		},
 		{
 			"id": "icon1-50",
@@ -1102,17 +735,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3384558",
-			"tags": [
-				"lily",
-				"blossom",
-				"botanical",
-				"flower",
-				"petals"
-			],
+			"tags": [ "lily", "blossom", "botanical", "flower", "petals" ],
 			"term": "lily",
-			"collections": [
-				"Easter"
-			]
+			"collections": [ "Easter" ]
 		},
 		{
 			"id": "icon1-51",
@@ -1121,16 +746,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2449669",
-			"tags": [
-				"flower",
-				"chinese",
-				"massage",
-				"spa"
-			],
+			"tags": [ "flower", "chinese", "massage", "spa" ],
 			"term": "Flower",
-			"collections": [
-				"business motivation bold__line"
-			]
+			"collections": [ "business motivation bold__line" ]
 		},
 		{
 			"id": "icon1-52",
@@ -1161,17 +779,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3716016",
-			"tags": [
-				"photo-camera",
-				"camera",
-				"selfie",
-				"selfie-stick",
-				"smartphone"
-			],
+			"tags": [ "photo-camera", "camera", "selfie", "selfie-stick", "smartphone" ],
 			"term": "photo camera",
-			"collections": [
-				"Photography"
-			]
+			"collections": [ "Photography" ]
 		},
 		{
 			"id": "icon1-54",
@@ -1180,17 +790,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3160241",
-			"tags": [
-				"camera",
-				"photography",
-				"pictures",
-				"professional",
-				"tripod"
-			],
+			"tags": [ "camera", "photography", "pictures", "professional", "tripod" ],
 			"term": "Camera",
-			"collections": [
-				"Hobbies-Line2"
-			]
+			"collections": [ "Hobbies-Line2" ]
 		},
 		{
 			"id": "icon1-55",
@@ -1199,18 +801,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3712865",
-			"tags": [
-				"camera",
-				"image",
-				"media",
-				"multimedia",
-				"photo",
-				"photography"
-			],
+			"tags": [ "camera", "image", "media", "multimedia", "photo", "photography" ],
 			"term": "Camera",
-			"collections": [
-				"Machine, Technology, Transportation"
-			]
+			"collections": [ "Machine, Technology, Transportation" ]
 		},
 		{
 			"id": "icon1-56",
@@ -1219,17 +812,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1341536",
-			"tags": [
-				"film-camera",
-				"camera",
-				"film",
-				"retro",
-				"vintage"
-			],
+			"tags": [ "film-camera", "camera", "film", "retro", "vintage" ],
 			"term": "film camera",
-			"collections": [
-				"Hipster - Outline"
-			]
+			"collections": [ "Hipster - Outline" ]
 		},
 		{
 			"id": "icon1-57",
@@ -1238,16 +823,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2375487",
-			"tags": [
-				"video-camera",
-				"camera",
-				"camera-video",
-				"video"
-			],
+			"tags": [ "video-camera", "camera", "camera-video", "video" ],
 			"term": "Video Camera",
-			"collections": [
-				"Media"
-			]
+			"collections": [ "Media" ]
 		},
 		{
 			"id": "icon1-58",
@@ -1256,18 +834,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3572613",
-			"tags": [
-				"closed-circuit-television",
-				"camera",
-				"security",
-				"surveillance",
-				"television",
-				"video"
-			],
+			"tags": [ "closed-circuit-television", "camera", "security", "surveillance", "television", "video" ],
 			"term": "closed circuit television",
-			"collections": [
-				"modern icon"
-			]
+			"collections": [ "modern icon" ]
 		},
 		{
 			"id": "icon1-59",
@@ -1276,21 +845,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "415289",
-			"tags": [
-				"cards",
-				"ace",
-				"casino",
-				"entertainment",
-				"gamble",
-				"gambling",
-				"game",
-				"poker",
-				"rummy"
-			],
+			"tags": [ "cards", "ace", "casino", "entertainment", "gamble", "gambling", "game", "poker", "rummy" ],
 			"term": "Cards",
-			"collections": [
-				"Games"
-			]
+			"collections": [ "Games" ]
 		},
 		{
 			"id": "icon1-60",
@@ -1299,14 +856,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "571548",
-			"tags": [
-				"cards",
-				"card",
-				"club",
-				"playing-card",
-				"spade",
-				"suit"
-			],
+			"tags": [ "cards", "card", "club", "playing-card", "spade", "suit" ],
 			"term": "Cards",
 			"collections": []
 		},
@@ -1317,14 +867,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "571549",
-			"tags": [
-				"cards",
-				"card",
-				"club",
-				"heart",
-				"playing-card",
-				"suit"
-			],
+			"tags": [ "cards", "card", "club", "heart", "playing-card", "suit" ],
 			"term": "Cards",
 			"collections": []
 		},
@@ -1335,14 +878,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "571550",
-			"tags": [
-				"cards",
-				"card",
-				"club",
-				"diamond",
-				"playing-card",
-				"suit"
-			],
+			"tags": [ "cards", "card", "club", "diamond", "playing-card", "suit" ],
 			"term": "Cards",
 			"collections": []
 		},
@@ -1353,14 +889,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "571551",
-			"tags": [
-				"cards",
-				"card",
-				"club",
-				"gamble",
-				"playing-cards",
-				"suit"
-			],
+			"tags": [ "cards", "card", "club", "gamble", "playing-cards", "suit" ],
 			"term": "Cards",
 			"collections": []
 		},
@@ -1457,17 +986,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3714618",
-			"tags": [
-				"paw",
-				"animal",
-				"foot",
-				"paw-print",
-				"pet"
-			],
+			"tags": [ "paw", "animal", "foot", "paw-print", "pet" ],
 			"term": "Paw",
-			"collections": [
-				"Pet Services-K (Line & Glyphs)"
-			]
+			"collections": [ "Pet Services-K (Line & Glyphs)" ]
 		},
 		{
 			"id": "icon1-69",
@@ -1476,17 +997,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "703087",
-			"tags": [
-				"dog",
-				"animal",
-				"companion",
-				"friend",
-				"rescue"
-			],
+			"tags": [ "dog", "animal", "companion", "friend", "rescue" ],
 			"term": "Dog",
-			"collections": [
-				"Dog"
-			]
+			"collections": [ "Dog" ]
 		},
 		{
 			"id": "icon1-70",
@@ -1495,17 +1008,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2755593",
-			"tags": [
-				"dog",
-				"animal",
-				"cute",
-				"pet",
-				"pet-shop"
-			],
+			"tags": [ "dog", "animal", "cute", "pet", "pet-shop" ],
 			"term": "Dog",
-			"collections": [
-				"Pet"
-			]
+			"collections": [ "Pet" ]
 		},
 		{
 			"id": "icon1-71",
@@ -1514,16 +1019,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2997533",
-			"tags": [
-				"cat",
-				"animals",
-				"mammal",
-				"pet"
-			],
+			"tags": [ "cat", "animals", "mammal", "pet" ],
 			"term": "Cat",
-			"collections": [
-				"Animals"
-			]
+			"collections": [ "Animals" ]
 		},
 		{
 			"id": "icon1-72",
@@ -1532,16 +1030,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3713532",
-			"tags": [
-				"cat",
-				"animal",
-				"mammal",
-				"pet"
-			],
+			"tags": [ "cat", "animal", "mammal", "pet" ],
 			"term": "Cat",
-			"collections": [
-				"Scenarium-K (Line & Glyphs)"
-			]
+			"collections": [ "Scenarium-K (Line & Glyphs)" ]
 		},
 		{
 			"id": "icon1-73",
@@ -1550,14 +1041,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "26692",
-			"tags": [
-				"chat",
-				"conversation",
-				"message",
-				"speech-bubble",
-				"talk",
-				"talking"
-			],
+			"tags": [ "chat", "conversation", "message", "speech-bubble", "talk", "talking" ],
 			"term": "chat",
 			"collections": []
 		},
@@ -1568,17 +1052,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1892512",
-			"tags": [
-				"chat",
-				"conversation",
-				"messages",
-				"speach-bubbles",
-				"talking"
-			],
+			"tags": [ "chat", "conversation", "messages", "speach-bubbles", "talking" ],
 			"term": "chat",
-			"collections": [
-				"Universal wire icon pack"
-			]
+			"collections": [ "Universal wire icon pack" ]
 		},
 		{
 			"id": "icon1-75",
@@ -1587,16 +1063,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2518709",
-			"tags": [
-				"chat",
-				"chats",
-				"chatting",
-				"social-chat"
-			],
+			"tags": [ "chat", "chats", "chatting", "social-chat" ],
 			"term": "chat",
-			"collections": [
-				"Interface 01"
-			]
+			"collections": [ "Interface 01" ]
 		},
 		{
 			"id": "icon1-76",
@@ -1605,17 +1074,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "537177",
-			"tags": [
-				"faq",
-				"forum",
-				"help",
-				"question-and-answer",
-				"quiz"
-			],
+			"tags": [ "faq", "forum", "help", "question-and-answer", "quiz" ],
 			"term": "FAQ",
-			"collections": [
-				"BIG"
-			]
+			"collections": [ "BIG" ]
 		},
 		{
 			"id": "icon1-77",
@@ -1624,17 +1085,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "540992",
-			"tags": [
-				"faq",
-				"answer",
-				"question-mark",
-				"quiz",
-				"support"
-			],
+			"tags": [ "faq", "answer", "question-mark", "quiz", "support" ],
 			"term": "FAQ",
-			"collections": [
-				"BIG"
-			]
+			"collections": [ "BIG" ]
 		},
 		{
 			"id": "icon1-78",
@@ -1643,17 +1096,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "540988",
-			"tags": [
-				"video-quiz",
-				"interview",
-				"play-button",
-				"question-mark",
-				"test"
-			],
+			"tags": [ "video-quiz", "interview", "play-button", "question-mark", "test" ],
 			"term": "Video Quiz",
-			"collections": [
-				"BIG"
-			]
+			"collections": [ "BIG" ]
 		},
 		{
 			"id": "icon1-79",
@@ -1682,17 +1127,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "646495",
-			"tags": [
-				"question",
-				"ask",
-				"help",
-				"info",
-				"tooltip"
-			],
+			"tags": [ "question", "ask", "help", "info", "tooltip" ],
 			"term": "Question",
-			"collections": [
-				"arrows - fat"
-			]
+			"collections": [ "arrows - fat" ]
 		},
 		{
 			"id": "icon1-81",
@@ -1715,9 +1152,7 @@
 				"bouble"
 			],
 			"term": "think",
-			"collections": [
-				"pixograms"
-			]
+			"collections": [ "pixograms" ]
 		},
 		{
 			"id": "icon1-82",
@@ -1726,18 +1161,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3085195",
-			"tags": [
-				"think-of-homework",
-				"book",
-				"homework",
-				"library",
-				"school",
-				"think"
-			],
+			"tags": [ "think-of-homework", "book", "homework", "library", "school", "think" ],
 			"term": "think of homework",
-			"collections": [
-				"Thinking"
-			]
+			"collections": [ "Thinking" ]
 		},
 		{
 			"id": "icon1-83",
@@ -1755,9 +1181,7 @@
 				"questions-answers"
 			],
 			"term": "QUESTION ANSWER",
-			"collections": [
-				"Set of Education,School and Science Line Vector Icons"
-			]
+			"collections": [ "Set of Education,School and Science Line Vector Icons" ]
 		},
 		{
 			"id": "icon1-84",
@@ -1766,18 +1190,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "844724",
-			"tags": [
-				"quiz",
-				"check-mark",
-				"choices",
-				"decisions",
-				"false",
-				"true"
-			],
+			"tags": [ "quiz", "check-mark", "choices", "decisions", "false", "true" ],
 			"term": "quiz",
-			"collections": [
-				"Pure Lines"
-			]
+			"collections": [ "Pure Lines" ]
 		},
 		{
 			"id": "icon1-85",
@@ -1786,18 +1201,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3023437",
-			"tags": [
-				"think",
-				"concentrate",
-				"idea",
-				"innovative",
-				"success",
-				"theorize"
-			],
+			"tags": [ "think", "concentrate", "idea", "innovative", "success", "theorize" ],
 			"term": "think",
-			"collections": [
-				"misc"
-			]
+			"collections": [ "misc" ]
 		},
 		{
 			"id": "icon1-86",
@@ -1806,16 +1212,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2132259",
-			"tags": [
-				"chat",
-				"conversation",
-				"dialog",
-				"messages"
-			],
+			"tags": [ "chat", "conversation", "dialog", "messages" ],
 			"term": "chat",
-			"collections": [
-				"Chat messages line icons"
-			]
+			"collections": [ "Chat messages line icons" ]
 		},
 		{
 			"id": "icon1-87",
@@ -1824,18 +1223,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709143",
-			"tags": [
-				"circles",
-				"decor",
-				"design",
-				"geometric",
-				"pattern",
-				"shapes"
-			],
+			"tags": [ "circles", "decor", "design", "geometric", "pattern", "shapes" ],
 			"term": "circles",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-88",
@@ -1844,18 +1234,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709147",
-			"tags": [
-				"circles",
-				"decor",
-				"design",
-				"geometric",
-				"pattern",
-				"shapes"
-			],
+			"tags": [ "circles", "decor", "design", "geometric", "pattern", "shapes" ],
 			"term": "circles",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-89",
@@ -1864,15 +1245,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2898392",
-			"tags": [
-				"circles",
-				"color",
-				"intersection"
-			],
+			"tags": [ "circles", "color", "intersection" ],
 			"term": "circles",
-			"collections": [
-				"Design"
-			]
+			"collections": [ "Design" ]
 		},
 		{
 			"id": "icon1-90",
@@ -1881,18 +1256,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1683644",
-			"tags": [
-				"clean",
-				"broom",
-				"brush",
-				"glass",
-				"sponge",
-				"wash"
-			],
+			"tags": [ "clean", "broom", "brush", "glass", "sponge", "wash" ],
 			"term": "Clean",
-			"collections": [
-				"Clean"
-			]
+			"collections": [ "Clean" ]
 		},
 		{
 			"id": "icon1-91",
@@ -1901,17 +1267,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3242984",
-			"tags": [
-				"cross-stitch",
-				"cloth-stitching",
-				"dressmaking",
-				"embroidery",
-				"embroidery-stitches"
-			],
+			"tags": [ "cross-stitch", "cloth-stitching", "dressmaking", "embroidery", "embroidery-stitches" ],
 			"term": "cross stitch",
-			"collections": [
-				"set of Sewing Line Vector Icons"
-			]
+			"collections": [ "set of Sewing Line Vector Icons" ]
 		},
 		{
 			"id": "icon1-92",
@@ -1920,18 +1278,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709148",
-			"tags": [
-				"cone",
-				"",
-				"apex",
-				"decor",
-				"design",
-				"vertex"
-			],
+			"tags": [ "cone", "", "apex", "decor", "design", "vertex" ],
 			"term": "cone",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-93",
@@ -1940,18 +1289,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709156",
-			"tags": [
-				"curve",
-				"bend",
-				"circle",
-				"figure",
-				"geometry",
-				"shape"
-			],
+			"tags": [ "curve", "bend", "circle", "figure", "geometry", "shape" ],
 			"term": "curve",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-94",
@@ -1960,18 +1300,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709138",
-			"tags": [
-				"cylinder",
-				"circle",
-				"figure",
-				"geometry",
-				"round",
-				"shape"
-			],
+			"tags": [ "cylinder", "circle", "figure", "geometry", "round", "shape" ],
 			"term": "Cylinder",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-95",
@@ -1980,14 +1311,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3093757",
-			"tags": [
-				"data-architecture",
-				"flowchart"
-			],
+			"tags": [ "data-architecture", "flowchart" ],
 			"term": "Data Architecture",
-			"collections": [
-				"business intelligence"
-			]
+			"collections": [ "business intelligence" ]
 		},
 		{
 			"id": "icon1-96",
@@ -1996,14 +1322,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1562155",
-			"tags": [
-				"upload",
-				"cloud-upload",
-				"upload-button",
-				"upload-cloud",
-				"uploading",
-				"uploads"
-			],
+			"tags": [ "upload", "cloud-upload", "upload-button", "upload-cloud", "uploading", "uploads" ],
 			"term": "Upload",
 			"collections": []
 		},
@@ -2032,18 +1351,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2481187",
-			"tags": [
-				"earth",
-				"eco",
-				"environment",
-				"leaf",
-				"leaves",
-				"nature"
-			],
+			"tags": [ "earth", "eco", "environment", "leaf", "leaves", "nature" ],
 			"term": "Earth",
-			"collections": [
-				"Environment And Eco Line"
-			]
+			"collections": [ "Environment And Eco Line" ]
 		},
 		{
 			"id": "icon1-99",
@@ -2061,9 +1371,7 @@
 				"triangular-structure"
 			],
 			"term": "Geodesic sphere",
-			"collections": [
-				"Geodesic Spheres"
-			]
+			"collections": [ "Geodesic Spheres" ]
 		},
 		{
 			"id": "icon1-100",
@@ -2086,9 +1394,7 @@
 				"world"
 			],
 			"term": "Earth",
-			"collections": [
-				"Famous Icons Line"
-			]
+			"collections": [ "Famous Icons Line" ]
 		},
 		{
 			"id": "icon1-101",
@@ -2097,15 +1403,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2882995",
-			"tags": [
-				"earth",
-				"globe",
-				"world"
-			],
+			"tags": [ "earth", "globe", "world" ],
 			"term": "Earth",
-			"collections": [
-				"Globe"
-			]
+			"collections": [ "Globe" ]
 		},
 		{
 			"id": "icon1-102",
@@ -2114,16 +1414,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "992661",
-			"tags": [
-				"earth",
-				"arrow",
-				"inside",
-				"planet"
-			],
+			"tags": [ "earth", "arrow", "inside", "planet" ],
 			"term": "Earth",
-			"collections": [
-				"Pure Lines"
-			]
+			"collections": [ "Pure Lines" ]
 		},
 		{
 			"id": "icon1-103",
@@ -2132,13 +1425,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3699336",
-			"tags": [
-				"website",
-				"click",
-				"site",
-				"web",
-				"www"
-			],
+			"tags": [ "website", "click", "site", "web", "www" ],
 			"term": "website",
 			"collections": []
 		},
@@ -2149,15 +1436,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2447578",
-			"tags": [
-				"education",
-				"geography",
-				"globe"
-			],
+			"tags": [ "education", "geography", "globe" ],
 			"term": "education",
-			"collections": [
-				"School Line"
-			]
+			"collections": [ "School Line" ]
 		},
 		{
 			"id": "icon1-105",
@@ -2166,18 +1447,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "619898",
-			"tags": [
-				"earth",
-				"moon",
-				"planet",
-				"space",
-				"sun",
-				"world"
-			],
+			"tags": [ "earth", "moon", "planet", "space", "sun", "world" ],
 			"term": "Earth",
-			"collections": [
-				"Earth"
-			]
+			"collections": [ "Earth" ]
 		},
 		{
 			"id": "icon1-106",
@@ -2186,13 +1458,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2656720",
-			"tags": [
-				"earth",
-				"globe",
-				"revolution",
-				"rotate",
-				"travel"
-			],
+			"tags": [ "earth", "globe", "revolution", "rotate", "travel" ],
 			"term": "Earth",
 			"collections": []
 		},
@@ -2203,13 +1469,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2757748",
-			"tags": [
-				"earth",
-				"planet",
-				"revolution-of-moon",
-				"saturnus",
-				"space-planet"
-			],
+			"tags": [ "earth", "planet", "revolution-of-moon", "saturnus", "space-planet" ],
 			"term": "Earth",
 			"collections": []
 		},
@@ -2220,17 +1480,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2133977",
-			"tags": [
-				"calculator",
-				"calculate",
-				"computer",
-				"count",
-				"pda"
-			],
+			"tags": [ "calculator", "calculate", "computer", "count", "pda" ],
 			"term": "Calculator",
-			"collections": [
-				"School Education outline"
-			]
+			"collections": [ "School Education outline" ]
 		},
 		{
 			"id": "icon1-109",
@@ -2239,17 +1491,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "954321",
-			"tags": [
-				"math",
-				"accounting",
-				"calculate",
-				"calculation",
-				"calculator"
-			],
+			"tags": [ "math", "accounting", "calculate", "calculation", "calculator" ],
 			"term": "Math",
-			"collections": [
-				"Shopping & E-Commerce line icons"
-			]
+			"collections": [ "Shopping & E-Commerce line icons" ]
 		},
 		{
 			"id": "icon1-110",
@@ -2258,16 +1502,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1684250",
-			"tags": [
-				"education",
-				"school",
-				"student",
-				"tool"
-			],
+			"tags": [ "education", "school", "student", "tool" ],
 			"term": "education",
-			"collections": [
-				"Education 2"
-			]
+			"collections": [ "Education 2" ]
 		},
 		{
 			"id": "icon1-111",
@@ -2284,9 +1521,7 @@
 				"stationery"
 			],
 			"term": "Formal science",
-			"collections": [
-				"Video Tutorial, E-book, On-line Lecture, Education Line Icons"
-			]
+			"collections": [ "Video Tutorial, E-book, On-line Lecture, Education Line Icons" ]
 		},
 		{
 			"id": "icon1-112",
@@ -2295,13 +1530,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1929549",
-			"tags": [
-				"math",
-				"accounting",
-				"calculate",
-				"calculator",
-				"finance"
-			],
+			"tags": [ "math", "accounting", "calculate", "calculator", "finance" ],
 			"term": "Math",
 			"collections": []
 		},
@@ -2312,18 +1541,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1840684",
-			"tags": [
-				"fish-journal",
-				"activity",
-				"fish",
-				"fishing",
-				"outdoors",
-				"recreation"
-			],
+			"tags": [ "fish-journal", "activity", "fish", "fishing", "outdoors", "recreation" ],
 			"term": "fish journal",
-			"collections": [
-				"Fishing"
-			]
+			"collections": [ "Fishing" ]
 		},
 		{
 			"id": "icon1-114",
@@ -2332,17 +1552,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3456790",
-			"tags": [
-				"exam",
-				"learning",
-				"lesson",
-				"quiz",
-				"test"
-			],
+			"tags": [ "exam", "learning", "lesson", "quiz", "test" ],
 			"term": "exam",
-			"collections": [
-				"University"
-			]
+			"collections": [ "University" ]
 		},
 		{
 			"id": "icon1-115",
@@ -2351,16 +1563,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3649606",
-			"tags": [
-				"task",
-				"check",
-				"clipboard",
-				"chec"
-			],
+			"tags": [ "task", "check", "clipboard", "chec" ],
 			"term": "task",
-			"collections": [
-				"Support - Basic Outline Acute Icons"
-			]
+			"collections": [ "Support - Basic Outline Acute Icons" ]
 		},
 		{
 			"id": "icon1-116",
@@ -2369,18 +1574,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3085481",
-			"tags": [
-				"quiz",
-				"choice",
-				"decision",
-				"research",
-				"survey",
-				"test"
-			],
+			"tags": [ "quiz", "choice", "decision", "research", "survey", "test" ],
 			"term": "quiz",
-			"collections": [
-				"25 E-Learning Line Icons"
-			]
+			"collections": [ "25 E-Learning Line Icons" ]
 		},
 		{
 			"id": "icon1-117",
@@ -2389,13 +1585,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1369405",
-			"tags": [
-				"group"
-			],
+			"tags": [ "group" ],
 			"term": "group",
-			"collections": [
-				"Group"
-			]
+			"collections": [ "Group" ]
 		},
 		{
 			"id": "icon1-118",
@@ -2404,17 +1596,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1999456",
-			"tags": [
-				"education",
-				"document",
-				"documents",
-				"student",
-				"study"
-			],
+			"tags": [ "education", "document", "documents", "student", "study" ],
 			"term": "education",
-			"collections": [
-				"Education 5"
-			]
+			"collections": [ "Education 5" ]
 		},
 		{
 			"id": "icon1-119",
@@ -2423,17 +1607,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3343734",
-			"tags": [
-				"group",
-				"document",
-				"file",
-				"note",
-				"paper"
-			],
+			"tags": [ "group", "document", "file", "note", "paper" ],
 			"term": "group",
-			"collections": [
-				"Files Line"
-			]
+			"collections": [ "Files Line" ]
 		},
 		{
 			"id": "icon1-120",
@@ -2467,18 +1643,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520436",
-			"tags": [
-				"docx",
-				"1",
-				"document",
-				"extension",
-				"file",
-				"page"
-			],
+			"tags": [ "docx", "1", "document", "extension", "file", "page" ],
 			"term": "docx",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-122",
@@ -2487,20 +1654,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520452",
-			"tags": [
-				"exe",
-				"command",
-				"document",
-				"extension",
-				"file",
-				"microsoft",
-				"page",
-				"program"
-			],
+			"tags": [ "exe", "command", "document", "extension", "file", "microsoft", "page", "program" ],
 			"term": "exe",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-123",
@@ -2509,21 +1665,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520433",
-			"tags": [
-				"gif",
-				"convert",
-				"document",
-				"extension",
-				"file",
-				"graphic",
-				"page",
-				"photo",
-				"picture"
-			],
+			"tags": [ "gif", "convert", "document", "extension", "file", "graphic", "page", "photo", "picture" ],
 			"term": "gif",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-124",
@@ -2545,9 +1689,7 @@
 				"value"
 			],
 			"term": "java",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-125",
@@ -2556,22 +1698,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520443",
-			"tags": [
-				"js",
-				"network",
-				"language",
-				"java",
-				"format",
-				"file",
-				"extension",
-				"document",
-				"3d",
-				"page"
-			],
+			"tags": [ "js", "network", "language", "java", "format", "file", "extension", "document", "3d", "page" ],
 			"term": "js",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-126",
@@ -2580,18 +1709,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520439",
-			"tags": [
-				"mp3",
-				"1",
-				"document",
-				"extension",
-				"file",
-				"page"
-			],
+			"tags": [ "mp3", "1", "document", "extension", "file", "page" ],
 			"term": "mp3",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-127",
@@ -2600,22 +1720,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520434",
-			"tags": [
-				"ppt",
-				"zip",
-				"sea",
-				"pc",
-				"page",
-				"folder",
-				"file",
-				"extension",
-				"document",
-				"fle"
-			],
+			"tags": [ "ppt", "zip", "sea", "pc", "page", "folder", "file", "extension", "document", "fle" ],
 			"term": "ppt",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-128",
@@ -2637,9 +1744,7 @@
 				"color-space"
 			],
 			"term": "png",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-129",
@@ -2648,20 +1753,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520446",
-			"tags": [
-				"xlsx",
-				"document",
-				"excel",
-				"extension",
-				"file",
-				"format",
-				"microsoft",
-				"page"
-			],
+			"tags": [ "xlsx", "document", "excel", "extension", "file", "format", "microsoft", "page" ],
 			"term": "xlsx",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-130",
@@ -2670,18 +1764,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "520450",
-			"tags": [
-				"zip",
-				"1",
-				"document",
-				"extension",
-				"file",
-				"page"
-			],
+			"tags": [ "zip", "1", "document", "extension", "file", "page" ],
 			"term": "Zip",
-			"collections": [
-				"File Names 12 Regular"
-			]
+			"collections": [ "File Names 12 Regular" ]
 		},
 		{
 			"id": "icon1-131",
@@ -2690,17 +1775,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2161782",
-			"tags": [
-				"education",
-				"certificate",
-				"degree",
-				"diploma",
-				"school"
-			],
+			"tags": [ "education", "certificate", "degree", "diploma", "school" ],
 			"term": "education",
-			"collections": [
-				"Education, E-Learning, Student"
-			]
+			"collections": [ "Education, E-Learning, Student" ]
 		},
 		{
 			"id": "icon1-132",
@@ -2709,17 +1786,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3655208",
-			"tags": [
-				"graduate-cap",
-				"education",
-				"learning",
-				"mortarboard",
-				"school"
-			],
+			"tags": [ "graduate-cap", "education", "learning", "mortarboard", "school" ],
 			"term": "Graduate Cap",
-			"collections": [
-				"Education Line"
-			]
+			"collections": [ "Education Line" ]
 		},
 		{
 			"id": "icon1-133",
@@ -2728,18 +1797,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2504903",
-			"tags": [
-				"education",
-				"learning",
-				"report",
-				"search",
-				"study",
-				"tool"
-			],
+			"tags": [ "education", "learning", "report", "search", "study", "tool" ],
 			"term": "education",
-			"collections": [
-				"Education"
-			]
+			"collections": [ "Education" ]
 		},
 		{
 			"id": "icon1-134",
@@ -2748,16 +1808,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2610564",
-			"tags": [
-				"education",
-				"puzzle",
-				"puzzle-game",
-				"puzzle-pieces"
-			],
+			"tags": [ "education", "puzzle", "puzzle-game", "puzzle-pieces" ],
 			"term": "education",
-			"collections": [
-				"CV Resume"
-			]
+			"collections": [ "CV Resume" ]
 		},
 		{
 			"id": "icon1-135",
@@ -2766,18 +1819,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3080082",
-			"tags": [
-				"education",
-				"graduate",
-				"school",
-				"school-material",
-				"thumb-tack",
-				"university"
-			],
+			"tags": [ "education", "graduate", "school", "school-material", "thumb-tack", "university" ],
 			"term": "education",
-			"collections": [
-				"school"
-			]
+			"collections": [ "school" ]
 		},
 		{
 			"id": "icon1-136",
@@ -2786,18 +1830,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3142677",
-			"tags": [
-				"education",
-				"attachment",
-				"pin",
-				"push",
-				"school",
-				"thumb-tack"
-			],
+			"tags": [ "education", "attachment", "pin", "push", "school", "thumb-tack" ],
 			"term": "education",
-			"collections": [
-				"Education outline"
-			]
+			"collections": [ "Education outline" ]
 		},
 		{
 			"id": "icon1-137",
@@ -2819,9 +1854,7 @@
 				"work"
 			],
 			"term": "Paperclip",
-			"collections": [
-				"Line Icons"
-			]
+			"collections": [ "Line Icons" ]
 		},
 		{
 			"id": "icon1-138",
@@ -2830,14 +1863,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2625658",
-			"tags": [
-				"paperclip",
-				"attach",
-				"clip",
-				"document",
-				"paper",
-				"school"
-			],
+			"tags": [ "paperclip", "attach", "clip", "document", "paper", "school" ],
 			"term": "Paperclip",
 			"collections": []
 		},
@@ -2848,17 +1874,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3375292",
-			"tags": [
-				"paperclip",
-				"clamp",
-				"clip",
-				"stationery",
-				"work"
-			],
+			"tags": [ "paperclip", "clamp", "clip", "stationery", "work" ],
 			"term": "Paperclip",
-			"collections": [
-				"Stationery Items"
-			]
+			"collections": [ "Stationery Items" ]
 		},
 		{
 			"id": "icon1-140",
@@ -2867,18 +1885,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1605945",
-			"tags": [
-				"mechanical-pencil",
-				"appliance",
-				"carpentry",
-				"device",
-				"instrument",
-				"work"
-			],
+			"tags": [ "mechanical-pencil", "appliance", "carpentry", "device", "instrument", "work" ],
 			"term": "mechanical pencil",
-			"collections": [
-				"Prettycons - Tools - Outline"
-			]
+			"collections": [ "Prettycons - Tools - Outline" ]
 		},
 		{
 			"id": "icon1-141",
@@ -2887,17 +1896,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3242980",
-			"tags": [
-				"pencil",
-				"highlighters",
-				"pen",
-				"sketching-pencil",
-				"tailor-pencil"
-			],
+			"tags": [ "pencil", "highlighters", "pen", "sketching-pencil", "tailor-pencil" ],
 			"term": "Pencil",
-			"collections": [
-				"set of Sewing Line Vector Icons"
-			]
+			"collections": [ "set of Sewing Line Vector Icons" ]
 		},
 		{
 			"id": "icon1-142",
@@ -2906,17 +1907,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1912123",
-			"tags": [
-				"school",
-				"education",
-				"eraser",
-				"student",
-				"study"
-			],
+			"tags": [ "school", "education", "eraser", "student", "study" ],
 			"term": "School",
-			"collections": [
-				"Scholl"
-			]
+			"collections": [ "Scholl" ]
 		},
 		{
 			"id": "icon1-143",
@@ -2925,17 +1918,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3242972",
-			"tags": [
-				"scissors",
-				"cutter",
-				"fabric-scissor",
-				"pincer",
-				"tailor-scissor"
-			],
+			"tags": [ "scissors", "cutter", "fabric-scissor", "pincer", "tailor-scissor" ],
 			"term": "Scissors",
-			"collections": [
-				"set of Sewing Line Vector Icons"
-			]
+			"collections": [ "set of Sewing Line Vector Icons" ]
 		},
 		{
 			"id": "icon1-144",
@@ -2964,9 +1949,7 @@
 				"west-coast"
 			],
 			"term": "Emerald City",
-			"collections": [
-				"Seattle Icons"
-			]
+			"collections": [ "Seattle Icons" ]
 		},
 		{
 			"id": "icon1-145",
@@ -2975,17 +1958,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2040041",
-			"tags": [
-				"eye",
-				"eyesight",
-				"look",
-				"see",
-				"view"
-			],
+			"tags": [ "eye", "eyesight", "look", "see", "view" ],
 			"term": "Eye",
-			"collections": [
-				"Eye"
-			]
+			"collections": [ "Eye" ]
 		},
 		{
 			"id": "icon1-146",
@@ -2994,15 +1969,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "166786",
-			"tags": [
-				"fire",
-				"burn",
-				"flame",
-				"flicker",
-				"heat",
-				"hot",
-				"ignite"
-			],
+			"tags": [ "fire", "burn", "flame", "flicker", "heat", "hot", "ignite" ],
 			"term": "Fire",
 			"collections": []
 		},
@@ -3013,21 +1980,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "251828",
-			"tags": [
-				"fire",
-				"blaze",
-				"camp",
-				"flame",
-				"heat",
-				"place",
-				"spark",
-				"wood",
-				"heat-source"
-			],
+			"tags": [ "fire", "blaze", "camp", "flame", "heat", "place", "spark", "wood", "heat-source" ],
 			"term": "Fire",
-			"collections": [
-				"Hike / Camp / Tourist"
-			]
+			"collections": [ "Hike / Camp / Tourist" ]
 		},
 		{
 			"id": "icon1-148",
@@ -3036,17 +1991,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1584827",
-			"tags": [
-				"flame",
-				"",
-				"burning",
-				"fire",
-				"heat"
-			],
+			"tags": [ "flame", "", "burning", "fire", "heat" ],
 			"term": "Flame",
-			"collections": [
-				"IOS and Android"
-			]
+			"collections": [ "IOS and Android" ]
 		},
 		{
 			"id": "icon1-149",
@@ -3055,16 +2002,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2339449",
-			"tags": [
-				"campfire",
-				"burn",
-				"heat",
-				"warm"
-			],
+			"tags": [ "campfire", "burn", "heat", "warm" ],
 			"term": "Campfire",
-			"collections": [
-				"Camping and Scout - Line"
-			]
+			"collections": [ "Camping and Scout - Line" ]
 		},
 		{
 			"id": "icon1-150",
@@ -3073,16 +2013,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2774096",
-			"tags": [
-				"glasses",
-				"eyeglasses",
-				"game",
-				"interface"
-			],
+			"tags": [ "glasses", "eyeglasses", "game", "interface" ],
 			"term": "Glasses",
-			"collections": [
-				"Game Collection"
-			]
+			"collections": [ "Game Collection" ]
 		},
 		{
 			"id": "icon1-151",
@@ -3091,16 +2024,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3182041",
-			"tags": [
-				"glasses",
-				"read",
-				"study",
-				"vision"
-			],
+			"tags": [ "glasses", "read", "study", "vision" ],
 			"term": "Glasses",
-			"collections": [
-				"Multimedia Regular Line-Set-309"
-			]
+			"collections": [ "Multimedia Regular Line-Set-309" ]
 		},
 		{
 			"id": "icon1-152",
@@ -3144,9 +2070,7 @@
 				"wires"
 			],
 			"term": "grid view",
-			"collections": [
-				"Grid and List View"
-			]
+			"collections": [ "Grid and List View" ]
 		},
 		{
 			"id": "icon1-153",
@@ -3168,9 +2092,7 @@
 				"grid-small-view"
 			],
 			"term": "grid view",
-			"collections": [
-				"Interface Outline 4"
-			]
+			"collections": [ "Interface Outline 4" ]
 		},
 		{
 			"id": "icon1-154",
@@ -3179,13 +2101,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "638818",
-			"tags": [
-				"ground",
-				"circuit",
-				"digital",
-				"electric",
-				"electronic"
-			],
+			"tags": [ "ground", "circuit", "digital", "electric", "electronic" ],
 			"term": "ground",
 			"collections": []
 		},
@@ -3215,13 +2131,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3457129",
-			"tags": [
-				"information",
-				"details",
-				"faq",
-				"help",
-				"info"
-			],
+			"tags": [ "information", "details", "faq", "help", "info" ],
 			"term": "Information",
 			"collections": []
 		},
@@ -3244,9 +2154,7 @@
 				"tremor"
 			],
 			"term": "Information",
-			"collections": [
-				"UI thick outline"
-			]
+			"collections": [ "UI thick outline" ]
 		},
 		{
 			"id": "icon1-158",
@@ -3255,15 +2163,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1706932",
-			"tags": [
-				"software-architecture",
-				"hierarchy",
-				"modeling"
-			],
+			"tags": [ "software-architecture", "hierarchy", "modeling" ],
 			"term": "Software Architecture",
-			"collections": [
-				"Programming"
-			]
+			"collections": [ "Programming" ]
 		},
 		{
 			"id": "icon1-159",
@@ -3272,17 +2174,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1825751",
-			"tags": [
-				"hierarchy",
-				"circles",
-				"hierarchical-network",
-				"hierarchical-structure",
-				"network"
-			],
+			"tags": [ "hierarchy", "circles", "hierarchical-network", "hierarchical-structure", "network" ],
 			"term": "hierarchy",
-			"collections": [
-				"Tiny"
-			]
+			"collections": [ "Tiny" ]
 		},
 		{
 			"id": "icon1-160",
@@ -3291,18 +2185,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1782397",
-			"tags": [
-				"information-architecture",
-				"data-flow",
-				"hierarchy",
-				"scheme",
-				"testing",
-				"usability"
-			],
+			"tags": [ "information-architecture", "data-flow", "hierarchy", "scheme", "testing", "usability" ],
 			"term": "information architecture",
-			"collections": [
-				"Usability testing"
-			]
+			"collections": [ "Usability testing" ]
 		},
 		{
 			"id": "icon1-161",
@@ -3319,9 +2204,7 @@
 				"site-map"
 			],
 			"term": "information architecture",
-			"collections": [
-				"Programming Line Icons"
-			]
+			"collections": [ "Programming Line Icons" ]
 		},
 		{
 			"id": "icon1-162",
@@ -3339,9 +2222,7 @@
 				"ux-design"
 			],
 			"term": "information architecture",
-			"collections": [
-				"UX Design and Web Development"
-			]
+			"collections": [ "UX Design and Web Development" ]
 		},
 		{
 			"id": "icon1-163",
@@ -3350,16 +2231,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1706938",
-			"tags": [
-				"algorithm",
-				"data-structure",
-				"modeling",
-				"software-architecture"
-			],
+			"tags": [ "algorithm", "data-structure", "modeling", "software-architecture" ],
 			"term": "algorithm",
-			"collections": [
-				"Programming"
-			]
+			"collections": [ "Programming" ]
 		},
 		{
 			"id": "icon1-164",
@@ -3368,17 +2242,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "677345",
-			"tags": [
-				"key",
-				"house-key",
-				"keys",
-				"master-key",
-				"private-key"
-			],
+			"tags": [ "key", "house-key", "keys", "master-key", "private-key" ],
 			"term": "Key",
-			"collections": [
-				"Outline"
-			]
+			"collections": [ "Outline" ]
 		},
 		{
 			"id": "icon1-165",
@@ -3387,17 +2253,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "550427",
-			"tags": [
-				"layers",
-				"layering",
-				"order",
-				"stack",
-				"stacking"
-			],
+			"tags": [ "layers", "layering", "order", "stack", "stacking" ],
 			"term": "Layers",
-			"collections": [
-				"Pure Lines"
-			]
+			"collections": [ "Pure Lines" ]
 		},
 		{
 			"id": "icon1-166",
@@ -3406,16 +2264,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "6139",
-			"tags": [
-				"link",
-				"attachment",
-				"chain",
-				"internet"
-			],
+			"tags": [ "link", "attachment", "chain", "internet" ],
 			"term": "link",
-			"collections": [
-				"Eight Point Rounded"
-			]
+			"collections": [ "Eight Point Rounded" ]
 		},
 		{
 			"id": "icon1-167",
@@ -3424,18 +2275,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1817903",
-			"tags": [
-				"map",
-				"application",
-				"map-search",
-				"menu",
-				"option",
-				"user-interface"
-			],
+			"tags": [ "map", "application", "map-search", "menu", "option", "user-interface" ],
 			"term": "Map",
-			"collections": [
-				"User Interface"
-			]
+			"collections": [ "User Interface" ]
 		},
 		{
 			"id": "icon1-168",
@@ -3444,16 +2286,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2465604",
-			"tags": [
-				"map",
-				"mail",
-				"marker",
-				"pin"
-			],
+			"tags": [ "map", "mail", "marker", "pin" ],
 			"term": "Map",
-			"collections": [
-				"Email Line"
-			]
+			"collections": [ "Email Line" ]
 		},
 		{
 			"id": "icon1-169",
@@ -3462,17 +2297,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2476872",
-			"tags": [
-				"maps",
-				"information",
-				"location",
-				"ui",
-				"ux"
-			],
+			"tags": [ "maps", "information", "location", "ui", "ux" ],
 			"term": "Maps",
-			"collections": [
-				"UI/UX Solid"
-			]
+			"collections": [ "UI/UX Solid" ]
 		},
 		{
 			"id": "icon1-170",
@@ -3481,14 +2308,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "7972",
-			"tags": [
-				"mouse",
-				"click",
-				"computer",
-				"interface",
-				"old",
-				"technology"
-			],
+			"tags": [ "mouse", "click", "computer", "interface", "old", "technology" ],
 			"term": "Mouse",
 			"collections": []
 		},
@@ -3499,9 +2319,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1153650",
-			"tags": [
-				"mouse"
-			],
+			"tags": [ "mouse" ],
 			"term": "Mouse",
 			"collections": []
 		},
@@ -3512,9 +2330,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1880837",
-			"tags": [
-				"pointer"
-			],
+			"tags": [ "pointer" ],
 			"term": "Pointer",
 			"collections": []
 		},
@@ -3525,12 +2341,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1807397",
-			"tags": [
-				"movie-ticket",
-				"ticket",
-				"ticketing",
-				"tickets"
-			],
+			"tags": [ "movie-ticket", "ticket", "ticketing", "tickets" ],
 			"term": "movie ticket",
 			"collections": []
 		},
@@ -3554,9 +2365,7 @@
 				"twitter"
 			],
 			"term": "Share",
-			"collections": [
-				"Simple icons"
-			]
+			"collections": [ "Simple icons" ]
 		},
 		{
 			"id": "icon1-175",
@@ -3565,15 +2374,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "116760",
-			"tags": [
-				"network",
-				"atom",
-				"connect",
-				"connection",
-				"connections",
-				"link",
-				"share"
-			],
+			"tags": [ "network", "atom", "connect", "connection", "connections", "link", "share" ],
 			"term": "Network",
 			"collections": []
 		},
@@ -3584,17 +2385,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "652803",
-			"tags": [
-				"science",
-				"atom",
-				"atoms",
-				"chemistry",
-				"partical"
-			],
+			"tags": [ "science", "atom", "atoms", "chemistry", "partical" ],
 			"term": "Science",
-			"collections": [
-				"line icon"
-			]
+			"collections": [ "line icon" ]
 		},
 		{
 			"id": "icon1-177",
@@ -3603,17 +2396,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3173335",
-			"tags": [
-				"network-and-science",
-				"chemistry",
-				"explosive",
-				"molecule",
-				"science"
-			],
+			"tags": [ "network-and-science", "chemistry", "explosive", "molecule", "science" ],
 			"term": "network and science",
-			"collections": [
-				"Network and science icon set outline"
-			]
+			"collections": [ "Network and science icon set outline" ]
 		},
 		{
 			"id": "icon1-178",
@@ -3622,17 +2407,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "659923",
-			"tags": [
-				"newspaper",
-				"article",
-				"blog",
-				"journal",
-				"news"
-			],
+			"tags": [ "newspaper", "article", "blog", "journal", "news" ],
 			"term": "Newspaper",
-			"collections": [
-				"Newspaper"
-			]
+			"collections": [ "Newspaper" ]
 		},
 		{
 			"id": "icon1-179",
@@ -3641,16 +2418,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2550899",
-			"tags": [
-				"newspaper",
-				"communications",
-				"journal",
-				"news"
-			],
+			"tags": [ "newspaper", "communications", "journal", "news" ],
 			"term": "Newspaper",
-			"collections": [
-				"Bookstore"
-			]
+			"collections": [ "Bookstore" ]
 		},
 		{
 			"id": "icon1-180",
@@ -3659,13 +2429,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2627162",
-			"tags": [
-				"newspaper",
-				"bulletin",
-				"journal",
-				"magazine",
-				"press"
-			],
+			"tags": [ "newspaper", "bulletin", "journal", "magazine", "press" ],
 			"term": "Newspaper",
 			"collections": []
 		},
@@ -3676,17 +2440,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1649149",
-			"tags": [
-				"peace",
-				"communion",
-				"dove",
-				"olive-tree",
-				"religion"
-			],
+			"tags": [ "peace", "communion", "dove", "olive-tree", "religion" ],
 			"term": "Peace",
-			"collections": [
-				"Communion"
-			]
+			"collections": [ "Communion" ]
 		},
 		{
 			"id": "icon1-182",
@@ -3695,18 +2451,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "944919",
-			"tags": [
-				"present",
-				"gift",
-				"gift-box",
-				"hand",
-				"promotion-gift",
-				"wrapped-gift"
-			],
+			"tags": [ "present", "gift", "gift-box", "hand", "promotion-gift", "wrapped-gift" ],
 			"term": "Present",
-			"collections": [
-				"Gift"
-			]
+			"collections": [ "Gift" ]
 		},
 		{
 			"id": "icon1-183",
@@ -3715,15 +2462,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1687258",
-			"tags": [
-				"print",
-				"office",
-				"printer"
-			],
+			"tags": [ "print", "office", "printer" ],
 			"term": "print",
-			"collections": [
-				"Document & Office"
-			]
+			"collections": [ "Document & Office" ]
 		},
 		{
 			"id": "icon1-184",
@@ -3732,18 +2473,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709139",
-			"tags": [
-				"pyramid",
-				"3d",
-				"design",
-				"polygon",
-				"shape",
-				"structure"
-			],
+			"tags": [ "pyramid", "3d", "design", "polygon", "shape", "structure" ],
 			"term": "Pyramid",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-185",
@@ -3752,18 +2484,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709162",
-			"tags": [
-				"pyramid",
-				"3d",
-				"design",
-				"polygon",
-				"shape",
-				"structure"
-			],
+			"tags": [ "pyramid", "3d", "design", "polygon", "shape", "structure" ],
 			"term": "Pyramid",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-186",
@@ -3772,18 +2495,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709168",
-			"tags": [
-				"pyramid",
-				"3d",
-				"design",
-				"polygon",
-				"shape",
-				"structure"
-			],
+			"tags": [ "pyramid", "3d", "design", "polygon", "shape", "structure" ],
 			"term": "Pyramid",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-187",
@@ -3792,18 +2506,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709170",
-			"tags": [
-				"pyramid",
-				"3d",
-				"design",
-				"polygon",
-				"shape",
-				"structure"
-			],
+			"tags": [ "pyramid", "3d", "design", "polygon", "shape", "structure" ],
 			"term": "Pyramid",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-188",
@@ -3812,17 +2517,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709134",
-			"tags": [
-				"rhombus",
-				"",
-				"diamond",
-				"parallelogram",
-				"quad"
-			],
+			"tags": [ "rhombus", "", "diamond", "parallelogram", "quad" ],
 			"term": "rhombus",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-189",
@@ -3831,17 +2528,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709135",
-			"tags": [
-				"rhombuses",
-				"",
-				"diamond",
-				"parallelogram",
-				"quad"
-			],
+			"tags": [ "rhombuses", "", "diamond", "parallelogram", "quad" ],
 			"term": "Rhombuses",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-190",
@@ -3863,9 +2552,7 @@
 				"critical-analysis"
 			],
 			"term": "Science Presentation",
-			"collections": [
-				"Smashicons - Science Outline"
-			]
+			"collections": [ "Smashicons - Science Outline" ]
 		},
 		{
 			"id": "icon1-191",
@@ -3874,17 +2561,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2035636",
-			"tags": [
-				"science",
-				"education",
-				"launch",
-				"rocket",
-				"subject"
-			],
+			"tags": [ "science", "education", "launch", "rocket", "subject" ],
 			"term": "Science",
-			"collections": [
-				"Education - School"
-			]
+			"collections": [ "Education - School" ]
 		},
 		{
 			"id": "icon1-192",
@@ -3893,18 +2572,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709165",
-			"tags": [
-				"shape",
-				"3d",
-				"irregular",
-				"polygon",
-				"rock",
-				"vertex"
-			],
+			"tags": [ "shape", "3d", "irregular", "polygon", "rock", "vertex" ],
 			"term": "shape",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-193",
@@ -3913,18 +2583,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709140",
-			"tags": [
-				"shapes",
-				"circle",
-				"design",
-				"geometric",
-				"pattern",
-				"triangle"
-			],
+			"tags": [ "shapes", "circle", "design", "geometric", "pattern", "triangle" ],
 			"term": "shapes",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-194",
@@ -3933,18 +2594,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709173",
-			"tags": [
-				"shapes",
-				"circle",
-				"design",
-				"geometric",
-				"pattern",
-				"triangle"
-			],
+			"tags": [ "shapes", "circle", "design", "geometric", "pattern", "triangle" ],
 			"term": "shapes",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-195",
@@ -3953,17 +2605,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709174",
-			"tags": [
-				"shapes",
-				"circle",
-				"geometric",
-				"square",
-				"triangle"
-			],
+			"tags": [ "shapes", "circle", "geometric", "square", "triangle" ],
 			"term": "shapes",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-196",
@@ -3972,18 +2616,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709158",
-			"tags": [
-				"squares",
-				"",
-				"decor",
-				"design",
-				"overlay",
-				"pattern"
-			],
+			"tags": [ "squares", "", "decor", "design", "overlay", "pattern" ],
 			"term": "squares",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-197",
@@ -4026,9 +2661,7 @@
 				"up"
 			],
 			"term": "triangles",
-			"collections": [
-				"Abstract 2"
-			]
+			"collections": [ "Abstract 2" ]
 		},
 		{
 			"id": "icon1-199",
@@ -4037,18 +2670,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1709146",
-			"tags": [
-				"triangles",
-				"decor",
-				"design",
-				"geometric",
-				"pattern",
-				"shapes"
-			],
+			"tags": [ "triangles", "decor", "design", "geometric", "pattern", "shapes" ],
 			"term": "triangles",
-			"collections": [
-				"Geometric Shapes Thin"
-			]
+			"collections": [ "Geometric Shapes Thin" ]
 		},
 		{
 			"id": "icon1-200",
@@ -4057,13 +2681,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "20925",
-			"tags": [
-				"share",
-				"arrow",
-				"blog",
-				"link",
-				"retweet"
-			],
+			"tags": [ "share", "arrow", "blog", "link", "retweet" ],
 			"term": "Share",
 			"collections": []
 		},
@@ -4074,17 +2692,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "37958",
-			"tags": [
-				"shield",
-				"aid",
-				"antivirus",
-				"badge",
-				"defend",
-				"defense",
-				"protection",
-				"save",
-				"security"
-			],
+			"tags": [ "shield", "aid", "antivirus", "badge", "defend", "defense", "protection", "save", "security" ],
 			"term": "Shield",
 			"collections": []
 		},
@@ -4095,13 +2703,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "831682",
-			"tags": [
-				"rain",
-				"cloud",
-				"cloud-rain",
-				"raining",
-				"raining-cloud"
-			],
+			"tags": [ "rain", "cloud", "cloud-rain", "raining", "raining-cloud" ],
 			"term": "Rain",
 			"collections": []
 		},
@@ -4112,16 +2714,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2167458",
-			"tags": [
-				"snow",
-				"cloud",
-				"snowing",
-				"weather"
-			],
+			"tags": [ "snow", "cloud", "snowing", "weather" ],
 			"term": "Snow",
-			"collections": [
-				"Outline Icons"
-			]
+			"collections": [ "Outline Icons" ]
 		},
 		{
 			"id": "icon1-204",
@@ -4130,9 +2725,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2895070",
-			"tags": [
-				"cold"
-			],
+			"tags": [ "cold" ],
 			"term": "Cold",
 			"collections": []
 		},
@@ -4187,17 +2780,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1529507",
-			"tags": [
-				"traffic-cone",
-				"cone",
-				"construction",
-				"roadwork",
-				"traffic"
-			],
+			"tags": [ "traffic-cone", "cone", "construction", "roadwork", "traffic" ],
 			"term": "Traffic Cone",
-			"collections": [
-				"misc"
-			]
+			"collections": [ "misc" ]
 		},
 		{
 			"id": "icon1-208",
@@ -4206,17 +2791,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "773626",
-			"tags": [
-				"traffic-lights",
-				"traffic",
-				"traffic-light",
-				"traffic-light-ahead",
-				"traffic-sign"
-			],
+			"tags": [ "traffic-lights", "traffic", "traffic-light", "traffic-light-ahead", "traffic-sign" ],
 			"term": "traffic lights",
-			"collections": [
-				"Cars: Outline Vol. 1"
-			]
+			"collections": [ "Cars: Outline Vol. 1" ]
 		},
 		{
 			"id": "icon1-209",
@@ -4225,13 +2802,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1560109",
-			"tags": [
-				"usb",
-				"cable",
-				"usb-cable",
-				"usb-charger",
-				"usb-connector"
-			],
+			"tags": [ "usb", "cable", "usb-cable", "usb-charger", "usb-connector" ],
 			"term": "USB",
 			"collections": []
 		},
@@ -4242,17 +2813,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3721382",
-			"tags": [
-				"user",
-				"cogwheel",
-				"gear",
-				"industrial",
-				"settings"
-			],
+			"tags": [ "user", "cogwheel", "gear", "industrial", "settings" ],
 			"term": "User",
-			"collections": [
-				"Industrial-A (Line and Glyph)"
-			]
+			"collections": [ "Industrial-A (Line and Glyph)" ]
 		},
 		{
 			"id": "icon1-211",
@@ -4261,14 +2824,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3604125",
-			"tags": [
-				"user-interface",
-				"battery",
-				"energy",
-				"interface",
-				"internet",
-				"power"
-			],
+			"tags": [ "user-interface", "battery", "energy", "interface", "internet", "power" ],
 			"term": "User Interface",
 			"collections": []
 		},
@@ -4279,17 +2835,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1955876",
-			"tags": [
-				"video",
-				"movie",
-				"play-video",
-				"video-play",
-				"videos"
-			],
+			"tags": [ "video", "movie", "play-video", "video-play", "videos" ],
 			"term": "Video",
-			"collections": [
-				"App Icons"
-			]
+			"collections": [ "App Icons" ]
 		},
 		{
 			"id": "icon1-213",
@@ -4298,17 +2846,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2128480",
-			"tags": [
-				"yin-yang",
-				"japanese-culture",
-				"japanese-symbol",
-				"taijitu",
-				"taoism"
-			],
+			"tags": [ "yin-yang", "japanese-culture", "japanese-symbol", "taijitu", "taoism" ],
 			"term": "yin yang",
-			"collections": [
-				"Japan Symbols Line Icons"
-			]
+			"collections": [ "Japan Symbols Line Icons" ]
 		},
 		{
 			"id": "icon1-214",
@@ -4317,17 +2857,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2408349",
-			"tags": [
-				"yin-yang",
-				"chinese-sign",
-				"harmony",
-				"religious-symbol",
-				"yin-and-yang"
-			],
+			"tags": [ "yin-yang", "chinese-sign", "harmony", "religious-symbol", "yin-and-yang" ],
 			"term": "yin yang",
-			"collections": [
-				"Humans, Life, Life evolution and Death Line Icons"
-			]
+			"collections": [ "Humans, Life, Life evolution and Death Line Icons" ]
 		}
 	]
 }

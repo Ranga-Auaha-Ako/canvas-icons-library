@@ -7,13 +7,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3092051",
-			"tags": [
-				"artificial-intelligence",
-				"ai",
-				"machine-learning",
-				"mechanical-engineering",
-				"robotics"
-			],
+			"tags": [ "artificial-intelligence", "ai", "machine-learning", "mechanical-engineering", "robotics" ],
 			"term": "Artificial Intelligence",
 			"collections": []
 		},
@@ -24,9 +18,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3443123",
-			"tags": ["network-architecture", "architecture", "network"],
+			"tags": [ "network-architecture", "architecture", "network" ],
 			"term": "network architecture",
-			"collections": ["Data management Vol. 1"]
+			"collections": [ "Data management Vol. 1" ]
 		},
 		{
 			"id": "icon6-3",
@@ -35,7 +29,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "176265",
-			"tags": ["processor", "computer-chip", "microchip", "processor-chip", "processor-cpu"],
+			"tags": [ "processor", "computer-chip", "microchip", "processor-chip", "processor-cpu" ],
 			"term": "processor",
 			"collections": []
 		},
@@ -46,9 +40,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2429331",
-			"tags": ["circuit", "board", "electronic", "pcb", "robotic"],
+			"tags": [ "circuit", "board", "electronic", "pcb", "robotic" ],
 			"term": "circuit",
-			"collections": ["Glyph - Electronical"]
+			"collections": [ "Glyph - Electronical" ]
 		},
 		{
 			"id": "icon6-5",
@@ -57,9 +51,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2512494",
-			"tags": ["coding", "binary", "lock", "programming", "secure"],
+			"tags": [ "coding", "binary", "lock", "programming", "secure" ],
 			"term": "coding",
-			"collections": ["Internet Security Line & Glyphs 48px"]
+			"collections": [ "Internet Security Line & Glyphs 48px" ]
 		},
 		{
 			"id": "icon6-6",
@@ -68,9 +62,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2133109",
-			"tags": ["chain", "equipment", "industrial", "mechanical", "roller"],
+			"tags": [ "chain", "equipment", "industrial", "mechanical", "roller" ],
 			"term": "Chain",
-			"collections": ["Industrial equipment"]
+			"collections": [ "Industrial equipment" ]
 		},
 		{
 			"id": "icon6-7",
@@ -79,9 +73,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3156489",
-			"tags": ["chain", "bike", "equipment", "gear", "mechanical"],
+			"tags": [ "chain", "bike", "equipment", "gear", "mechanical" ],
 			"term": "Chain",
-			"collections": ["Bicycle-Element-Line1"]
+			"collections": [ "Bicycle-Element-Line1" ]
 		},
 		{
 			"id": "icon6-8",
@@ -90,15 +84,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2761686",
-			"tags": [
-				"mechanical-hand",
-				"ai",
-				"artificial-intelligence",
-				"modern-technology",
-				"robotic-hand"
-			],
+			"tags": [ "mechanical-hand", "ai", "artificial-intelligence", "modern-technology", "robotic-hand" ],
 			"term": "Mechanical Hand",
-			"collections": ["Set of Modern Technology Line Vector Icons"]
+			"collections": [ "Set of Modern Technology Line Vector Icons" ]
 		},
 		{
 			"id": "icon6-9",
@@ -107,9 +95,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1445325",
-			"tags": ["mechanical-arm", "hand", "mechanical", "rebot", "repairing"],
+			"tags": [ "mechanical-arm", "hand", "mechanical", "rebot", "repairing" ],
 			"term": "mechanical arm",
-			"collections": ["Mechanical"]
+			"collections": [ "Mechanical" ]
 		},
 		{
 			"id": "icon6-10",
@@ -118,9 +106,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1445336",
-			"tags": ["mechanical-arm", "hand", "mechanical", "rebot", "repairing"],
+			"tags": [ "mechanical-arm", "hand", "mechanical", "rebot", "repairing" ],
 			"term": "mechanical arm",
-			"collections": ["Mechanical"]
+			"collections": [ "Mechanical" ]
 		},
 		{
 			"id": "icon6-11",
@@ -138,7 +126,7 @@
 				"robot-technology"
 			],
 			"term": "mechanical arm",
-			"collections": ["Artificial Intelligence Line Icons"]
+			"collections": [ "Artificial Intelligence Line Icons" ]
 		},
 		{
 			"id": "icon6-12",
@@ -156,7 +144,7 @@
 				"robot-technology"
 			],
 			"term": "mechanical arm",
-			"collections": ["Artificial Intelligence Line Icons"]
+			"collections": [ "Artificial Intelligence Line Icons" ]
 		},
 		{
 			"id": "icon6-13",
@@ -165,9 +153,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2406786",
-			"tags": ["conveyor", "industrial", "mechanical", "robot"],
+			"tags": [ "conveyor", "industrial", "mechanical", "robot" ],
 			"term": "conveyor",
-			"collections": ["University"]
+			"collections": [ "University" ]
 		},
 		{
 			"id": "icon6-14",
@@ -176,9 +164,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2486358",
-			"tags": ["articulated-robot", "articulated", "assembly", "cartesian", "mechanical", "robot"],
+			"tags": [ "articulated-robot", "articulated", "assembly", "cartesian", "mechanical", "robot" ],
 			"term": "articulated robot",
-			"collections": ["AI (Artificial Intelligence) Outline"]
+			"collections": [ "AI (Artificial Intelligence) Outline" ]
 		},
 		{
 			"id": "icon6-15",
@@ -187,9 +175,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1864437",
-			"tags": ["mechanical-digger", "construction", "digger"],
+			"tags": [ "mechanical-digger", "construction", "digger" ],
 			"term": "Mechanical Digger",
-			"collections": ["Construction site"]
+			"collections": [ "Construction site" ]
 		},
 		{
 			"id": "icon6-16",
@@ -198,9 +186,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1568174",
-			"tags": ["nut", "mechanical", "repair", "tool", "wrench"],
+			"tags": [ "nut", "mechanical", "repair", "tool", "wrench" ],
 			"term": "Nut",
-			"collections": ["Tools _ Bold"]
+			"collections": [ "Tools _ Bold" ]
 		},
 		{
 			"id": "icon6-17",
@@ -217,7 +205,7 @@
 				"robotic-technology"
 			],
 			"term": "Mechanical Robot",
-			"collections": ["Robotics Engineering Line Icons"]
+			"collections": [ "Robotics Engineering Line Icons" ]
 		},
 		{
 			"id": "icon6-18",
@@ -226,9 +214,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2407520",
-			"tags": ["mechanical-tool", "maintenance", "repairing", "service-tools", "technical-support"],
+			"tags": [ "mechanical-tool", "maintenance", "repairing", "service-tools", "technical-support" ],
 			"term": "mechanical tool",
-			"collections": ["Manufacture, Engineer, production Line Icons"]
+			"collections": [ "Manufacture, Engineer, production Line Icons" ]
 		},
 		{
 			"id": "icon6-19",
@@ -237,9 +225,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2442159",
-			"tags": ["mechanical-tools", "handyman", "spanner", "tool", "wrench"],
+			"tags": [ "mechanical-tools", "handyman", "spanner", "tool", "wrench" ],
 			"term": "Mechanical tools",
-			"collections": ["Business and Finance Line Icons"]
+			"collections": [ "Business and Finance Line Icons" ]
 		},
 		{
 			"id": "icon6-20",
@@ -248,9 +236,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2100593",
-			"tags": ["plier", "hand-tool", "mechanic", "pincer", "repair-tool"],
+			"tags": [ "plier", "hand-tool", "mechanic", "pincer", "repair-tool" ],
 			"term": "plier",
-			"collections": ["Doors Installation Repair Line Icons"]
+			"collections": [ "Doors Installation Repair Line Icons" ]
 		},
 		{
 			"id": "icon6-21",
@@ -272,7 +260,7 @@
 				"wrench"
 			],
 			"term": "service",
-			"collections": ["Business & SEO Outlined"]
+			"collections": [ "Business & SEO Outlined" ]
 		},
 		{
 			"id": "icon6-22",
@@ -281,9 +269,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2062527",
-			"tags": ["compass", "measure", "setting", "tool", "wrench"],
+			"tags": [ "compass", "measure", "setting", "tool", "wrench" ],
 			"term": "Compass",
-			"collections": ["tools (outline)"]
+			"collections": [ "tools (outline)" ]
 		},
 		{
 			"id": "icon6-23",
@@ -292,9 +280,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2095227",
-			"tags": ["mechanical-eye", "cyber-eye", "cyber-monitoring", "cyber-security", "cybernetics"],
+			"tags": [ "mechanical-eye", "cyber-eye", "cyber-monitoring", "cyber-security", "cybernetics" ],
 			"term": "Mechanical eye",
-			"collections": ["Robotics Engineering Line Icons"]
+			"collections": [ "Robotics Engineering Line Icons" ]
 		},
 		{
 			"id": "icon6-24",
@@ -303,9 +291,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1187812",
-			"tags": ["settings", "setting", "setting-cog", "setting-gear", "setting-wheel"],
+			"tags": [ "settings", "setting", "setting-cog", "setting-gear", "setting-wheel" ],
 			"term": "Settings",
-			"collections": ["Settings"]
+			"collections": [ "Settings" ]
 		},
 		{
 			"id": "icon6-25",
@@ -314,9 +302,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2315978",
-			"tags": ["gears", "mechanical", "system", "tool", "wheels"],
+			"tags": [ "gears", "mechanical", "system", "tool", "wheels" ],
 			"term": "Gears",
-			"collections": ["Watchmaker"]
+			"collections": [ "Watchmaker" ]
 		},
 		{
 			"id": "icon6-26",
@@ -325,9 +313,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "3371944",
-			"tags": ["firewall", "architecture", "architecture-and-city", "brickwall", "fire"],
+			"tags": [ "firewall", "architecture", "architecture-and-city", "brickwall", "fire" ],
 			"term": "firewall",
-			"collections": ["Cyber Crimes"]
+			"collections": [ "Cyber Crimes" ]
 		},
 		{
 			"id": "icon6-27",
@@ -336,9 +324,9 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "1840776",
-			"tags": ["short-circuit", "burn", "circuit", "electricity", "flame", "plug"],
+			"tags": [ "short-circuit", "burn", "circuit", "electricity", "flame", "plug" ],
 			"term": "short circuit",
-			"collections": ["Fire"]
+			"collections": [ "Fire" ]
 		}
 	]
 }
