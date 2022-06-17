@@ -34,11 +34,15 @@
 	"dependencies": {
 		"@types/app-root-path": "^1.2.4",
 		"app-root-path": "^3.0.0",
+		"axios": "^0.27.2",
 		"glob": "^8.0.3",
+		"json-beautify": "^1.1.1",
 		"nanoid": "^4.0.0",
+		"oauth-1.0a": "^2.2.6",
 		"sass": "^1.52.3",
 		"svelte-dnd-action": "^0.9.18",
 		"svelte-highlight": "^6.1.0",
+		"svelte-local-storage-store": "^0.2.6",
 		"svelte-tags-input": "^2.9.2",
 		"title-case": "^3.0.3"
 	}

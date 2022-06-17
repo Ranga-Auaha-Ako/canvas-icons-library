@@ -1,9 +1,12 @@
 <script lang="ts">
 	import { base, assets } from '$app/paths';
 	import { flip } from 'svelte/animate';
+	import { createEventDispatcher } from 'svelte';
 	import type { Icon } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import { dndzone } from 'svelte-dnd-action';
+
+	const dispatch = createEventDispatcher();
 
 	export let icons: Icon[];
 	export let chosenIcon: string | null = null;
@@ -58,6 +61,11 @@
 		e.target.src = `${base}/missing-icon.svg`;
 		overridenStates[icon.id] = { deleted: true };
 	};
+
+	const makeIcon = (icon: Icon) => {
+		// Emit event telling the editor that this icon should be added to the meta
+		dispatch('addIcon', icon);
+	};
 </script>
 
 <div class="iconList">
@@ -70,7 +78,7 @@
 		{#each icons as icon, i (icon.id)}
 			<div
 				class="icon"
-				class:deleted={iconStates[icon.id].deleted}
+				class:deleted={iconStates[icon.id]?.deleted}
 				class:editing={chosenIcon == icon.id}
 				animate:flip={{ duration: flipDurationMs }}
 				on:click={(e) => (chosenIcon = chosenIcon == icon.id ? null : icon.id)}
@@ -78,10 +86,20 @@
 			>
 				{#if chosenIcon == icon.id}
 					<div class="editTools">
-						<div role="button" class="delete details-btn" on:click={(_) => removeIcon(i)}>
-							Delete
-						</div>
-						<!-- <div role="button" class="clone details-btn" on:click={(_) => cloneIcon(i)}>Clone</div> -->
+						{#if iconStates[icon.id]?.new}
+							<div
+								role="button"
+								class="clone details-btn"
+								on:click={(_) => makeIcon(icon)}
+								title="Add icon  to list"
+							>
+								Add
+							</div>
+						{:else}
+							<div role="button" class="delete details-btn" on:click={(_) => removeIcon(i)}>
+								Delete
+							</div>
+						{/if}
 					</div>
 					<!-- <div
 						class="details"

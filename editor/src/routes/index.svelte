@@ -1,13 +1,14 @@
 <script async lang="ts">
 	import { onMount } from 'svelte';
 	import { expoInOut } from 'svelte/easing';
+	import { slide } from 'svelte/transition';
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import IconList from '$lib/icons/iconList.svelte';
 	import IconForm from '$lib/icons/iconForm.svelte';
 	import { nanoid } from 'nanoid';
 
-	// import { dev } from '$app/env';
+	import { browser, dev } from '$app/env';
 	import { base, assets } from '$app/paths';
 
 	// Custom slide transition
@@ -75,7 +76,24 @@
 			)
 		];
 	};
-	onMount(async () => {
+
+	const addIcon = (e: CustomEvent) => {
+		const icon = e.detail as Icon;
+		chosenIcon = icon.id;
+		iconData.meta[chosenCategory].icons.push(icon);
+	};
+
+	let needSave = false;
+	if (browser) {
+		window.onbeforeunload = function () {
+			// https://stackoverflow.com/questions/1299452/how-do-i-stop-a-page-from-unloading-navigating-away-in-js
+			if (needSave) {
+				return 'You have made changes on this page that you have not yet confirmed. If you navigate away from this page you will lose your unsaved changes';
+			}
+		};
+	}
+
+	const loadData = async () => {
 		iconData = await fetch(`${base}/meta.json`).then((res) => {
 			if (!res.ok) {
 				throw new Error(res.statusText);
@@ -118,7 +136,30 @@
 
 		// Parse tag data
 		updateTagData();
-	});
+	};
+
+	const saveData = async () => {
+		// const data = iconData.meta[chosenCategory];
+		console.log(dev);
+		if (dev) {
+			// If we are running in dev mode, just save the data to the file. Otherwise, download it
+			const res = await fetch(`${base}/meta.json`, {
+				method: 'PUT',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(iconData.meta)
+			});
+			if (!res.ok) {
+				throw new Error(res.statusText);
+			} else {
+				console.log(res);
+			}
+			unsaved = false;
+		}
+	};
+
+	onMount(loadData);
 </script>
 
 <h1 class="text-3xl font-bold">Canvas Icons Editor</h1>
@@ -126,6 +167,28 @@
 	Welcome to the editor for Canvas Icons. This tool will let you adjust and configure the metadata
 	for icons in each category. To begin, select a category:
 </p>
+{#if needSave}
+	<div
+		transition:slide
+		class="my-3 rounded shadow bg-yellow-100 p-5 border-dashed border-2 border-yellow-400"
+	>
+		<p class="m-0 text-yellow-800">
+			⚠️ You have unsaved changes. Please save or discard them before proceeding.
+			<span class="btn-group inline float-right">
+				<button class="btn" on:click={saveData}>Save</button>
+				<button
+					class="btn"
+					on:click={() => {
+						if (confirm('Are you sure you want to discard your changes?')) {
+							loadData();
+							needSave = false;
+						}
+					}}>Discard</button
+				>
+			</span>
+		</p>
+	</div>
+{/if}
 {#if loading}
 	<p>Loading...</p>
 {:else}
@@ -136,7 +199,7 @@
 					chosenCategory == index
 						? 'bg-green-300 hover:bg-green-400'
 						: 'bg-gray-100 hover:bg-gray-300'
-				} border border-gray-200 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
+				} ring-gray-200 ring-1 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
 				on:click={() => (chosenCategory = unsaved ? chosenCategory : index)}
 			>
 				{category.name}
@@ -150,7 +213,7 @@
 				{#if iconDiffs[chosenCategory]}
 					{#if iconDiffs[chosenCategory].newIcons.length}
 						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-						<IconList icons={iconDiffs[chosenCategory].newIcons} newIcons />
+						<IconList icons={iconDiffs[chosenCategory].newIcons} on:addIcon={addIcon} newIcons />
 					{/if}
 					{#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
@@ -164,6 +227,7 @@
 			<IconList
 				bind:icons={iconData.meta[chosenCategory].icons}
 				on:edit={updateIcons}
+				on:addIcon={addIcon}
 				bind:chosenIcon
 			/>
 		</div>
@@ -175,7 +239,14 @@
 						<div class="icon">
 							<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
 						</div>
-						<IconForm icon={chosenIconData} {existingCollections} {existingTags} />
+						<IconForm
+							icon={chosenIconData}
+							{existingCollections}
+							{existingTags}
+							on:changed={() => {
+								needSave = true;
+							}}
+						/>
 					</div>
 				{/if}
 			</div>
@@ -184,16 +255,4 @@
 {/if}
 
 <style lang="scss">
-	.card {
-		@apply shadow rounded bg-white p-3 px-5 my-3;
-		&.iconHeader {
-			@apply mt-10 sticky top-10;
-			.icon {
-				@apply w-20 mx-auto p-5 rounded-full shadow -mt-10 bg-gray-900;
-				img {
-					@apply invert;
-				}
-			}
-		}
-	}
 </style>

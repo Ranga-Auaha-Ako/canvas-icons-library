@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../app.scss';
 </script>
 
 <div class="wrapper bg-slate-800">
