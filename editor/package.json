@@ -1,0 +1,38 @@
+{
+	"name": "editor",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "concurrently --raw --default-input-target 0 --kill-others 'svelte-kit dev' 'node ../watchfiles.js'",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/kit": "next",
+		"@tailwindcss/forms": "^0.5.2",
+		"@types/glob": "^7.2.0",
+		"autoprefixer": "^10.4.7",
+		"concurrently": "^7.2.2",
+		"postcss": "^8.4.14",
+		"prettier": "^2.6.2",
+		"prettier-plugin-svelte": "^2.7.0",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.1.2",
+		"tslib": "^2.3.1",
+		"typescript": "^4.7.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"glob": "^8.0.3",
+		"sass": "^1.52.3"
+	}
+}

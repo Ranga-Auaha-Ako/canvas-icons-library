@@ -1,0 +1,22 @@
+{
+	"name": "canvas-icon",
+	"version": "2.6.6",
+	"license": "UNLICENSED",
+	"scripts": {
+		"build": "grunt",
+		"icons": "grunt",
+		"dev": "cd editor && svelte-kit dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"chokidar": "^3.5.3",
+		"grunt": "~0.4.5",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-nodeunit": "~0.4.1",
+		"grunt-contrib-uglify": "~0.5.0",
+		"grunt-npm-command": "^0.1.2",
+		"grunt-svg-sprite": "^1.5.0"
+	},
+	"dependencies": {}
+}
