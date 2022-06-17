@@ -32,7 +32,13 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@types/app-root-path": "^1.2.4",
+		"app-root-path": "^3.0.0",
 		"glob": "^8.0.3",
-		"sass": "^1.52.3"
+		"nanoid": "^4.0.0",
+		"sass": "^1.52.3",
+		"svelte-dnd-action": "^0.9.18",
+		"svelte-highlight": "^6.1.0",
+		"title-case": "^3.0.3"
 	}
 }

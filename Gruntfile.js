@@ -78,10 +78,10 @@ module.exports = function (grunt) {
 		},
 		copy: {
 			editor: {
-				files: [
-					// includes files within path
-					{ expand: true, cwd: 'editor/build', src: ['**'], dest: 'dist/editor/' }
-				]
+				files: [{ expand: true, cwd: 'editor/build', src: ['**'], dest: 'dist/editor/' }]
+			},
+			allIcons: {
+				files: [{ expand: true, cwd: 'icons', src: ['**'], dest: 'dist/icons/' }]
 			}
 		}
 	});
@@ -115,7 +115,7 @@ module.exports = function (grunt) {
 	});
 
 	// Default task(s).
-	grunt.registerTask('icons', ['svg_sprite', 'build-meta']);
+	grunt.registerTask('icons', ['svg_sprite', 'build-meta', 'copy:allIcons']);
 	grunt.registerTask('editor', ['npm-command', 'copy']);
 	grunt.registerTask('default', ['icons', 'editor']);
 };
