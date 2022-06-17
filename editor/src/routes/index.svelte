@@ -4,6 +4,7 @@
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import IconList from '$lib/icons/iconList.svelte';
+	import IconForm from '$lib/icons/iconForm.svelte';
 	import { nanoid } from 'nanoid';
 
 	// import { dev } from '$app/env';
@@ -28,6 +29,52 @@
 	}[] = [];
 	let loading = true;
 
+	let chosenCategory = 0;
+	let chosenIcon: undefined | string;
+	$: chosenIconData = iconData?.meta[chosenCategory].icons.find((i) => i.id == chosenIcon);
+	$: iconNotDeleted = !iconDiffs[chosenCategory]?.removedIcons.find(
+		(i) => i.id == chosenIconData?.id
+	);
+
+	let unsaved = false;
+	const updateIcons = (e: CustomEvent) => {
+		const { icons } = e.detail;
+	};
+
+	let existingTags = [] as string[];
+	let existingCollections = [] as string[];
+	const updateTagData = () => {
+		existingTags = [
+			// Only unique values
+			...new Set(
+				iconData.meta.reduce(
+					(acc, cat) =>
+						// Step through categories, reducing each icon to a list of tags and bunching together
+						acc.concat(
+							cat.icons.reduce((acc, i) => (i.tags ? acc.concat(i.tags) : acc), [] as string[])
+						),
+					[] as string[]
+				)
+			)
+		];
+		// Load list of collections
+		existingCollections = [
+			// Only unique values
+			...new Set(
+				iconData.meta.reduce(
+					(acc, cat) =>
+						// Step through categories, reducing each icon to a list of tags and bunching together
+						acc.concat(
+							cat.icons.reduce(
+								(acc, i) => (i.collections ? acc.concat(i.collections) : acc),
+								[] as string[]
+							)
+						),
+					[] as string[]
+				)
+			)
+		];
+	};
 	onMount(async () => {
 		iconData = await fetch(`${base}/meta.json`).then((res) => {
 			if (!res.ok) {
@@ -68,19 +115,10 @@
 			})
 		);
 		loading = false;
+
+		// Parse tag data
+		updateTagData();
 	});
-
-	let chosenCategory = 0;
-	let chosenIcon: undefined | string;
-	$: chosenIconData = iconData?.meta[chosenCategory].icons.find((i) => i.id == chosenIcon);
-	$: iconNotDeleted = !iconDiffs[chosenCategory]?.removedIcons.find(
-		(i) => i.id == chosenIconData?.id
-	);
-
-	let unsaved = false;
-	const updateIcons = (e: CustomEvent) => {
-		const { icons } = e.detail;
-	};
 </script>
 
 <h1 class="text-3xl font-bold">Canvas Icons Editor</h1>
@@ -112,11 +150,11 @@
 				{#if iconDiffs[chosenCategory]}
 					{#if iconDiffs[chosenCategory].newIcons.length}
 						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-						<IconList icons={iconDiffs[chosenCategory].newIcons} />
+						<IconList icons={iconDiffs[chosenCategory].newIcons} newIcons />
 					{/if}
 					{#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
-						<IconList icons={iconDiffs[chosenCategory].removedIcons} />
+						<IconList icons={iconDiffs[chosenCategory].removedIcons} deletedIcons />
 					{/if}
 				{/if}
 			</div>
@@ -131,13 +169,31 @@
 		</div>
 		{#if chosenIcon}
 			<div class="icon-editor w-6/12">
-				<h2 class="text-xl font-bold mt-3">Icon Editor:</h2>
-				<h1>Selected Icon</h1>
+				<!-- <h2 class="text-xl font-bold mt-3">Icon Editor:</h2> -->
 				{#if chosenIconData && iconNotDeleted}
-					<p>Found Icon {chosenIconData}</p>
-					<img src={getIconUrl(chosenIconData)} alt="" />
+					<div class="card iconHeader">
+						<div class="icon">
+							<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
+						</div>
+						<IconForm icon={chosenIconData} {existingCollections} {existingTags} />
+					</div>
 				{/if}
 			</div>
 		{/if}
 	</div>
 {/if}
+
+<style lang="scss">
+	.card {
+		@apply shadow rounded bg-white p-3 px-5 my-3;
+		&.iconHeader {
+			@apply mt-10 sticky top-10;
+			.icon {
+				@apply w-20 mx-auto p-5 rounded-full shadow -mt-10 bg-gray-900;
+				img {
+					@apply invert;
+				}
+			}
+		}
+	}
+</style>

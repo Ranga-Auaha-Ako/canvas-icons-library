@@ -39,6 +39,7 @@
 		"sass": "^1.52.3",
 		"svelte-dnd-action": "^0.9.18",
 		"svelte-highlight": "^6.1.0",
+		"svelte-tags-input": "^2.9.2",
 		"title-case": "^3.0.3"
 	}
 }

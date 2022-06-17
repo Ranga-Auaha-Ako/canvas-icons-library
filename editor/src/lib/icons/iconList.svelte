@@ -9,7 +9,33 @@
 	export let chosenIcon: string | null = null;
 
 	// Handle edge cases where the icons don't actually exist (yet) or are missing links
-	export let newIcon = false;
+	export let newIcons: boolean | string[] = false;
+	export let deletedIcons: boolean | string[] = false;
+	let overridenStates: { [id: string]: { new?: boolean; deleted?: boolean } } = {};
+
+	$: iconStates = icons.reduce((acc, i) => {
+		let newIcon, deletedIcon;
+		if (Array.isArray(newIcons)) {
+			newIcon = newIcons.includes(i.id);
+		} else {
+			newIcon = newIcons;
+		}
+		if (Array.isArray(deletedIcons)) {
+			deletedIcon = deletedIcons.includes(i.id);
+		} else {
+			deletedIcon = deletedIcons;
+		}
+		acc[i.id] = {
+			new: newIcon,
+			deleted: deletedIcon
+		};
+		const override = overridenStates[i.id];
+		if (override) {
+			if (override.deleted !== undefined) acc[i.id].deleted = override.deleted;
+			if (override.new !== undefined) acc[i.id].new = override.new;
+		}
+		return acc;
+	}, {} as { [id: string]: { new: boolean; deleted: boolean } });
 
 	// Handle movement of Drag&Drop icons, animation
 	const flipDurationMs = 300;
@@ -30,6 +56,7 @@
 
 	const markMissing = (e: any, icon: Icon) => {
 		e.target.src = `${base}/missing-icon.svg`;
+		overridenStates[icon.id] = { deleted: true };
 	};
 </script>
 
@@ -42,7 +69,8 @@
 	>
 		{#each icons as icon, i (icon.id)}
 			<div
-				class="icon relative p-0.5 m-1 transition-all duration-200 rounded bg-gray-50 hover:scale-110 hover:opacity-50"
+				class="icon"
+				class:deleted={iconStates[icon.id].deleted}
 				class:editing={chosenIcon == icon.id}
 				animate:flip={{ duration: flipDurationMs }}
 				on:click={(e) => (chosenIcon = chosenIcon == icon.id ? null : icon.id)}
@@ -75,12 +103,21 @@
 
 <style lang="scss">
 	.icon {
+		@apply relative p-0.5 m-1 transition-all duration-200 rounded bg-gray-50 hover:scale-110 hover:opacity-50;
+		--select-colour: #4caf50;
+		--select-colour-light: #4caf50aa;
+
+		&.deleted.editing {
+			--select-colour: #b43a3a;
+			--select-colour-light: #b43a3aaa;
+		}
+
 		&.editing {
-			box-shadow: 0px 0 1px 3px #4caf50;
+			box-shadow: 0px 0 1px 3px var(--select-colour);
 			&:hover {
 				opacity: 1;
 				transform: unset;
-				box-shadow: 0px 0 1px 3px #4caf50aa;
+				box-shadow: 0px 0 1px 3px var(--select-colour-light);
 			}
 		}
 
@@ -95,7 +132,7 @@
 			margin-bottom: 0.5rem;
 			background: white;
 			outline: 2px solid white;
-			border: 2px solid #4caf50;
+			border: 2px solid var(--select-colour);
 			font-size: 0.7rem;
 			color: black;
 			z-index: 15;
