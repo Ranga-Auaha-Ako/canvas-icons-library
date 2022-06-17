@@ -18,7 +18,7 @@
 		overflow: auto;
 		.app {
 			margin-top: 5vh;
-			width: 50em;
+			width: 70em;
 			max-width: calc(100% - 2em);
 		}
 	}

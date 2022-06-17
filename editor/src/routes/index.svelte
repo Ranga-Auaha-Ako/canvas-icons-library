@@ -1,10 +1,23 @@
 <script async lang="ts">
 	import { onMount } from 'svelte';
+	import { expoInOut } from 'svelte/easing';
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import IconList from '$lib/icons/iconList.svelte';
 
 	// import { dev } from '$app/env';
 	import { base, assets } from '$app/paths';
+
+	// Custom slide transition
+	function expandPanel(node: Element, { delay = 0, duration = 200, easing = expoInOut }) {
+		const w = parseFloat(getComputedStyle(node).width);
+
+		return {
+			delay,
+			duration,
+			easing: easing || expoInOut,
+			css: (t: number) => `margin-right: ${(1 - t) * w * -1}px; position: relative; width: ${w}px;`
+		};
+	}
 
 	let iconData: iconMeta;
 	let iconDiffs: {
@@ -39,6 +52,7 @@
 	});
 
 	let chosenCategory = 0;
+	let chosenIcon: undefined | string;
 
 	let unsaved = false;
 	const updateIcons = (e: CustomEvent) => {
@@ -68,24 +82,40 @@
 			</button>
 		{/each}
 	</div>
-	<div class="changes">
-		{#if iconDiffs[chosenCategory]}
-			{#if iconDiffs[chosenCategory].newIcons.length}
-				<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-				{#each iconDiffs[chosenCategory].newIcons as icon}
-					<p>{icon}</p>
-				{/each}
-			{/if}
-			{#if iconDiffs[chosenCategory].removedIcons.length}
-				<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
-				{#each iconDiffs[chosenCategory].removedIcons as icon}
-					<p>{icon.url}</p>
-				{/each}
-			{/if}
+	<!-- Two column layout for list and icon editing panel -->
+	<div class="flex">
+		<div class="icon-lists flex-grow-0 w-6/12 pr-5">
+			<div class="changes">
+				{#if iconDiffs[chosenCategory]}
+					{#if iconDiffs[chosenCategory].newIcons.length}
+						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
+						{#each iconDiffs[chosenCategory].newIcons as icon}
+							<p>{icon}</p>
+						{/each}
+					{/if}
+					{#if iconDiffs[chosenCategory].removedIcons.length}
+						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
+						{#each iconDiffs[chosenCategory].removedIcons as icon}
+							<p>{icon.url}</p>
+						{/each}
+					{/if}
+				{/if}
+			</div>
+			<h2 class="text-xl font-bold mt-3">Existing Icons:</h2>
+			<!--  - Top matching icons -->
+			<!-- on:selectIcon -->
+			<IconList
+				bind:icons={iconData.meta[chosenCategory].icons}
+				on:edit={updateIcons}
+				bind:chosenIcon
+			/>
+		</div>
+		{#if chosenIcon}
+			<div class="icon-editor w-6/12">
+				<h2 class="text-xl font-bold mt-3">Icon Editor:</h2>
+				<h1>Selected Icon</h1>
+				{chosenIcon}
+			</div>
 		{/if}
 	</div>
-	<h2 class="text-xl font-bold mt-3">Existing Icons:</h2>
-	<!--  - Top matching icons -->
-	<!-- on:selectIcon -->
-	<IconList bind:icons={iconData.meta[chosenCategory].icons} on:edit={updateIcons} />
 {/if}

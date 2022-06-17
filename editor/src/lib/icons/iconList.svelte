@@ -6,8 +6,7 @@
 	import { nanoid } from 'nanoid';
 
 	export let icons: Icon[];
-
-	let editIcon: string | null = null;
+	export let chosenIcon: string | null = null;
 
 	// Handle movement of Drag&Drop icons, animation
 	const flipDurationMs = 300;
@@ -36,17 +35,30 @@
 	>
 		{#each icons as icon, i (icon.id)}
 			<div
-				class="icon relative p-0.5 m-1 transition-all duration-200 rounded bg-grey-100 hover:scale-110 hover:opacity-50"
-				class:editing={editIcon == icon.id}
+				class="icon relative p-0.5 m-1 transition-all duration-200 rounded bg-gray-50 hover:scale-110 hover:opacity-50"
+				class:editing={chosenIcon == icon.id}
 				animate:flip={{ duration: flipDurationMs }}
-				on:click={(e) => (editIcon = editIcon == icon.id ? null : icon.id)}
+				on:click={(e) => (chosenIcon = chosenIcon == icon.id ? null : icon.id)}
 				title={icon.term}
 			>
-				{#if editIcon == icon.id}
+				{#if chosenIcon == icon.id}
 					<div class="editTools">
-						<div role="button" class="delete" on:click={(_) => removeIcon(i)}>Delete</div>
-						<!-- <div role="button" class="clone" on:click={(_) => cloneIcon(i)}>Clone</div> -->
+						<div role="button" class="delete details-btn" on:click={(_) => removeIcon(i)}>
+							Delete
+						</div>
+						<!-- <div role="button" class="clone details-btn" on:click={(_) => cloneIcon(i)}>Clone</div> -->
 					</div>
+					<!-- <div
+						class="details"
+						on:click|stopPropagation={() => {
+							return true;
+						}}
+					>
+						<p class="px-1">
+							<span class="break-words">{icon.url}</span>
+							(<span>{icon.title}</span>)
+						</p>
+					</div> -->
 				{/if}
 				<img src={getIconUrl(icon)} alt={icon.title} />
 			</div>
@@ -64,9 +76,10 @@
 				box-shadow: 0px 0 1px 3px #4caf50aa;
 			}
 		}
-		.editTools {
+
+		.editTools,
+		.details {
 			position: absolute;
-			bottom: 100%;
 			left: 50%;
 			transform: translateX(-50%);
 			transition: 0.33s ease transform;
@@ -76,26 +89,39 @@
 			background: white;
 			outline: 2px solid white;
 			border: 2px solid #4caf50;
-			display: flex;
-			cursor: default;
 			font-size: 0.7rem;
-			font-weight: bold;
 			color: black;
 			z-index: 15;
 			&:hover {
 				transform: translateX(-50%) scale(1.1);
 			}
-			.delete,
-			.clone {
+			.details-btn {
 				cursor: pointer;
 				padding: 0.5rem;
 				&.delete:hover {
 					background-color: #f443361e;
 				}
-				&.clone:hover {
-					background-color: #4caf4f1e;
-				}
+				// &.clone:hover {
+				// 	background-color: #4caf4f1e;
+				// }
 			}
 		}
+		.editTools {
+			bottom: 100%;
+			font-weight: bold;
+			cursor: default;
+			display: flex;
+		}
+		// .details {
+		// 	top: 0;
+		// 	border-radius: 0.3rem;
+		// 	width: 130%;
+		// 	max-height: unset;
+		// 	font-size: 0.6em;
+		// 	cursor: text;
+		// 	span {
+		// 		user-select: all;
+		// 	}
+		// }
 	}
 </style>
