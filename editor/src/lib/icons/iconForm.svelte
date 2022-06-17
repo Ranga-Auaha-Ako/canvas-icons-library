@@ -92,6 +92,7 @@
 		</button>
 		<button
 			class="btn"
+			title="Show TNP Credentials"
 			on:click={() => {
 				showTNPCreds = !showTNPCreds;
 			}}
@@ -105,7 +106,7 @@
 		</button>
 	</div>
 	{#if showTNPCreds}
-		<div class="card" transition:slide>
+		<div class="card bg-slate-100" transition:slide>
 			<label class="form-label">
 				<span> TNP API Key </span>
 				<input
@@ -199,6 +200,3 @@
 		/>
 	</label>
 </div>
-
-<style lang="scss">
-</style>

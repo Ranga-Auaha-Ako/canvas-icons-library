@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card {
-	@apply shadow rounded bg-white p-3 px-5 my-3;
+	@apply shadow rounded  p-3 px-5 my-3;
 	&.iconHeader {
 		@apply mt-10 sticky top-10;
 		.icon {

@@ -215,10 +215,10 @@
 						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
 						<IconList icons={iconDiffs[chosenCategory].newIcons} on:addIcon={addIcon} newIcons />
 					{/if}
-					{#if iconDiffs[chosenCategory].removedIcons.length}
+					<!-- {#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
 						<IconList icons={iconDiffs[chosenCategory].removedIcons} deletedIcons />
-					{/if}
+					{/if} -->
 				{/if}
 			</div>
 			<h2 class="text-xl font-bold mt-3">Existing Icons:</h2>
@@ -235,7 +235,7 @@
 			<div class="icon-editor w-6/12">
 				<!-- <h2 class="text-xl font-bold mt-3">Icon Editor:</h2> -->
 				{#if chosenIconData && iconNotDeleted}
-					<div class="card iconHeader">
+					<div class="card bg-white iconHeader">
 						<div class="icon">
 							<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
 						</div>
