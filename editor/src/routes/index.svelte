@@ -31,13 +31,12 @@
 
 	const awaitIconsDB = (async () => {
 		// const iconMetaData = await fetch(`${base}/meta.json`).then((res) => res.json()).catch( e => (<iconMeta> {meta: [], files: []}));
-		const iconMetaData = await fetch(`${base}/meta.json`).then(res => {
+		const iconMetaData = await fetch(`${base}/meta.json`).then((res) => {
 			if (!res.ok) {
-				throw new Error(res.statusText)
+				throw new Error(res.statusText);
 			}
-			return res.json() as Promise<iconMeta>
-		})
-
+			return res.json() as Promise<iconMeta>;
+		});
 
 		const iconDiffs = await Promise.all(
 			iconMetaData.meta.map(async (metaCategory) => {
@@ -67,23 +66,30 @@
 	Welcome to the editor for Canvas Icons. This tool will let you adjust and configure the metadata
 	for icons in each category. To begin, select a category:
 </p>
-{#await awaitIconsDB }
+{#await awaitIconsDB}
 	<p>Loading...</p>
-{:then {iconData, diffs}}
-	<select bind:value={chosenCategory}>
+{:then { iconData, diffs }}
+	<div class="select-category flex flex-wrap">
 		{#each iconData.meta as category, index}
-			<option value={index}>
+			<div
+				class={`rounded ${
+					chosenCategory == index
+						? 'bg-green-300 hover:bg-green-400'
+						: 'bg-gray-100 hover:bg-gray-300'
+				} border border-gray-200 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
+				on:click={() => (chosenCategory = index)}
+			>
 				{category.name}
-			</option>
+			</div>
 		{/each}
-	</select>
+	</div>
 	<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-	{#each diffs[chosenCategory].newIcons as newIcons}
-		<p>{newIcons}</p>
+	{#each diffs[chosenCategory].newIcons as icon}
+		<p>{icon}</p>
 	{/each}
 	<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
-	{#each diffs[chosenCategory].removedIcons as newIcons}
-		<p>{newIcons}</p>
+	{#each diffs[chosenCategory].removedIcons as icon}
+		<p>{icon.url}</p>
 	{/each}
 	<h2 class="text-xl font-bold mt-3">Existing Icons:</h2>
 	{#each iconData.meta[chosenCategory].icons as newIcons}

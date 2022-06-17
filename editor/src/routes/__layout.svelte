@@ -13,9 +13,11 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
+		justify-content: top;
 		height: 100vh;
+		overflow: auto;
 		.app {
+			margin-top: 5vh;
 			width: 50em;
 			max-width: calc(100% - 2em);
 		}
