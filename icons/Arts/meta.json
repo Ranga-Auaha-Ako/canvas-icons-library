@@ -24,7 +24,6 @@
 				"fiddle",
 				"country",
 				"chordophone",
-				"",
 				"string-instrument"
 			],
 			"term": "Banjo",
@@ -61,7 +60,6 @@
 				"button",
 				"aerophone",
 				"accordion",
-				"",
 				"sound"
 			],
 			"term": "Garmon",
@@ -245,7 +243,6 @@
 				"fiddle-bow",
 				"fiddle",
 				"chordophone",
-				"",
 				"string-instrument"
 			],
 			"term": "Violin",
