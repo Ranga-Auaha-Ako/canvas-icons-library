@@ -2,14 +2,15 @@
 	import { onMount } from 'svelte';
 	import { expoInOut } from 'svelte/easing';
 	import { slide } from 'svelte/transition';
+	import { browser, dev } from '$app/env';
+	import { base, assets } from '$app/paths';
+	import { nanoid } from 'nanoid';
+
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import IconList from '$lib/icons/iconList.svelte';
 	import IconForm from '$lib/icons/iconForm.svelte';
-	import { nanoid } from 'nanoid';
-
-	import { browser, dev } from '$app/env';
-	import { base, assets } from '$app/paths';
+	import { chosenCategory, chosenIcon } from '../store';
 
 	// Custom slide transition
 	function expandPanel(node: Element, { delay = 0, duration = 200, easing = expoInOut }) {
@@ -30,10 +31,9 @@
 	}[] = [];
 	let loading = true;
 
-	let chosenCategory = 0;
-	let chosenIcon: undefined | string;
-	$: chosenIconData = iconData?.meta[chosenCategory].icons.find((i) => i.id == chosenIcon);
-	$: iconNotDeleted = !iconDiffs[chosenCategory]?.removedIcons.find(
+	// let chosenIcon: undefined | string;
+	$: chosenIconData = iconData?.meta[$chosenCategory].icons.find((i) => i.id == $chosenIcon);
+	$: iconNotDeleted = !iconDiffs[$chosenCategory]?.removedIcons.find(
 		(i) => i.id == chosenIconData?.id
 	);
 
@@ -78,8 +78,18 @@
 
 	const addIcon = (e: CustomEvent) => {
 		const icon = e.detail as Icon;
-		chosenIcon = icon.id;
-		iconData.meta[chosenCategory].icons.push(icon);
+		$chosenIcon = icon.id;
+		// Add icon to meta
+		iconData.meta[$chosenCategory].icons.push(icon);
+		// Remove icon from found files
+		const foundCat = iconData.files.findIndex(
+			(c) => c.category === iconData.meta[$chosenCategory].name
+		);
+		if (foundCat) {
+			iconData.files[foundCat].icons = iconData.files[foundCat].icons.filter((i) => i !== icon.id);
+		}
+		// Reload diffs
+		buildDiffs();
 		needSave = true;
 	};
 
@@ -93,6 +103,38 @@
 		};
 	}
 
+	const buildDiffs = () => {
+		iconDiffs = iconData.meta.map((metaCategory) => {
+			// Loop through the meta categories and find differences between it and the actual files
+			const foundCategory = iconData.files.find(({ category }) => category === metaCategory.name);
+			if (!foundCategory) return { newIcons: [], removedIcons: metaCategory.icons };
+			let newIcons = foundCategory.icons
+				.filter((iconUrl) => {
+					return !metaCategory.icons.find((i) => i.url == iconUrl);
+				})
+				.map((url) => {
+					let tnp_id = '';
+					const foundID = url.match(/noun_[\w\d_]+_(\d+)/);
+					if (foundID && foundID[1]) {
+						tnp_id = foundID[1];
+					}
+					return <Icon>{
+						id: nanoid(),
+						width: 48,
+						height: 48,
+						tnp_id,
+						url,
+						tags: [],
+						collections: []
+					};
+				});
+			const removedIcons = metaCategory.icons.filter(({ url }) => {
+				return !foundCategory.icons.find((i) => i == url);
+			});
+			return { newIcons, removedIcons };
+		});
+	};
+
 	const loadData = async () => {
 		iconData = await fetch(`${base}/meta.json`).then((res) => {
 			if (!res.ok) {
@@ -101,37 +143,7 @@
 			return res.json() as Promise<iconMeta>;
 		});
 
-		iconDiffs = await Promise.all(
-			iconData.meta.map(async (metaCategory) => {
-				// Loop through the meta categories and find differences between it and the actual files
-				const foundCategory = iconData.files.find(({ category }) => category === metaCategory.name);
-				if (!foundCategory) return { newIcons: [], removedIcons: metaCategory.icons };
-				let newIcons = foundCategory.icons
-					.filter((iconUrl) => {
-						return !metaCategory.icons.find((i) => i.url == iconUrl);
-					})
-					.map((url) => {
-						let tnp_id = '';
-						const foundID = url.match(/noun_[\w\d_]+_(\d+)/);
-						if (foundID && foundID[1]) {
-							tnp_id = foundID[1];
-						}
-						return <Icon>{
-							id: nanoid(),
-							width: 48,
-							height: 48,
-							tnp_id,
-							url,
-							tags: [],
-							collections: []
-						};
-					});
-				const removedIcons = metaCategory.icons.filter(({ url }) => {
-					return !foundCategory.icons.find((i) => i == url);
-				});
-				return { newIcons, removedIcons };
-			})
-		);
+		buildDiffs();
 		loading = false;
 
 		// Parse tag data
@@ -197,11 +209,11 @@
 		{#each iconData.meta as category, index}
 			<button
 				class={`rounded ${
-					chosenCategory == index
+					$chosenCategory == index
 						? 'bg-green-300 hover:bg-green-400'
 						: 'bg-gray-100 hover:bg-gray-300'
 				} ring-gray-200 ring-1 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
-				on:click={() => (chosenCategory = needSave ? chosenCategory : index)}
+				on:click={() => ($chosenCategory = needSave ? $chosenCategory : index)}
 			>
 				{category.name}
 			</button>
@@ -211,10 +223,10 @@
 	<div class="flex">
 		<div class="icon-lists flex-grow-0 w-6/12 pr-5">
 			<div class="changes">
-				{#if iconDiffs[chosenCategory]}
-					{#if iconDiffs[chosenCategory].newIcons.length}
+				{#if iconDiffs[$chosenCategory]}
+					{#if iconDiffs[$chosenCategory].newIcons.length}
 						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-						<IconList icons={iconDiffs[chosenCategory].newIcons} on:addIcon={addIcon} newIcons />
+						<IconList icons={iconDiffs[$chosenCategory].newIcons} on:addIcon={addIcon} newIcons />
 					{/if}
 					<!-- {#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
@@ -226,13 +238,16 @@
 			<!--  - Top matching icons -->
 			<!-- on:selectIcon -->
 			<IconList
-				bind:icons={iconData.meta[chosenCategory].icons}
-				on:edit={(e) => {needSave = true;}}
+				bind:icons={iconData.meta[$chosenCategory].icons}
+				on:edit={(e) => {
+					needSave = true;
+					// Build diffs, just in case something was deleted
+					buildDiffs();
+				}}
 				on:addIcon={addIcon}
-				bind:chosenIcon
 			/>
 		</div>
-		{#if chosenIcon}
+		{#if $chosenIcon}
 			<div class="icon-editor w-6/12">
 				<!-- <h2 class="text-xl font-bold mt-3">Icon Editor:</h2> -->
 				{#if chosenIconData && iconNotDeleted}

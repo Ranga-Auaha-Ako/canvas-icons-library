@@ -5,11 +5,11 @@
 	import type { Icon } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
 	import { dndzone, TRIGGERS } from 'svelte-dnd-action';
+	import { chosenIcon } from '../../store';
 
 	const dispatch = createEventDispatcher();
 
 	export let icons: Icon[];
-	export let chosenIcon: string | null = null;
 
 	// Handle edge cases where the icons don't actually exist (yet) or are missing links
 	export let newIcons: boolean | string[] = false;
@@ -42,14 +42,15 @@
 
 	// Handle movement of Drag&Drop icons, animation
 	const flipDurationMs = 300;
-	
+
 	let iconsBeforeDrag = icons.slice();
 
 	const handleSort = (e: CustomEvent<DndEvent>) => {
-		console.log('Dragging...');
-		console.log(e);
-		if( e.type == "finalize" && e.detail.items.map(i=>i.id).join(",") == iconsBeforeDrag.map(i=>i.id).join(",") ) {
-			dispatch("edit", icons);
+		if (
+			e.type == 'finalize' &&
+			e.detail.items.map((i) => i.id).join(',') != iconsBeforeDrag.map((i) => i.id).join(',')
+		) {
+			dispatch('edit', icons);
 			iconsBeforeDrag = icons.slice();
 		}
 		icons = e.detail.items as Icon[];
@@ -61,7 +62,7 @@
 		} else {
 			icons = icons.filter((e, idx) => i !== idx);
 		}
-		dispatch("edit", icons);
+		dispatch('edit', icons);
 	};
 
 	const markMissing = (e: any, icon: Icon) => {
@@ -86,12 +87,12 @@
 			<div
 				class="icon"
 				class:deleted={iconStates[icon.id]?.deleted}
-				class:editing={chosenIcon == icon.id}
+				class:editing={$chosenIcon == icon.id}
 				animate:flip={{ duration: flipDurationMs }}
-				on:click={(e) => (chosenIcon = chosenIcon == icon.id ? null : icon.id)}
+				on:click={(e) => ($chosenIcon = $chosenIcon == icon.id ? null : icon.id)}
 				title={icon.term}
 			>
-				{#if chosenIcon == icon.id}
+				{#if $chosenIcon == icon.id}
 					<div class="editTools">
 						{#if iconStates[icon.id]?.new}
 							<div

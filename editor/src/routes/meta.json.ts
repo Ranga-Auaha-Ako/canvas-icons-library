@@ -1,13 +1,24 @@
 import type { RequestEvent } from '@sveltejs/kit';
-import type { Category } from '$lib/icons';
+import type { Category, Icon } from '$lib/icons';
 import glob from 'glob';
 import path from 'path';
 import fs from 'fs'
-import icons from '../../../dist/meta.json';
+// import icons from '../../../dist/meta.json';
 import appRoot from 'app-root-path';
 import beautify from "json-beautify";
+const iconsImports = import.meta.globEager('../../../icons/**/meta.json')
 
 export const prerender = true;
+
+const icons = Object.keys(iconsImports).map( catFile => {
+	const catData = iconsImports[catFile];
+	const catName = path.basename(path.dirname(catFile));
+	const CatIcons = catData.icons.map((icon: Icon) => {
+		icon.url = path.join(catName,icon.url);
+		return icon;
+	})
+	return {icons: CatIcons, name: catName}
+})
 
 // Get the real folder structure for the icons
 const categories = glob.sync("../icons/*/");

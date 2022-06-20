@@ -7,7 +7,7 @@ console.log('Watching icons directory for changes...');
 
 // One-liner for current directory
 chokidar
-	.watch(path.resolve(__dirname, './icons/**/*.svg'), { ignoreInitial: true })
+	.watch(path.resolve(__dirname, './icons/**/*'), { ignoreInitial: true })
 	.on('all', (event, file) => {
 		console.log(`(${event}: ${file}), reloading`);
 		//   https://remarkablemark.org/blog/2017/12/17/touch-file-nodejs/

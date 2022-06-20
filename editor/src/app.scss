@@ -25,7 +25,7 @@ button.btn {
 	}
 	&:active,
 	&.active {
-		@apply ring-0;
+		@apply ring-1 ring-slate-200;
 	}
 }
 

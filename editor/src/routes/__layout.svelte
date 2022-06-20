@@ -2,8 +2,8 @@
 	import '../app.scss';
 </script>
 
-<div class="wrapper bg-slate-800">
-	<div class="app rounded bg-gray-50 drop-shadow px-6 py-5">
+<div class="wrapper bg-gray-700">
+	<div class="app rounded-lg bg-gray-50 border-2 border-gray-200 shadow-xl px-6 py-5">
 		<slot />
 	</div>
 </div>

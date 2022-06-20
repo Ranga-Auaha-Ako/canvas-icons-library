@@ -9,3 +9,6 @@ export const nounProjectAuth = writable('nounProjectAuth', {
   key: '',
   secret: ''
 })
+
+export const chosenCategory = writable('chosenCategory', 0);
+export const chosenIcon = writable('chosenIcon', <null | string>null);
