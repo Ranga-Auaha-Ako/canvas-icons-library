@@ -7,6 +7,8 @@ import icons from '../../../dist/meta.json';
 import appRoot from 'app-root-path';
 import beautify from "json-beautify";
 
+export const prerender = true;
+
 // Get the real folder structure for the icons
 const categories = glob.sync("../icons/*/");
 const iconsByCategory = categories.map(foundPath => {

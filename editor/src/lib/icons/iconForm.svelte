@@ -56,16 +56,17 @@
 		if (!icon.title) icon.title = iconData.icon.term;
 		if (!icon.term) icon.term = iconData.icon.term;
 		// -- Tags
-		const newTags = iconData.icon.tags.map((t) => t.slug);
+		const newTags = iconData.icon.tags.map((t: any) => t.slug);
 		icon.tags = icon.tags ? [...new Set(icon.tags.concat(newTags))] : newTags;
 		// -- Collections
-		const newCollections = iconData.icon.collections.map((t) => t.name);
+		const newCollections = iconData.icon.collections.map((t: any) => t.name);
 		icon.collections = icon.collections
 			? [...new Set(icon.collections.concat(newCollections))]
 			: newCollections;
 		// We're Done! Cancel the loading and mark as complete
 		loading = false;
 		clearInterval(timer);
+		dispatch("changed");
 		return;
 	};
 </script>
@@ -178,7 +179,7 @@
 	<label class="form-label" for="iconTags">
 		<span> Icon Tags </span>
 		<Tags
-			on:tags={(e) => dispatch('changed')}
+			on:tags={() => dispatch('changed')}
 			id="iconTags"
 			addKeys={[9, 188, 13]}
 			tags={icon.tags}
@@ -190,7 +191,7 @@
 	<label class="form-label" for="iconCollections">
 		<span> The Noun Project "Collections" </span>
 		<Tags
-			on:tags={(e) => dispatch('changed')}
+			on:tags={() => dispatch('changed')}
 			id="iconCollections"
 			addKeys={[9, 188, 13]}
 			tags={icon.collections}

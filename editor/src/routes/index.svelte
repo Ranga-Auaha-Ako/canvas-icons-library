@@ -80,6 +80,7 @@
 		const icon = e.detail as Icon;
 		chosenIcon = icon.id;
 		iconData.meta[chosenCategory].icons.push(icon);
+		needSave = true;
 	};
 
 	let needSave = false;
@@ -226,7 +227,7 @@
 			<!-- on:selectIcon -->
 			<IconList
 				bind:icons={iconData.meta[chosenCategory].icons}
-				on:edit={updateIcons}
+				on:edit={(e) => {needSave = true;}}
 				on:addIcon={addIcon}
 				bind:chosenIcon
 			/>

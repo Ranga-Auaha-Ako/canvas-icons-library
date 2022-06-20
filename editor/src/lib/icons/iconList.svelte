@@ -4,7 +4,7 @@
 	import { createEventDispatcher } from 'svelte';
 	import type { Icon } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
-	import { dndzone } from 'svelte-dnd-action';
+	import { dndzone, TRIGGERS } from 'svelte-dnd-action';
 
 	const dispatch = createEventDispatcher();
 
@@ -42,11 +42,17 @@
 
 	// Handle movement of Drag&Drop icons, animation
 	const flipDurationMs = 300;
+	
+	let iconsBeforeDrag = icons.slice();
 
-	const handleSort = (e: CustomEvent) => {
+	const handleSort = (e: CustomEvent<DndEvent>) => {
 		console.log('Dragging...');
 		console.log(e);
-		icons = e.detail.items;
+		if( e.type == "finalize" && e.detail.items.map(i=>i.id).join(",") == iconsBeforeDrag.map(i=>i.id).join(",") ) {
+			dispatch("edit", icons);
+			iconsBeforeDrag = icons.slice();
+		}
+		icons = e.detail.items as Icon[];
 	};
 
 	const removeIcon = (i: number | boolean = false, id: string | boolean = false) => {
@@ -55,6 +61,7 @@
 		} else {
 			icons = icons.filter((e, idx) => i !== idx);
 		}
+		dispatch("edit", icons);
 	};
 
 	const markMissing = (e: any, icon: Icon) => {

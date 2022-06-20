@@ -9,3 +9,6 @@ declare namespace svelte.JSX {
         onfinalize?: (event: CustomEvent<DndEvent> & {target: EventTarget & T}) => void;
     }
 }
+
+// No TS Definitions for this module
+declare module 'svelte-tags-input';
