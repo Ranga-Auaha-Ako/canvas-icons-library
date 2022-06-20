@@ -1,7 +1,7 @@
 <script async lang="ts">
 	import { onMount } from 'svelte';
 	import { expoInOut } from 'svelte/easing';
-	import { slide } from 'svelte/transition';
+	import { slide, fade } from 'svelte/transition';
 	import { browser, dev } from '$app/env';
 	import { base, assets } from '$app/paths';
 	import { nanoid } from 'nanoid';
@@ -249,33 +249,38 @@
 				on:addIcon={addIcon}
 			/>
 		</div>
-		{#if $chosenIcon}
-			<div class="icon-editor w-6/12">
-				<!-- <h2 class="text-xl font-bold mt-3">Icon Editor:</h2> -->
-				{#if chosenIconData && iconNotDeleted}
-					<div class="card bg-white iconHeader">
-						<div class="icon">
-							<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
-						</div>
-						<IconForm
-							icon={chosenIconData}
-							{existingCollections}
-							{existingTags}
-							on:changed={() => {
-								needSave = true;
-							}}
-							on:deleteIcon={(e) => {
-								iconData.meta[$chosenCategory].icons = iconData.meta[$chosenCategory].icons.filter(
-									(i) => i.id !== e.detail.id
-								);
-								buildDiffs();
-								needSave = true;
-							}}
-						/>
-					</div>
+		<div class="icon-editor w-6/12">
+			<div class="card bg-white iconHeader">
+				<!-- Show placeholder -->
+				<div class="icon aspect-square flex items-center justify-center">
+					{#if $chosenIcon && chosenIconData && iconNotDeleted}
+						<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
+					{:else}
+						<p class="text-white text-4xl font-thin">?</p>
+					{/if}
+				</div>
+				{#if $chosenIcon && chosenIconData && iconNotDeleted}
+					<!-- <h2 class="text-xl font-bold mt-3">Icon Editor:</h2> -->
+					<IconForm
+						icon={chosenIconData}
+						{existingCollections}
+						{existingTags}
+						on:changed={() => {
+							needSave = true;
+						}}
+						on:deleteIcon={(e) => {
+							iconData.meta[$chosenCategory].icons = iconData.meta[$chosenCategory].icons.filter(
+								(i) => i.id !== e.detail.id
+							);
+							buildDiffs();
+							needSave = true;
+						}}
+					/>
+				{:else}
+					<p class="italic text-gray-700 text-center mt-24 mb-24">No icon selected.</p>
 				{/if}
 			</div>
-		{/if}
+		</div>
 	</div>
 {/if}
 
