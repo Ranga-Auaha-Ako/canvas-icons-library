@@ -56,6 +56,12 @@
 		icons = e.detail.items as Icon[];
 	};
 
+	$: iconStateTest = (() => {
+		const icon = icons.find((icn) => icn.id === $chosenIcon);
+		console.log(icon);
+		return icon;
+	})();
+
 	const removeIcon = (i: number | boolean = false, id: string | boolean = false) => {
 		if (id) {
 			icons = icons.filter((e, idx) => id !== e.id);

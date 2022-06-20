@@ -66,44 +66,54 @@
 		// We're Done! Cancel the loading and mark as complete
 		loading = false;
 		clearInterval(timer);
-		dispatch("changed");
+		dispatch('changed');
 		return;
 	};
 </script>
 
 {#if icon.tnp_id && dev}
 	<div class="btn-group">
-		<button
-			class="btn"
-			class:active={loading}
-			on:click={() => {
-				if (TNPCredsValid && !showTNPCreds) {
-					fetchTNP();
-				} else {
+		<div class="btn-group-tight">
+			<button
+				class="btn"
+				class:active={loading}
+				on:click={() => {
+					if (TNPCredsValid && !showTNPCreds) {
+						fetchTNP();
+					} else {
+						showTNPCreds = !showTNPCreds;
+					}
+				}}
+			>
+				{#if loading}
+					{@html loadingString}
+				{/if}
+				{#if !loading}
+					Fetch icon metadata from TNP
+				{/if}
+			</button>
+			<button
+				class="btn"
+				title="Show TNP Credentials"
+				on:click={() => {
 					showTNPCreds = !showTNPCreds;
-				}
-			}}
-		>
-			{#if loading}
-				{@html loadingString}
-			{/if}
-			{#if !loading}
-				Fetch icon metadata from TNP
-			{/if}
-		</button>
+				}}
+				class:active={showTNPCreds}
+			>
+				{#if showTNPCreds}
+					&#9650;
+				{:else}
+					&#9660;
+				{/if}
+			</button>
+		</div>
 		<button
-			class="btn"
-			title="Show TNP Credentials"
+			class="btn danger"
 			on:click={() => {
-				showTNPCreds = !showTNPCreds;
+				dispatch('deleteIcon', icon);
 			}}
-			class:active={showTNPCreds}
 		>
-			{#if showTNPCreds}
-				&#9650;
-			{:else}
-				&#9660;
-			{/if}
+			Delete Icon
 		</button>
 	</div>
 	{#if showTNPCreds}

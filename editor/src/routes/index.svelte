@@ -77,10 +77,12 @@
 	};
 
 	const addIcon = (e: CustomEvent) => {
+		// console.log(e);
 		const icon = e.detail as Icon;
 		$chosenIcon = icon.id;
 		// Add icon to meta
 		iconData.meta[$chosenCategory].icons.push(icon);
+		// console.log(iconData.meta[$chosenCategory]);
 		// Remove icon from found files
 		const foundCat = iconData.files.findIndex(
 			(c) => c.category === iconData.meta[$chosenCategory].name
@@ -173,8 +175,8 @@
 
 <h1 class="text-3xl font-bold">Canvas Icons Editor</h1>
 <p class="mb-3">
-	Welcome to the editor for Canvas Icons. This tool will let you adjust and configure the metadata
-	for icons in each category. To begin, select a category:
+	Welcome to the editor for Canvas Icons. This tool lets you add, remove, edit, and rearrange icons
+	in each category.
 </p>
 {#if needSave}
 	<div
@@ -213,7 +215,7 @@
 						? 'bg-green-300 hover:bg-green-400'
 						: 'bg-gray-100 hover:bg-gray-300'
 				} ring-gray-200 ring-1 transition-all text-xs mr-0.5 mb-0.5 py-1 px-2 inline-block cursor-pointer select-none`}
-				on:click={() => ($chosenCategory = needSave ? $chosenCategory : index)}
+				on:click={() => ($chosenCategory = index)}
 			>
 				{category.name}
 			</button>
@@ -260,6 +262,13 @@
 							{existingCollections}
 							{existingTags}
 							on:changed={() => {
+								needSave = true;
+							}}
+							on:deleteIcon={(e) => {
+								iconData.meta[$chosenCategory].icons = iconData.meta[$chosenCategory].icons.filter(
+									(i) => i.id !== e.detail.id
+								);
+								buildDiffs();
 								needSave = true;
 							}}
 						/>
