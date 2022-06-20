@@ -126,7 +126,7 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style lang="postcss">
 	.icon {
 		@apply relative p-0.5 m-1 transition-all duration-200 rounded bg-gray-50 hover:scale-110 hover:opacity-50;
 		--select-colour: #4caf50;
@@ -170,9 +170,6 @@
 				&.delete:hover {
 					background-color: #f443361e;
 				}
-				// &.clone:hover {
-				// 	background-color: #4caf4f1e;
-				// }
 			}
 		}
 		.editTools {
@@ -181,16 +178,5 @@
 			cursor: default;
 			display: flex;
 		}
-		// .details {
-		// 	top: 0;
-		// 	border-radius: 0.3rem;
-		// 	width: 130%;
-		// 	max-height: unset;
-		// 	font-size: 0.6em;
-		// 	cursor: text;
-		// 	span {
-		// 		user-select: all;
-		// 	}
-		// }
 	}
 </style>
