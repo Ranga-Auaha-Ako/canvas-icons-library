@@ -27,6 +27,9 @@ button.btn {
 	&.active {
 		@apply ring-1 ring-slate-200;
 	}
+	&.danger {
+		@apply ring-red-800 text-red-800;
+	}
 }
 
 .btn-group {
@@ -41,6 +44,16 @@ button.btn {
 
 	button {
 		@apply inline-block mx-0;
+	}
+	&.btn-group-tight,
+	.btn-group-tight {
+		@apply border-2 border-slate-900 rounded my-auto inline-flex;
+		button {
+			@apply mx-0 my-0 rounded-none border-r-2 border-slate-900 ring-0;
+			&:last-child {
+				@apply border-r-0;
+			}
+		}
 	}
 }
 

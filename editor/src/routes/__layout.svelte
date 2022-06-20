@@ -1,5 +1,5 @@
 <script>
-	import '../app.scss';
+	import '../app.postcss';
 </script>
 
 <div class="wrapper bg-gray-700">
