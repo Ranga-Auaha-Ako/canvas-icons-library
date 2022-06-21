@@ -1,6 +1,5 @@
 import { dev } from '$app/env';
 import { base } from '$app/paths';
-import path from 'path';
 
 export interface Icon {
     id: string;
@@ -44,5 +43,5 @@ export const getIconUrl = (icon: Icon) : string => {
         // Use endpoint rather than static file url (not available in sveltekit's preview)
         return `${base}/icon/${icon.url}`;
     }
-    return `${path.resolve(base, "../")}/icon/${icon.url}`;
+    return `${base}/../icons/${icon.url}`;
 }
