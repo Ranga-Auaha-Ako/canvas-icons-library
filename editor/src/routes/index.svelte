@@ -252,7 +252,7 @@
 		<div class="icon-editor w-6/12">
 			<div class="card bg-white iconHeader">
 				<!-- Show placeholder -->
-				<div class="icon aspect-square flex items-center justify-center">
+				<div class="icon aspect-square flex items-center justify-center select-none">
 					{#if $chosenIcon && chosenIconData && iconNotDeleted}
 						<img src={getIconUrl(chosenIconData)} alt={chosenIconData.title} />
 					{:else}
@@ -277,7 +277,7 @@
 						}}
 					/>
 				{:else}
-					<p class="italic text-gray-700 text-center mt-24 mb-24">No icon selected.</p>
+					<p class="italic text-gray-700 text-center mt-24 mb-24 select-none">No icon selected.</p>
 				{/if}
 			</div>
 		</div>
