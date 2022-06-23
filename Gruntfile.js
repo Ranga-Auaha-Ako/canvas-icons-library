@@ -83,6 +83,15 @@ module.exports = function (grunt) {
 			allIcons: {
 				files: [{ expand: true, cwd: 'icons', src: ['**'], dest: 'dist/icons/' }]
 			}
+		},
+		compress: {
+			options: {
+				mode: 'zip',
+				archive: 'dist/lambda.zip'
+			},
+			lambda: {
+				files: [{ expand: true, cwd: 'lambda/', src: ['**'], dest: '' }]
+			}
 		}
 	});
 
@@ -92,6 +101,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-npm-command');
 	// Load the plugin that copies built editor files to the dist directory
 	grunt.loadNpmTasks('grunt-contrib-copy');
+	// Compress the Lambda script
+	grunt.loadNpmTasks('grunt-contrib-compress');
 
 	// Compile category JSONs into a single file
 	grunt.registerTask('build-meta', function () {
@@ -117,5 +128,6 @@ module.exports = function (grunt) {
 	// Default task(s).
 	grunt.registerTask('icons', ['svg_sprite', 'build-meta', 'copy:allIcons']);
 	grunt.registerTask('editor', ['npm-command', 'copy']);
-	grunt.registerTask('default', ['icons', 'editor']);
+	grunt.registerTask('lambda', ['compress:lambda']);
+	grunt.registerTask('default', ['icons', 'editor', 'lambda']);
 };
