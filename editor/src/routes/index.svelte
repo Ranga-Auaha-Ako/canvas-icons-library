@@ -138,7 +138,7 @@
 	};
 
 	const loadData = async () => {
-		iconData = await fetch(`${base}/meta.json`).then((res) => {
+		const iconData = await fetch(`${base}/meta.json`).then((res) => {
 			if (!res.ok) {
 				throw new Error(res.statusText);
 			}

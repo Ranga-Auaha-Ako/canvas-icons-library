@@ -45,6 +45,11 @@ output "s3_url" {
   value = "s3://${aws_s3_bucket.static.bucket}"
 }
 
-# output "website_url" {
-#   value = aws_s3_bucket_website_configuration.example
-# }
+resource "aws_s3_bucket_cors_configuration" "allow_all" {
+  bucket = aws_s3_bucket.static.bucket
+
+  cors_rule {
+    allowed_methods = ["GET"]
+    allowed_origins = ["*"]
+  }
+}

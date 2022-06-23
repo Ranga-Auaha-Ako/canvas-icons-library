@@ -1,6 +1,6 @@
 {
 	"name": "canvas-icon",
-	"version": "2.6.6",
+	"version": "2.0.0",
 	"license": "UNLICENSED",
 	"scripts": {
 		"build": "grunt",

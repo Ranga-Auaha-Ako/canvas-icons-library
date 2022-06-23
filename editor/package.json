@@ -1,6 +1,6 @@
 {
 	"name": "editor",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "concurrently --raw --default-input-target 0 --kill-others 'svelte-kit dev' 'node ../watchfiles.js'",
 		"build": "svelte-kit build",
