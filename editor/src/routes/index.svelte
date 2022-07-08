@@ -32,7 +32,7 @@
 	let loading = true;
 
 	// let chosenIcon: undefined | string;
-	$: chosenIconData = iconData?.meta[$chosenCategory].icons.find((i) => i.id == $chosenIcon);
+	$: chosenIconData = iconData?.meta[$chosenCategory]?.icons.find((i) => i.id == $chosenIcon);
 	$: iconNotDeleted = !iconDiffs[$chosenCategory]?.removedIcons.find(
 		(i) => i.id == chosenIconData?.id
 	);
@@ -90,6 +90,16 @@
 		if (foundCat) {
 			iconData.files[foundCat].icons = iconData.files[foundCat].icons.filter((i) => i !== icon.id);
 		}
+		// Reload diffs
+		buildDiffs();
+		needSave = true;
+	};
+
+	const addCategory = (category: foundCategory) => {
+		// console.log(e);
+		$chosenCategory = iconData.meta.length;
+		// Add category to meta
+		iconData.meta.push({ name: category.category, icons: [] });
 		// Reload diffs
 		buildDiffs();
 		needSave = true;
@@ -206,6 +216,29 @@
 {/if}
 {#if loading}
 	<p>Loading...</p>
+{:else if iconData.meta.length === 0 && iconData.files.length === 0}
+	<p
+		transition:slide
+		class="my-3 rounded shadow bg-yellow-100 p-5 border-dashed border-2 border-yellow-400"
+	>
+		Heads up! You don't have any categories. To begin, add a folder with some SVG icons to the <span
+			class="font-mono bg-yellow-300 p-1 rounded">./icons/</span
+		> directory in your fork of this repository.
+	</p>
+{:else if iconData.meta.length === 0 && iconData.files.length > 0}
+	<p
+		transition:slide
+		class="my-3 rounded shadow bg-green-100 p-5 border-dashed border-2 border-green-400"
+	>
+		Nearly there! Click below to start building your first category.
+	</p>
+	<div class="btn-group flex flex-wrap">
+		{#each iconData.files as newCategory}
+			<button class="btn inline-block" on:click={() => addCategory(newCategory)}
+				>Add "{newCategory.category}"</button
+			>
+		{/each}
+	</div>
 {:else}
 	<div class="select-category flex flex-wrap">
 		{#each iconData.meta as category, index}

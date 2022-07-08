@@ -6,6 +6,7 @@ import fs from 'fs'
 // import icons from '../../../dist/meta.json';
 import appRoot from 'app-root-path';
 import beautify from "json-beautify";
+import { parseIcon } from '$lib/icons/iconParse';
 const iconsImports = import.meta.globEager('../../../icons/**/meta.json')
 
 export const prerender = true;
@@ -25,7 +26,13 @@ const categories = glob.sync("../icons/*/");
 const iconsByCategory = categories.map(foundPath => {
 	const category = path.basename(foundPath);
 	const icons = glob.sync(`${category}/*.svg`, {cwd: "../icons/"});
-	return {category, icons};
+	// Scan icons for common issues (fixed size, colour settings)
+	const issues = icons.map(icon => {
+		const svgData = fs.readFileSync(`../icons/${icon}`);
+		const {issues} = parseIcon(svgData.toString());
+		return issues;
+	});
+	return {category, icons, issues};
 });
 
 /**
