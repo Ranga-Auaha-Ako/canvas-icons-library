@@ -1,0 +1,100 @@
+{
+	"icons": [
+		{
+			"id": "e7DaygIJmdXgF5f269i8z",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "book-2.svg",
+			"tags": [ "book", "education", "knowledge", "reading", "assignment", "section", "module" ],
+			"collections": [],
+			"title": "Book"
+		},
+		{
+			"id": "pQkh9f_wapDeDZ4aaAkU7",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "circle-2.svg",
+			"tags": [ "circle", "number", "2" ],
+			"collections": [],
+			"title": "Two"
+		},
+		{
+			"id": "cMJQDa4m0l52D9u0hWFgZ",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "circle-1.svg",
+			"tags": [ "circle", "1", "number" ],
+			"collections": [],
+			"title": "One"
+		},
+		{
+			"id": "72dlgkDUkGfLHqtVoJKL_",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "circle-3.svg",
+			"tags": [ "three", "circle", "number" ],
+			"collections": [],
+			"title": "Three"
+		},
+		{
+			"id": "AH1vR4PI1VK51W_ESseS1",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "circle-4.svg",
+			"tags": [ "four", "circle", "number" ],
+			"collections": [],
+			"title": "Four"
+		},
+		{
+			"id": "AC_UYfffFf8d63vf5y7sg",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "compass.svg",
+			"tags": [ "navigation", "direction", "survival" ],
+			"collections": [],
+			"title": "Compass"
+		},
+		{
+			"id": "9eabRto70lgMofo0s9JDI",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "geometry.svg",
+			"tags": [],
+			"collections": []
+		},
+		{
+			"id": "aEk1KDMXlhmBmbmddIqsk",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "heart-handshake.svg",
+			"tags": [],
+			"collections": []
+		},
+		{
+			"id": "E667d7wSsAnuObO01o8Ah",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "heart.svg",
+			"tags": [],
+			"collections": []
+		},
+		{
+			"id": "Myja9m2Z-cR5ro5DoFa7B",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "school.svg",
+			"tags": [],
+			"collections": []
+		}
+	]
+}
