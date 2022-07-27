@@ -1,21 +1,19 @@
 resource "aws_iam_role" "iam_for_lambda" {
   name = "canvas_icons_${local.environment}_policy_role"
 
-  assume_role_policy = <<EOF
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Action": "sts:AssumeRole",
-      "Principal": {
-        "Service": "lambda.amazonaws.com"
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Action = "sts:AssumeRole"
+        Effect = "Allow"
+        Principal = {
+          Service = "lambda.amazonaws.com"
+        }
+        Sid = ""
       },
-      "Effect": "Allow",
-      "Sid": ""
-    }
-  ]
-}
-EOF
+    ]
+  })
 }
 
 resource "aws_iam_policy" "lambda_policy_logs" {
