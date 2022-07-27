@@ -32,14 +32,14 @@ module.exports = function (grunt) {
 				},
 				mode: {
 					css: {
-						example: true,
+						example: false,
 						render: {
 							css: true
 						},
 						bust: false
 					},
 					view: {
-						example: true,
+						example: false,
 						render: {
 							css: true
 						},
@@ -47,13 +47,15 @@ module.exports = function (grunt) {
 					},
 					stack: {
 						// Stack is the one used by the web app to display icons efficiently
-						example: true,
+						example: false,
 						render: {
 							css: true
 						},
 						bust: false
+					},
+					defs: {
+						// Defs allows <use> tags to reference icons, which fixes Firefox issues
 					}
-					// defs: true,
 					// symbol: true,
 					// stack: true
 				}
