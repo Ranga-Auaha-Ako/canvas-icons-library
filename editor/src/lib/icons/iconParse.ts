@@ -19,34 +19,39 @@ const validBlacks = new Set([
     ]);
 const validColours = new Set(["", null, "none", "transparent", ...validBlacks]);
 
-export const parseIcon = (icon: string, canvas=SVG(serverDocument.documentElement)): {issues: Array<string>, canvas: any} => {
-    const iconCanvas = canvas.svg(icon);
+export const parseIcon = (icon: string): {issues: Array<string>, canvas: any} => {
+    const canvas = SVG(serverDocument.documentElement)
+    canvas.svg(icon);
+    const iconCanvas = canvas.children()[0];
     const issues = [];
     // Detect wrong size
-    if (canvas.width() > 0 || canvas.height() > 0) issues.push("Size");
+    if (iconCanvas.width() > 0 || iconCanvas.height() > 0) issues.push("Size");
     // Detect wrong colours
-    const allElems = canvas.node.getElementsByTagName("*");
+    const allElems = iconCanvas.node.getElementsByTagName("*");
     let wrongColour = false;
-    for (let e of allElems) {
+    for (let e of Array.from(allElems)) {
     const stroke = e.getAttribute("stroke");
     const fill = e.getAttribute("fill");
     if (!validColours.has(stroke) || !validColours.has(fill)) wrongColour = true;
         console.log(stroke, fill);
     }
 
-    if (wrongColour || !validBlacks.has(canvas.stroke()._stroke))
+    if (wrongColour || !validBlacks.has(iconCanvas.stroke()._stroke))
     issues.push("Colour");
-    return { issues, canvas };
+    return { issues, canvas: iconCanvas };
 }
 
-export const fixIcon = (icon: string, givenIssues=false as false|[], canvas=SVG(serverDocument.documentElement)): string => {
+export const fixIcon = (icon: string, givenIssues=false as false|[]): string => {
+    const canvas = SVG(serverDocument.documentElement)
+    canvas.svg(icon);
+    const iconCanvas = canvas.children()[0];
     let issues, resultCanvas;
     if(!givenIssues) {
-        const result = parseIcon(icon, canvas)
+        const result = parseIcon(icon)
         issues = result.issues;
         resultCanvas = result.canvas;
     } else {
-        resultCanvas = canvas;
+        resultCanvas = iconCanvas;
         issues = givenIssues;
     }
     for (let issue of issues) {
@@ -56,7 +61,7 @@ export const fixIcon = (icon: string, givenIssues=false as false|[], canvas=SVG(
                 break;
             case "Colour":
                 const allElems = canvas.node.getElementsByTagName("*");
-                for (let e of allElems) {
+                for (let e of Array.from(allElems)) {
                     const stroke = e.getAttribute("stroke");
                     const fill = e.getAttribute("fill");
                     if (!validColours.has(stroke)) e.setAttribute("stroke", "black");
