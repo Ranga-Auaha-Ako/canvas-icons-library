@@ -35,7 +35,7 @@ resource "aws_iam_policy" "lambda_policy_logs" {
           "logs:PutLogEvents"
         ],
         Resource = [
-          "arn:aws:logs:${var.aws_region}:${data.aws_caller_identity.current.account_id}:log-group:/aws/lambda/${aws_lambda_function.lamda_colours.function_name}:*"
+          "arn:aws:logs:${var.aws_region}:${data.aws_caller_identity.current.account_id}:log-group:/aws/lambda/${aws_lambda_function.lambda_colours.function_name}:*"
         ]
       },
       {
@@ -60,7 +60,7 @@ resource "aws_iam_role_policy_attachment" "ecs_policy_attachment" {
 }
 
 
-resource "aws_lambda_function" "lamda_colours" {
+resource "aws_lambda_function" "lambda_colours" {
   # If the file is not in the current working directory you will need to include a 
   # path.module in the filename.
   filename         = "${path.module}/../dist/lambda.zip"
@@ -96,7 +96,7 @@ resource "null_resource" "lambda_package_zip" {
 resource "aws_lambda_permission" "apigw_lambda" {
   statement_id  = "AllowExecutionFromAPIGateway"
   action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.lamda_colours.function_name
+  function_name = aws_lambda_function.lambda_colours.function_name
   principal     = "apigateway.amazonaws.com"
 
   # More: http://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-control-access-using-iam-policies-to-invoke-api.html

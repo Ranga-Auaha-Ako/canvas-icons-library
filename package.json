@@ -1,6 +1,6 @@
 {
 	"name": "canvas-icon",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"license": "UNLICENSED",
 	"scripts": {
 		"build": "grunt",
@@ -15,9 +15,11 @@
 		"grunt-contrib-nodeunit": "~0.4.1",
 		"grunt-contrib-uglify": "~0.5.0",
 		"grunt-npm-command": "^0.1.2",
-		"grunt-svg-sprite": "^1.5.0"
+		"grunt-svg-sprite": "^1.5.0",
+		"grunt-svgmin": "^6.0.1"
 	},
 	"dependencies": {
-		"grunt-contrib-compress": "^2.0.0"
+		"grunt-contrib-compress": "^2.0.0",
+		"svgo": "^2.8.0"
 	}
 }

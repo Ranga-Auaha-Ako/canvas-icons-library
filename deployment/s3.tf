@@ -8,7 +8,7 @@ resource "random_id" "server" {
 }
 
 resource "aws_s3_bucket" "static" {
-  bucket = "canvas-icons-library-static-${random_id.server.hex}"
+  bucket = "canvas-icons-library-static-${local.environment}-${random_id.server.hex}"
   tags = {
     Name        = "Canvas Icons Static Library"
     Environment = local.environment
@@ -38,7 +38,7 @@ resource "aws_s3_bucket_policy" "prod_website" {
 
 resource "aws_s3_bucket_acl" "state" {
   bucket = aws_s3_bucket.static.id
-  acl    = "public-read"
+  acl    = "private"
 }
 
 output "s3_url" {
