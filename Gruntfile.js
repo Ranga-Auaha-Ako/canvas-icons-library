@@ -13,6 +13,7 @@ module.exports = function (grunt) {
 		svg_sprite: {
 			options: {
 				// Task-specific options go here.
+				// log: 'debug',
 				shape: {
 					id: {
 						generator(iconPath, file) {
@@ -28,7 +29,40 @@ module.exports = function (grunt) {
 					spacing: {
 						padding: 0,
 						box: 'icon'
-					}
+					},
+					transform: [
+						{
+							svgo: {
+								// V1.3.2 schema due to outdated dep
+								plugins: [
+									{ removeStyleElement: true },
+									{ removeScriptElement: true },
+									{
+										unsetColours: {
+											type: 'perItem',
+											fn: (node) => {
+												if (node.isElem('svg')) {
+													node.addAttr({
+														name: 'fill',
+														prefix: '',
+														value: 'currentColor',
+														local: 'fill'
+													});
+													node.addAttr({
+														name: 'color',
+														prefix: '',
+														value: 'currentColor',
+														local: 'fill'
+													});
+												}
+												return node;
+											}
+										}
+									}
+								]
+							}
+						}
+					]
 				},
 				mode: {
 					css: {
@@ -63,7 +97,7 @@ module.exports = function (grunt) {
 			icons: {
 				// Target-specific file lists and/or options go here.
 				expand: true,
-				cwd: 'icons',
+				cwd: 'dist/icons',
 				src: ['**/*.svg'],
 				dest: 'dist/font/'
 			}
@@ -82,8 +116,79 @@ module.exports = function (grunt) {
 			editor: {
 				files: [{ expand: true, cwd: 'editor/build', src: ['**'], dest: 'dist/editor/' }]
 			},
-			allIcons: {
-				files: [{ expand: true, cwd: 'icons', src: ['**'], dest: 'dist/icons/' }]
+			iconMeta: {
+				files: [{ expand: true, cwd: 'icons', src: ['**/*.json'], dest: 'dist/icons/' }]
+			}
+		},
+		svgmin: {
+			options: {
+				full: true, // Have to do this otherwise order is wrong
+				plugins: [
+					// DEFAULT
+					{ cleanupAttrs: true },
+					{ removeDoctype: true },
+					{ removeXMLProcInst: true },
+					{ removeComments: true },
+					{ removeMetadata: true },
+					{ removeTitle: true },
+					{ removeDesc: true },
+					{ removeUselessDefs: true },
+					{ removeEditorsNSData: true },
+					{ removeEmptyAttrs: true },
+					{ removeHiddenElems: true },
+					{ removeEmptyText: true },
+					{ removeEmptyContainers: true },
+					{ removeViewBox: true },
+					{ cleanupEnableBackground: true },
+					{ minifyStyles: true },
+					{ convertColors: true },
+					{ convertPathData: true },
+					{ convertTransform: true },
+					{ removeUnknownsAndDefaults: true },
+					{ removeNonInheritableGroupAttrs: true },
+					{ removeUselessStrokeAndFill: true },
+					{ removeUnusedNS: true },
+					{ cleanupIDs: true },
+					{ cleanupNumericValues: true },
+					{ moveElemsAttrsToGroup: true },
+					{ moveGroupAttrsToElems: true },
+					{ collapseGroups: true },
+					{ mergePaths: true },
+					{ convertShapeToPath: true },
+					{ convertEllipseToCircle: true },
+					{ sortDefsChildren: true },
+					// CUSTOM
+					{ removeDimensions: true },
+					{ inlineStyles: { onlyMatchedOnce: false } },
+					{ convertStyleToAttrs: true },
+					{
+						unsetColours: {
+							type: 'perItem',
+							fn: (node) => {
+								props = ['fill', 'stroke', 'color'];
+								props.forEach((prop) => {
+									const attr = node.attr(prop)?.value;
+									if (attr && !['transparent', 'none', '#0000', '#00000000'].includes(attr)) {
+										node.addAttr({
+											name: prop,
+											prefix: '',
+											value: 'currentColor',
+											local: prop
+										});
+									}
+								});
+								if (node.isElem('svg')) {
+									node.addAttr({ name: 'fill', prefix: '', value: 'currentColor', local: 'fill' });
+									node.addAttr({ name: 'color', prefix: '', value: '#000', local: 'fill' });
+								}
+								return node;
+							}
+						}
+					}
+				]
+			},
+			dist: {
+				files: [{ expand: true, cwd: 'icons', src: ['**/*.svg'], dest: 'dist/icons/' }]
 			}
 		},
 		compress: {
@@ -105,6 +210,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	// Compress the Lambda script
 	grunt.loadNpmTasks('grunt-contrib-compress');
+	// Minifiy SVG files
+	grunt.loadNpmTasks('grunt-svgmin');
 
 	// Compile category JSONs into a single file
 	grunt.registerTask('build-meta', function () {
@@ -128,7 +235,7 @@ module.exports = function (grunt) {
 	});
 
 	// Default task(s).
-	grunt.registerTask('icons', ['svg_sprite', 'build-meta', 'copy:allIcons']);
+	grunt.registerTask('icons', ['svgmin', 'svg_sprite', 'build-meta', 'copy:iconMeta']);
 	grunt.registerTask('editor', ['npm-command', 'copy']);
 	grunt.registerTask('lambda', ['compress:lambda']);
 	grunt.registerTask('default', ['icons', 'editor', 'lambda']);
