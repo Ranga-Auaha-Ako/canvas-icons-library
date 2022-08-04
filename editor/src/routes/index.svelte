@@ -126,7 +126,7 @@
 				})
 				.map((url) => {
 					let tnp_id = '';
-					const foundID = url.match(/noun_[\w\d_]+_(\d+)/);
+					const foundID = url.match(/noun[_-][\w\d_-]+[_-](\d+)/);
 					if (foundID && foundID[1]) {
 						tnp_id = foundID[1];
 					}
