@@ -15,8 +15,7 @@ const icons = Object.keys(iconsImports).map( catFile => {
 	const catData = iconsImports[catFile];
 	const catName = path.basename(path.dirname(catFile));
 	const CatIcons = catData.icons.map((icon: Icon) => {
-		icon.url = path.join(catName,icon.url);
-		return icon;
+		return {...icon, url: path.join(catName,icon.url)};
 	})
 	return {icons: CatIcons, name: catName}
 })
@@ -26,13 +25,7 @@ const categories = glob.sync("../icons/*/");
 const iconsByCategory = categories.map(foundPath => {
 	const category = path.basename(foundPath);
 	const icons = glob.sync(`${category}/*.svg`, {cwd: "../icons/"});
-	// Scan icons for common issues (fixed size, colour settings)
-	const issues = icons.map(icon => {
-		const svgData = fs.readFileSync(`../icons/${icon}`);
-		const {issues} = parseIcon(svgData.toString());
-		return issues;
-	});
-	return {category, icons, issues};
+	return {category, icons};
 });
 
 /**

@@ -168,13 +168,34 @@ module.exports = function (grunt) {
 								props = ['fill', 'stroke', 'color'];
 								props.forEach((prop) => {
 									const attr = node.attr(prop)?.value;
-									if (attr && !['transparent', 'none', '#0000', '#00000000'].includes(attr)) {
-										node.addAttr({
-											name: prop,
-											prefix: '',
-											value: 'currentColor',
-											local: prop
-										});
+									if (attr) {
+										if (
+											![
+												'transparent',
+												'none',
+												'#0000',
+												'#00000000',
+												'#fff',
+												'#ffffff',
+												'white'
+											].includes(attr)
+										) {
+											// Node isn't transparent or white, so make it currentcolour (black)
+											node.addAttr({
+												name: prop,
+												prefix: '',
+												value: 'currentColor',
+												local: prop
+											});
+										} else {
+											// Node is transparent or white, so set it to none to remove useless white
+											node.addAttr({
+												name: prop,
+												prefix: '',
+												value: 'none',
+												local: prop
+											});
+										}
 									}
 								});
 								if (node.isElem('svg')) {

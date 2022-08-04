@@ -1,0 +1,201 @@
+{
+	"icons": [
+		{
+			"id": "icon5-1",
+			"url": "noun_australian_dollar_1193134.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193134",
+			"tags": [ "australian-dollar", "cash", "coin", "currency", "dollar", "money" ],
+			"term": "australian dollar",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-2",
+			"url": "noun_canadian_dollar_1193143.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193143",
+			"tags": [ "canadian-dollar", "cash", "coin", "currency", "dollar", "money" ],
+			"term": "canadian dollar",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-3",
+			"url": "noun_currency_1043709.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1043709",
+			"tags": [ "currency", "bank", "money", "piggy-bank", "savings" ],
+			"term": "currency",
+			"collections": [ "piggy bank" ]
+		},
+		{
+			"id": "icon5-4",
+			"url": "noun_currency_3506182.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "3506182",
+			"tags": [ "currency", "cash", "finance", "money", "money-note" ],
+			"term": "currency",
+			"collections": [ "Economics" ]
+		},
+		{
+			"id": "icon5-5",
+			"url": "noun_Euro_1193138.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193138",
+			"tags": [ "euro", "cash", "coin", "currency", "money" ],
+			"term": "Euro",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-6",
+			"url": "noun_Graph_21394.svg",
+			"title": "graph",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "21394",
+			"tags": [
+				"graph",
+				"analytics",
+				"bar-graph",
+				"chart",
+				"data",
+				"infographics",
+				"information",
+				"research",
+				"statistics"
+			],
+			"term": "Graph",
+			"collections": []
+		},
+		{
+			"id": "icon5-7",
+			"url": "noun_Graph_1180538.svg",
+			"title": "graph",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1180538",
+			"tags": [ "graph", "chart", "data", "graph-presentation", "information", "waterfall" ],
+			"term": "Graph",
+			"collections": []
+		},
+		{
+			"id": "icon5-8",
+			"url": "noun_Graph_1219786.svg",
+			"title": "graph",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1219786",
+			"tags": [ "graph", "analytics", "line-graph" ],
+			"term": "Graph",
+			"collections": []
+		},
+		{
+			"id": "icon5-9",
+			"url": "noun_Graph_3697167.svg",
+			"title": "graph",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "3697167",
+			"tags": [ "graph", "browser", "chart", "internet", "web-page" ],
+			"term": "Graph",
+			"collections": [ "Web App and Digital Marketing-W (Line&Glyphs)" ]
+		},
+		{
+			"id": "icon5-10",
+			"url": "noun_indian_rupees_1193139.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193139",
+			"tags": [ "indian-rupees", "cash", "coin", "currency", "money", "rupees" ],
+			"term": "indian rupees",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-11",
+			"url": "noun_japanese_yen_1193135.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193135",
+			"tags": [ "japanese-yen", "cash", "coin", "currency", "money", "yen" ],
+			"term": "japanese yen",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-12",
+			"url": "noun_krone_1193145.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193145",
+			"tags": [ "krone", "cash", "currency", "money", "norwegian" ],
+			"term": "krone",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-13",
+			"url": "noun_Mexican_Peso_1193144.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193144",
+			"tags": [ "mexican-peso", "cash", "coin", "currency", "money", "peso" ],
+			"term": "Mexican Peso",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-14",
+			"url": "noun_New_Zealand_Dollar_1193148.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193148",
+			"tags": [ "new-zealand-dollar", "cash", "coin", "currency", "dollar", "moeny" ],
+			"term": "New Zealand Dollar",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-15",
+			"url": "noun_Renminbi_1193142.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193142",
+			"tags": [ "renminbi", "cash", "chinese", "coin", "currency", "money" ],
+			"term": "Renminbi",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-16",
+			"url": "noun_swiss_franc_1193141.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193141",
+			"tags": [ "swiss-franc", "cash", "coin", "currency", "franc", "money" ],
+			"term": "swiss franc",
+			"collections": [ "World Currencies" ]
+		},
+		{
+			"id": "icon5-17",
+			"url": "noun_US_Dollar_1193136.svg",
+			"title": "money",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1193136",
+			"tags": [ "us-dollar", "cash", "coin", "currency", "dollar", "money" ],
+			"term": "US Dollar",
+			"collections": [ "World Currencies" ]
+		}
+	]
+}
