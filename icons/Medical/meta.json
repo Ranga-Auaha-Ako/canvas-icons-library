@@ -853,6 +853,686 @@
 			"tags": [ "virus", "corona", "covid19", "mask", "protect" ],
 			"term": "virus",
 			"collections": [ "Coronavirus" ]
+		},
+		{
+			"id": "2dbu1aCjqYZb7b4r9Tvbz",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "allergies.svg",
+			"tags": [ "allergies", "medicine", "medical", "condition" ],
+			"collections": [],
+			"title": "Allergies"
+		},
+		{
+			"id": "4k2n5NRXnar1DDvl_B2a8",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "arm.svg",
+			"tags": [ "body", "body part", "medical" ],
+			"collections": [],
+			"title": "Arm"
+		},
+		{
+			"id": "N5fPOShE_j7aR1f1OtpNG",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "back_pain.svg",
+			"tags": [ "condition", "medical" ],
+			"collections": [],
+			"title": "Back Pain"
+		},
+		{
+			"id": "CFeSxtXY9VlEgh3OjuEcU",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "bacteria.svg",
+			"tags": [ "medical", "body" ],
+			"collections": [],
+			"title": "Bacteria"
+		},
+		{
+			"id": "Exg6VPxQ7hajK_coarM3G",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "bladder.svg",
+			"tags": [ "body", "body part", "medical" ],
+			"collections": [],
+			"title": "Bladder"
+		},
+		{
+			"id": "Zs8CMsz6jftCT6mOnZ6y7",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "blood_bag.svg",
+			"tags": [ "blood", "medical", "body", "health" ],
+			"collections": [],
+			"title": "Blood bag"
+		},
+		{
+			"id": "eWuVoYPG0_PlFm2QBBKyB",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "blood_cells.svg",
+			"tags": [ "red blood cell", "medical", "blood", "body" ],
+			"collections": [],
+			"title": "Blood Cell"
+		},
+		{
+			"id": "BBmnqeAINtqjVoxgzxXzP",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "blood_drop.svg",
+			"tags": [ "blood", "water", "liquid", "droplet", "medical" ],
+			"collections": [],
+			"title": "Drop"
+		},
+		{
+			"id": "yY1XPndzBYGEp29L2Nei-",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "body.svg",
+			"tags": [ "body", "medical", "healthy", "person", "accessible", "accessibility", "human" ],
+			"collections": [],
+			"title": "Body"
+		},
+		{
+			"id": "vC9pwPUdmG-qGjCc0i-Js",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "cervical_cancer.svg",
+			"tags": [
+				"cervix",
+				"reproductive health",
+				"reproduction",
+				"cancer",
+				"uterus",
+				"medical",
+				"condition",
+				"ribbon"
+			],
+			"collections": [],
+			"title": "Cervical Cancer"
+		},
+		{
+			"id": "R4dau9uJB12mOI80iAuft",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "chills_fever.svg",
+			"tags": [
+				"Chills",
+				"Fever",
+				"temperature",
+				"condition",
+				"medical",
+				"healthy",
+				"medicine",
+				"medical-treatment",
+				"healthcare",
+				"health"
+			],
+			"collections": [],
+			"title": "Chills or Fever"
+		},
+		{
+			"id": "9HzZNqX5rCBaom-VTtqLJ",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "chills.svg",
+			"tags": [ "chills", "body", "medical", "condition", "health", "medicine" ],
+			"collections": [],
+			"title": "Chills"
+		},
+		{
+			"id": "E4BaJRMd0IKYjOg7zwbqW",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "coughing_alt.svg",
+			"tags": [ "Cough", "condition", "medicine", "health", "influenza", "flu", "covid19" ],
+			"collections": [],
+			"title": "Coughing (alt)"
+		},
+		{
+			"id": "xjJmu8UR3FhhX0F38h20d",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "deaf.svg",
+			"tags": [ "hearing", "medicine", "ear", "condition", "deaf", "listen" ],
+			"collections": [],
+			"title": "Deaf"
+		},
+		{
+			"id": "A_0VyCxZ5tygT_gWmdBbd",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "diarrhea.svg",
+			"tags": [ "medicine", "condition", "toilet", "Constipation", "health" ],
+			"collections": [],
+			"title": "Diarrhea"
+		},
+		{
+			"id": "ntefbKJhSIm4JYV4nBpVM",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "dna.svg",
+			"tags": [ "dna", "body", "medicine" ],
+			"collections": [],
+			"title": "DNA"
+		},
+		{
+			"id": "565A7ytkvoMKCDku5zoOL",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "ear.svg",
+			"tags": [ "ear", "listen", "body", "medicine", "condition", "hearing", "deaf" ],
+			"collections": [],
+			"title": "Ear"
+		},
+		{
+			"id": "RqcB9L2J6ElqVJnTKFzos",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "enzyme.svg",
+			"tags": [ "enzyme", "medicine", "body", "cell" ],
+			"collections": [],
+			"title": "Enzyme"
+		},
+		{
+			"id": "PTrCUEGw3bjiCuJrBLNEZ",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "eye.svg",
+			"tags": [ "vision", "medicine", "eyesight", "accessibility", "blind", "see" ],
+			"collections": [],
+			"title": "Eye"
+		},
+		{
+			"id": "7d4L-JDk1-NoSpoaCJlKR",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "female_reproductive_system.svg",
+			"tags": [ "Uterus", "Ovaries", "reproductive health", "body", "medicine" ],
+			"collections": [],
+			"title": "Female reproductive system"
+		},
+		{
+			"id": "3O0JMQMnsTPCPPPCy5ieV",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "foot.svg",
+			"tags": [ "body", "medicine", "health", "body part" ],
+			"collections": [],
+			"title": "Foot"
+		},
+		{
+			"id": "FBiPPrX0yKu0WpQe8m5d9",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "gallbladder.svg",
+			"tags": [ "Gall bladder", "body", "organ", "bile", "medicine" ],
+			"collections": [],
+			"title": "Gallbladder"
+		},
+		{
+			"id": "YDyU8G_eRMbpPeVrJNQ38",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "headache.svg",
+			"tags": [ "body", "condition", "medicine", "frustration", "dangerous" ],
+			"collections": [],
+			"title": "Headache"
+		},
+		{
+			"id": "_9vOS2Ufum_A6aA8Gurkz",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "heart.svg",
+			"tags": [ "body", "organic", "medicine", "blood" ],
+			"collections": [],
+			"title": "Heart"
+		},
+		{
+			"id": "mYUh2ygoFbp7A51N6uCg4",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "hpv.svg",
+			"tags": [ "Human papillomaviruses", "medicine", "medical", "condition", "STI", "virus" ],
+			"collections": [],
+			"title": "HPV"
+		},
+		{
+			"id": "kiGGcnyoXRY_Y0o128-sm",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "intestinal-pain.svg",
+			"tags": [ "intestines", "pain", "medicine", "condition", "health", "gut", "digestive system" ],
+			"collections": [],
+			"title": "Intestinal Pain"
+		},
+		{
+			"id": "9Rj6py8d73s19l6ynDvxT",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "joints.svg",
+			"tags": [ "bones", "body", "body part", "medicine", "health" ],
+			"collections": [],
+			"title": "Joints"
+		},
+		{
+			"id": "2tSIYL3nDzre5dgEA_TU4",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "kidneys.svg",
+			"tags": [ "urine", "renal", "medicine", "body", "organ", "health" ],
+			"collections": [],
+			"title": "Kidneys"
+		},
+		{
+			"id": "4zA_No5wovWyyDuNKNdKN",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "leg.svg",
+			"tags": [ "leg", "body", "foot", "muscle", "body part", "medicine" ],
+			"collections": [],
+			"title": "Leg"
+		},
+		{
+			"id": "MHVeHFUpOT6yagyTTUxkP",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "liver-alt.svg",
+			"tags": [ "body", "health", "medicine", "organ" ],
+			"collections": [],
+			"title": "Liver (alt)"
+		},
+		{
+			"id": "19kPCVIZW0dvW3XDmdSzz",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "liver.svg",
+			"tags": [ "medicine", "body", "body part", "medical", "organ" ],
+			"collections": [],
+			"title": "Liver"
+		},
+		{
+			"id": "FZm0Z-UZLHO7QWl3uUT0p",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "loss-smell.svg",
+			"tags": [ "smell", "nose", "condition", "medicine", "health", "covid19", "influenza", "flu" ],
+			"collections": [],
+			"title": "Loss of smell"
+		},
+		{
+			"id": "IBfKFkXZU1qowf_UQzo-4",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "low_vision.svg",
+			"tags": [ "accessibility", "accessible", "body", "vision", "eye", "eyesight", "body part" ],
+			"collections": [],
+			"title": "Low Vision"
+		},
+		{
+			"id": "EFyBqJ7f2HmcHUDlxdUgo",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "lungs.svg",
+			"tags": [ "breathe", "breath", "organ", "health", "medicine", "medical" ],
+			"collections": [],
+			"title": "Lungs"
+		},
+		{
+			"id": "Z3Un3CpbiSK4oTY58mATY",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "lymph_nodes.svg",
+			"tags": [ "node", "medicine", "health", "organ", "body" ],
+			"collections": [],
+			"title": "Lymph Nodes"
+		},
+		{
+			"id": "LnGohENI_589qaJ_XpTmj",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "mouth.svg",
+			"tags": [ "body part", "lips", "speak", "medicine", "medical", "open mouth" ],
+			"collections": [],
+			"title": "Mouth"
+		},
+		{
+			"id": "HWqNmyOhmCpwZNbOpWvPj",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "nausea.svg",
+			"tags": [
+				"sickness",
+				"unwell",
+				"sick",
+				"unhealthy",
+				"feeling",
+				"body",
+				"health",
+				"medicine",
+				"medical"
+			],
+			"collections": [],
+			"title": "Nausea"
+		},
+		{
+			"id": "_pMAG0oWTFUMbYsApr09V",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "nerve.svg",
+			"tags": [
+				"nerve ending",
+				"tissue",
+				"health",
+				"body",
+				"medicine",
+				"medical",
+				"nerves",
+				"nervous system"
+			],
+			"collections": [],
+			"title": "Nerve"
+		},
+		{
+			"id": "o0AkBCuYLFlkaDnekFUES",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "neurology.svg",
+			"tags": [ "brain", "neurons", "head", "thinking", "medicine", "medical", "think" ],
+			"collections": [],
+			"title": "Neurology"
+		},
+		{
+			"id": "Gg-Psm-I2cdps_F5h6r0Q",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "nose.svg",
+			"tags": [ "nose", "smell", "organ", "body", "face", "body part", "medicine", "medical" ],
+			"collections": [],
+			"title": "Nose"
+		},
+		{
+			"id": "Iy6NU089aZUOJq4X5u3cB",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "3623196",
+			"url": "noun_virus_3623196.svg",
+			"tags": [ "virus", "corona", "covid19", "lab", "search" ],
+			"collections": [ "Coronavirus" ],
+			"title": "virus",
+			"term": "virus"
+		},
+		{
+			"id": "Fdu1EAiwZDv1KraXoIL2g",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "overweight.svg",
+			"tags": [
+				"lightweight",
+				"weight",
+				"medicine",
+				"body",
+				"health",
+				"science-medicine",
+				"medical",
+				"human",
+				"person"
+			],
+			"collections": [],
+			"title": "Overweight"
+		},
+		{
+			"id": "p_U9XgdyNu56GcF6gMeCl",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "pancreas.svg",
+			"tags": [ "organ", "medical", "medicine", "health", "body part", "body" ],
+			"collections": [],
+			"title": "Pancreas"
+		},
+		{
+			"id": "kbgoBHwFcelcGvaPixaln",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "pneumonia.svg",
+			"tags": [ "sickness", "lungs", "medical", "medicine", "cold", "flu", "covid19" ],
+			"collections": [],
+			"title": "Pneumonia"
+		},
+		{
+			"id": "yccry1HpV6gdMVMqDAwxu",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "ribbon.svg",
+			"tags": [
+				"cancer",
+				"hiv",
+				"red ribbon",
+				"aids",
+				"HIV Awareness ribbon",
+				"medical",
+				"condition",
+				"health",
+				"human immunodeficiency virus"
+			],
+			"collections": [],
+			"title": "Ribbon"
+		},
+		{
+			"id": "xOmLEyVKRCxSU85C8kP2u",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "skeleton.svg",
+			"tags": [ "skeleton", "spooky", "halloween", "bones", "skull", "body" ],
+			"collections": [],
+			"title": "Skeleton"
+		},
+		{
+			"id": "Qc20Vz0AOzVp8Qa99J1mV",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "skull.svg",
+			"tags": [ "skull", "head", "body", "body part", "bones", "spooky", "halloween" ],
+			"collections": [],
+			"title": "Skull"
+		},
+		{
+			"id": "ciEcmeExztfUKJDUncyrd",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "spine.svg",
+			"tags": [ "skeleton", "body part", "body", "health", "medicine", "bones" ],
+			"collections": [],
+			"title": "Spine"
+		},
+		{
+			"id": "b-K4awdIBLVtTM_CoqaNl",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "spleen.svg",
+			"tags": [
+				"organ",
+				"medicine",
+				"medical",
+				"health",
+				"lymphatic system",
+				"immune system",
+				"body",
+				"body part"
+			],
+			"collections": [],
+			"title": "Spleen"
+		},
+		{
+			"id": "cP3xPpBZycj947qgG74nB",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "sti.svg",
+			"tags": [
+				"STD",
+				"Sexually Transmitted Infection",
+				"Sexually Transmitted",
+				"uncomfortable",
+				"condition",
+				"health",
+				"body",
+				"medical"
+			],
+			"collections": [],
+			"title": "STI"
+		},
+		{
+			"id": "fWapCw69Gwy4SdZGSVX88",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "stomach.svg",
+			"tags": [ "digestive", "digestive system", "health", "organ", "body part", "medicine", "medical" ],
+			"collections": [],
+			"title": "Stomach"
+		},
+		{
+			"id": "S5SpsVy_mIwenyq1NFpUG",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "sweating.svg",
+			"tags": [ "uncomfortable", "body", "human", "person", "sweat", "condition", "medical" ],
+			"collections": [],
+			"title": "Sweating"
+		},
+		{
+			"id": "MzHIgQNgMKrDvjQhXKy0p",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "tb.svg",
+			"tags": [ "Mycobacterium tuberculosis", "TB", "Tuberculosis", "condition", "health", "medical" ],
+			"collections": [],
+			"title": "TB (Tuberculosis)"
+		},
+		{
+			"id": "MBfU1FWBdZW6oDqL9RN3e",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "tooth.svg",
+			"tags": [ "tooth", "teeth", "bone", "skeleton", "dentist", "dentistry", "mouth", "body part" ],
+			"collections": [],
+			"title": "Tooth"
+		},
+		{
+			"id": "u1P_jJVDTtK6ru_2q9Hur",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "underweight.svg",
+			"tags": [ "fat", "weight", "lightweight", "body", "person", "human" ],
+			"collections": [],
+			"title": "Underweight"
+		},
+		{
+			"id": "teREkjVT_udEQX7n04I7K",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "vih.svg",
+			"tags": [
+				"human immunodeficiency virus",
+				"virus",
+				"medical",
+				"condition",
+				"STI",
+				"sexually transmitted infection",
+				"STD",
+				"sexually transmitted",
+				"body",
+				"body part",
+				"health"
+			],
+			"collections": [],
+			"title": "HIV"
+		},
+		{
+			"id": "7nFCUh4Mdf3tnZ4bCO_Bg",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "viral_lung_infection.svg",
+			"tags": [
+				"condition",
+				"health",
+				"body",
+				"virus",
+				"covid19",
+				"flu",
+				"influenza",
+				"body part",
+				"medical"
+			],
+			"collections": [],
+			"title": "Viral Lung Infection"
+		},
+		{
+			"id": "NoeYvLXLFJ1zuGX46Ysnz",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "",
+			"url": "vomiting.svg",
+			"tags": [ "spew", "throw up", "vomit", "bile", "unwell", "sickness", "sick", "human", "person" ],
+			"collections": [],
+			"title": "Vomiting"
 		}
 	]
 }
