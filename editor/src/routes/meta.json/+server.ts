@@ -5,11 +5,16 @@ import glob from 'glob';
 import path from 'path';
 import fs from 'fs'
 // import icons from '../../../dist/meta.json';
-import appRoot from 'app-root-path';
 import beautify from "json-beautify";
 import fg from 'fast-glob'
+import 'dotenv/config'
 
-const dirname = process.env.__PORTABLE__ ? process.env.__PORTABLE__ : `${appRoot}/icons`;
+const dirname = process.env.ICONS_DIR;
+
+if(!dirname) {
+	throw new Error("ICONS_DIR env variable is not set! Please do that.");
+	
+}
 
 export const prerender = true;
 

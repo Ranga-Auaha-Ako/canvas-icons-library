@@ -19,7 +19,10 @@
 		"grunt-svgmin": "^6.0.1"
 	},
 	"dependencies": {
+		"cookie": "^0.5.0",
+		"devalue": "^2.0.1",
 		"grunt-contrib-compress": "^2.0.0",
+		"set-cookie-parser": "^2.5.1",
 		"svgo": "^2.8.0"
 	}
 }
