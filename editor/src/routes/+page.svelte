@@ -29,9 +29,9 @@
 		newIcons: Icon[];
 		removedIcons: Icon[];
 	}[] = [];
+	let newCategories: foundCategory[] = [];
 	let loading = true;
 
-	// let chosenIcon: undefined | string;
 	$: chosenIconData = iconData?.meta[$chosenCategory]?.icons.find((i) => i.id == $chosenIcon);
 	$: iconNotDeleted = !iconDiffs[$chosenCategory]?.removedIcons.find(
 		(i) => i.id == chosenIconData?.id
@@ -121,7 +121,9 @@
 		iconDiffs = iconData.meta.map((metaCategory) => {
 			// Loop through the meta categories and find differences between it and the actual files
 			const foundCategory = iconData.files.find(({ category }) => category === metaCategory.name);
-			if (!foundCategory) return { newIcons: [], removedIcons: metaCategory.icons };
+			if (!foundCategory) {
+				return { newIcons: [], removedIcons: metaCategory.icons };
+			}
 			let newIcons = foundCategory.icons
 				.filter((iconUrl) => {
 					return !metaCategory.icons.find((i) => i.url == iconUrl);
@@ -147,6 +149,10 @@
 			});
 			return { newIcons, removedIcons };
 		});
+		// Find new categories
+		newCategories = iconData.files.filter(({ category }) => {
+			return !iconData.meta.find((m) => m.name == category);
+		});
 	};
 
 	const loadData = async () => {
@@ -162,6 +168,11 @@
 
 		// Parse tag data
 		updateTagData();
+
+		// Fix chosen category if out of bounds
+		if ($chosenCategory > iconData.meta.length - 1) {
+			chosenCategory.set(0);
+		}
 	};
 
 	const saveData = async () => {
@@ -209,6 +220,22 @@
 		</p>
 	</div>
 {/if}
+{#if !loading && newCategories.length > 0}
+	<p
+		transition:slide
+		class="my-3 rounded shadow bg-green-100 p-5 border-dashed border-2 border-green-400"
+	>
+		You have new folders in your repository. You can add them to the editor to begin editing icon
+		metadata:
+	</p>
+	<div class="btn-group flex flex-wrap">
+		{#each newCategories as newCategory}
+			<button class="btn inline-block" on:click={() => addCategory(newCategory)}
+				>Add "{newCategory.category}"</button
+			>
+		{/each}
+	</div>
+{/if}
 {#if loading}
 	<p>Loading...</p>
 {:else if iconData.meta.length === 0 && iconData.files.length === 0}
@@ -220,20 +247,6 @@
 			class="font-mono bg-yellow-300 p-1 rounded">./icons/</span
 		> directory in your fork of this repository.
 	</p>
-{:else if iconData.meta.length === 0 && iconData.files.length > 0}
-	<p
-		transition:slide
-		class="my-3 rounded shadow bg-green-100 p-5 border-dashed border-2 border-green-400"
-	>
-		Nearly there! Click below to start building your first category.
-	</p>
-	<div class="btn-group flex flex-wrap">
-		{#each iconData.files as newCategory}
-			<button class="btn inline-block" on:click={() => addCategory(newCategory)}
-				>Add "{newCategory.category}"</button
-			>
-		{/each}
-	</div>
 {:else}
 	<div class="select-category flex flex-wrap">
 		{#each iconData.meta as category, index}
@@ -255,8 +268,20 @@
 			<div class="changes">
 				{#if iconDiffs[$chosenCategory]}
 					{#if iconDiffs[$chosenCategory].newIcons.length}
-						<h2 class="text-xl font-bold mt-3">New Icons found:</h2>
-						<IconList icons={iconDiffs[$chosenCategory].newIcons} on:addIcon={addIcon} newIcons />
+						<h2 class="text-xl font-bold mt-3">
+							New Icons found:
+							<button
+								class="btn inline float-right"
+								on:click={() => {
+									iconDiffs[$chosenCategory].newIcons.forEach((icon) => {
+										addIcon(new CustomEvent('click', { detail: icon }));
+									});
+								}}
+							>
+								Add All
+							</button>
+						</h2>
+						<IconList icons={iconDiffs[$chosenCategory]?.newIcons} on:addIcon={addIcon} newIcons />
 					{/if}
 					<!-- {#if iconDiffs[chosenCategory].removedIcons.length}
 						<h2 class="text-xl font-bold mt-3">Deleted Icons found:</h2>
@@ -267,15 +292,17 @@
 			<h2 class="text-xl font-bold mt-3">Existing Icons:</h2>
 			<!--  - Top matching icons -->
 			<!-- on:selectIcon -->
-			<IconList
-				bind:icons={iconData.meta[$chosenCategory].icons}
-				on:edit={(e) => {
-					needSave = true;
-					// Build diffs, just in case something was deleted
-					buildDiffs();
-				}}
-				on:addIcon={addIcon}
-			/>
+			{#if iconData.meta[$chosenCategory]}
+				<IconList
+					bind:icons={iconData.meta[$chosenCategory].icons}
+					on:edit={(e) => {
+						needSave = true;
+						// Build diffs, just in case something was deleted
+						buildDiffs();
+					}}
+					on:addIcon={addIcon}
+				/>
+			{/if}
 		</div>
 		<div class="icon-editor w-6/12">
 			<div class="card bg-white iconHeader">
