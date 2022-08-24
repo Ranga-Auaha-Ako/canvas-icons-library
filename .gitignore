@@ -48,5 +48,3 @@ override.tf.json
 terraform.rc
 
 dist/
-
-icons/Example/
