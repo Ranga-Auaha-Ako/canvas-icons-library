@@ -39,9 +39,5 @@ export const getIconClass = (url: string): string => {
 };
 
 export const getIconUrl = (icon: Icon) : string => {
-    if(dev) {
-        // Use endpoint rather than static file url (not available in sveltekit's preview)
-        return `${base}/icon/${icon.url}`;
-    }
-    return `${base}/../icons/${icon.url}`;
+    return `${base}/icon/${icon.url}`;
 }

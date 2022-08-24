@@ -282,7 +282,7 @@
 			"width": 48,
 			"height": 48,
 			"tnp_id": "2099040",
-			"tags": [ "science", "instruct", "lecture", "professor", "teacher" ],
+			"tags": [ "science", "instruct", "lecture", "professor", "teacher", "einstein" ],
 			"term": "Science",
 			"collections": []
 		},
@@ -307,6 +307,50 @@
 			"tags": [ "voice", "voice-recognition" ],
 			"term": "voice",
 			"collections": [ "Communication: Lines Vol. 7" ]
+		},
+		{
+			"id": "larmzQl909_iz4wfhuJh6",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "1451986",
+			"url": "noun-scientist-1451986.svg",
+			"tags": [ "scientist", "biology", "chemistry", "lab", "science" ],
+			"collections": [ "Biochemistry 2" ],
+			"title": "Scientist",
+			"term": "Scientist"
+		},
+		{
+			"id": "-xiSXH1VqYtnFXnBHRMQp",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "4527981",
+			"url": "noun-scientist-4527981.svg",
+			"tags": [ "scientist", "experiment", "flask", "lab", "practical" ],
+			"collections": [ "Biology-S (Line)" ],
+			"title": "Scientist",
+			"term": "Scientist"
+		},
+		{
+			"id": "1EP4EDaNxSrWd8Du5Vb81",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "3344700",
+			"url": "noun-scientist-3344700.svg",
+			"tags": [ "scientist", "avatar", "chemical", "document", "report", "woman" ],
+			"collections": [ "Science & Laboratory" ],
+			"title": "Scientist",
+			"term": "Scientist"
+		},
+		{
+			"id": "o8s6ux8PUkzrd8YSZS9ay",
+			"width": 48,
+			"height": 48,
+			"tnp_id": "3167127",
+			"url": "noun-scientist-3167127.svg",
+			"tags": [ "scientist", "mathematician", "researcher" ],
+			"collections": [ "Female Avatar Bold Line" ],
+			"title": "Scientist",
+			"term": "Scientist"
 		}
 	]
 }

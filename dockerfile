@@ -7,11 +7,17 @@ COPY . ./
 RUN yarn install
 # Install editor dependencies
 WORKDIR /srv/editor
-RUN yarn install
+RUN yarn install --frozen-lockfile
 # Build
-RUN grunt
+WORKDIR /srv/editor
+RUN grunt editor
 
-# Host static files
-FROM nginx
-COPY --from=builder /srv/dist /usr/share/nginx/html
-EXPOSE 80
+# Host editor
+FROM node:16
+COPY --from=builder /srv/editor/package.json /srv/dist/package.json
+COPY --from=builder /srv/editor/build /srv/dist
+WORKDIR /srv/dist
+ENV ICONS_DIR  /srv/icons
+RUN yarn install --production
+CMD ["node", "index.js"]
+EXPOSE 3000
