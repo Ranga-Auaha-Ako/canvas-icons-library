@@ -9,9 +9,14 @@ RUN yarn install
 WORKDIR /srv/editor
 RUN yarn install
 # Build
-RUN grunt
+WORKDIR /srv/editor
+RUN grunt editor
 
-# Host static files
-FROM nginx
-COPY --from=builder /srv/dist /usr/share/nginx/html
-EXPOSE 80
+# Host editor
+FROM node:16
+COPY --from=builder /srv/editor/package.json /srv/dist/package.json
+COPY --from=builder /srv/editor/build /srv/dist
+WORKDIR /srv/dist
+ENV VITE_ICONS_PORTABLE  /srv/icons
+CMD ["node", "index.js"]
+EXPOSE 3000
