@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { expoInOut } from 'svelte/easing';
 	import { slide, fade } from 'svelte/transition';
-	import { browser, dev } from '$app/env';
+	import { browser } from '$app/env';
 	import { base, assets } from '$app/paths';
 	import { nanoid } from 'nanoid';
 
@@ -164,19 +164,16 @@
 
 	const saveData = async () => {
 		// const data = iconData.meta[chosenCategory];
-		console.log(dev);
-		if (dev) {
-			// If we are running in dev mode, just save the data to the file. Otherwise, download it
-			const res = await fetch(`${base}/meta.json`, {
-				method: 'PUT',
-				headers: {
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify(iconData.meta)
-			});
-			if (res.status == 200) {
-				needSave = false;
-			}
+		// If we are running in dev mode, just save the data to the file. Otherwise, download it
+		const res = await fetch(`${base}/meta.json`, {
+			method: 'PUT',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(iconData.meta)
+		});
+		if (res.status == 200) {
+			needSave = false;
 		}
 	};
 

@@ -6,32 +6,37 @@ import fs from 'fs'
 // import icons from '../../../dist/meta.json';
 import appRoot from 'app-root-path';
 import beautify from "json-beautify";
-import { parseIcon } from '$lib/icons/iconParse';
-const iconsImports = import.meta.globEager('../../../icons/**/meta.json')
+import fg from 'fast-glob'
+
+const dirname = process.env.__PORTABLE__ ? process.env.__PORTABLE__ : `${appRoot}/icons`;
 
 export const prerender = true;
 
-const icons = Object.keys(iconsImports).map( catFile => {
-	const catData = iconsImports[catFile];
-	const catName = path.basename(path.dirname(catFile));
-	const CatIcons = catData.icons.map((icon: Icon) => {
-		return {...icon, url: path.join(catName,icon.url)};
-	})
-	return {icons: CatIcons, name: catName}
-})
-
-// Get the real folder structure for the icons
-const categories = glob.sync("../icons/*/");
-const iconsByCategory = categories.map(foundPath => {
-	const category = path.basename(foundPath);
-	const icons = glob.sync(`${category}/*.svg`, {cwd: "../icons/"});
-	return {category, icons};
-});
 
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
- export async function get() {
+ export async function GET() {
+	// Attempt to import meta files
+	const metaFiles = (await fg('**/meta.json', { onlyFiles: false, deep: 2, cwd: dirname })).sort();
+	
+	const icons = metaFiles.map( catFile => {
+		const catData = JSON.parse(fs.readFileSync(path.join(dirname, catFile), 'utf8'));
+		const catName = path.basename(path.dirname(catFile));
+		const CatIcons = catData.icons.map((icon: Icon) => {
+			return {...icon, url: path.join(catName,icon.url)};
+		})
+		return {icons: CatIcons, name: catName}
+	})
+	
+	// Get the real folder structure for the icons
+	const categories = glob.sync(path.join(dirname, '*/'));
+	const iconsByCategory = categories.map((foundPath) => {
+		const category = path.basename(foundPath);
+		const icons = glob.sync(`${category}/*.svg`, { cwd: dirname });
+		return { category, icons };
+	});
+
 	if (icons) {
 		return {
 			body: {
@@ -49,14 +54,14 @@ const iconsByCategory = categories.map(foundPath => {
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
-export async function put({request}: RequestEvent) {
+export async function PUT({request}: RequestEvent) {
 	// origin = request.headers.get("Origin");
 	const categories = await request.json() as Category[];
 	if(!categories || !categories[0].name || !Object.hasOwn(categories[0],"icons")) {return {status: 400}};
 
 	categories.forEach(category => {
 		// Generate Path
-		const categoryPath = path.resolve(`${appRoot}/../icons/`, category.name,"./meta.json");
+		const categoryPath = path.join(dirname, category.name, './meta.json');
 
 		// Strip icon URLs of the category
 		category.icons = category.icons.map(icon => {

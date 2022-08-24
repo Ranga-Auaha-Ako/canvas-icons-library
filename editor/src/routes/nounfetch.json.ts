@@ -9,7 +9,7 @@ export const prerender = false;
  * @type {import('@sveltejs/kit').RequestHandler}
  */
  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
- export async function post({request}: RequestEvent) {
+ export async function POST({request}: RequestEvent) {
     const body = await request.json();
     if(!body || !(body?.key && body?.secret)) return;
 	const oauth = new OAuth({

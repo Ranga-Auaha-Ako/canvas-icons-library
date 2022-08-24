@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -15,15 +15,15 @@ const config = {
 	],
 
 	kit: {
-		adapter: adapter(),
-		prerender: {
-			// This can be false if you're using a fallback (i.e. SPA mode)
-			default: true,
-			entries: ['*', '/meta.json']
-		},
-		paths: {
-			base: '/editor'
-		}
+		adapter: adapter()
+		// prerender: {
+		// 	// This can be false if you're using a fallback (i.e. SPA mode)
+		// 	default: true,
+		// 	entries: ['*', '/meta.json']
+		// },
+		// paths: {
+		// 	base: '/editor'
+		// }
 	}
 };
 

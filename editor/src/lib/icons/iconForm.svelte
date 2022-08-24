@@ -3,7 +3,6 @@
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import { slide } from 'svelte/transition';
 	import { base } from '$app/paths';
-	import { dev } from '$app/env';
 	import { createEventDispatcher } from 'svelte';
 
 	const dispatch = createEventDispatcher();
@@ -71,7 +70,7 @@
 	};
 </script>
 
-{#if icon.tnp_id && dev}
+{#if icon.tnp_id}
 	<div class="btn-group">
 		<div class="btn-group-tight">
 			<button
