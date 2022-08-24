@@ -1,3 +1,4 @@
+import { json as json$1 } from '@sveltejs/kit';
 import OAuth from 'oauth-1.0a';
 import crypto from 'crypto';
 import axios from 'axios';
@@ -27,8 +28,10 @@ export const prerender = false;
       const response = await axios.get(request_data.url,{
           headers: { ...oauth.toHeader(oauth.authorize(request_data)) }
         })
-      return {body: response.data}
+      return new Response(response.data);
     } catch (error) {
-      return {status: 500, body: {error: "The Noun Project returned an error."}}
+      return json$1({error: "The Noun Project returned an error."}, {
+          status: 500
+      })
     }
 }

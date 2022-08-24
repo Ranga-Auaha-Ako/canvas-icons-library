@@ -1,3 +1,4 @@
+import { json as json$1 } from '@sveltejs/kit';
 import type { RequestEvent } from '@sveltejs/kit';
 import type { Category, Icon } from '$lib/icons';
 import glob from 'glob';
@@ -38,17 +39,13 @@ export const prerender = true;
 	});
 
 	if (icons) {
-		return {
-			body: {
-				meta: icons,
-				files: iconsByCategory
-			}
-		};
+		return json$1({
+			meta: icons,
+			files: iconsByCategory
+		});
 	}
 
-	return {
-		status: 404
-	};
+	return new Response(undefined, { status: 404 });
 }
 
 /**
@@ -57,7 +54,7 @@ export const prerender = true;
 export async function PUT({request}: RequestEvent) {
 	// origin = request.headers.get("Origin");
 	const categories = await request.json() as Category[];
-	if(!categories || !categories[0].name || !Object.hasOwn(categories[0],"icons")) {return {status: 400}};
+	if(!categories || !categories[0].name || !Object.hasOwn(categories[0],"icons")) {return new Response(undefined, { status: 400 })};
 
 	categories.forEach(category => {
 		// Generate Path
@@ -73,8 +70,5 @@ export async function PUT({request}: RequestEvent) {
 		const replacer : any = null;
 		fs.writeFileSync(categoryPath, beautify({icons: category.icons}, replacer, "\t", 100), 'utf8');
 	})
-	return {
-		status: 200,
-		body: { message: "Successfully saved" }
-	}
+	return json$1({ message: "Successfully saved" })
 }
