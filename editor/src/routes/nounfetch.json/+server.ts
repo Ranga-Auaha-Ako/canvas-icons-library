@@ -28,7 +28,7 @@ export const prerender = false;
       const response = await axios.get(request_data.url,{
           headers: { ...oauth.toHeader(oauth.authorize(request_data)) }
         })
-      return new Response(response.data);
+      return json$1(response.data);
     } catch (error) {
       return json$1({error: "The Noun Project returned an error."}, {
           status: 500
