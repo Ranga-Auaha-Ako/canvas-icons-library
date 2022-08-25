@@ -270,6 +270,7 @@
 					{#if iconDiffs[$chosenCategory].newIcons.length}
 						<h2 class="text-xl font-bold mt-3">
 							New Icons found:
+							<!-- svelte-ignore missing-declaration -->
 							<button
 								class="btn inline float-right"
 								on:click={() => {
