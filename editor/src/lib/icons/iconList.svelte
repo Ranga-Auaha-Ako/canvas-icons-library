@@ -127,7 +127,12 @@
 						</p>
 					</div> -->
 				{/if}
-				<img src={getIconUrl(icon)} alt={icon.title} on:error={(e) => markMissing(e, icon)} />
+				<img
+					title={icon.url}
+					src={getIconUrl(icon)}
+					alt={icon.title}
+					on:error={(e) => markMissing(e, icon)}
+				/>
 			</div>
 		{/each}
 	</div>
