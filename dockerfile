@@ -13,7 +13,7 @@ WORKDIR /srv/editor
 RUN grunt editor
 
 # Host editor
-FROM node:16
+FROM --platform=linux/amd64 node:16
 COPY --from=builder /srv/editor/package.json /srv/dist/package.json
 COPY --from=builder /srv/editor/build /srv/dist
 WORKDIR /srv/dist
