@@ -8,9 +8,10 @@
 
 	import type { Icon, Category, foundCategory, iconMeta } from '$lib/icons';
 	import { getIconUrl } from '$lib/icons';
+	import nounFetch from '$lib/icons/nounfetch';
 	import IconList from '$lib/icons/iconList.svelte';
 	import IconForm from '$lib/icons/iconForm.svelte';
-	import { chosenCategory, chosenIcon } from '../store';
+	import { chosenCategory, chosenIcon, nounProjectAuth } from '../store';
 
 	// Custom slide transition
 	function expandPanel(node: Element, { delay = 0, duration = 200, easing = expoInOut }) {
@@ -273,13 +274,24 @@
 							<!-- svelte-ignore missing-declaration -->
 							<button
 								class="btn inline float-right"
-								on:click={() => {
-									iconDiffs[$chosenCategory].newIcons.forEach((icon) => {
+								on:click={async () => {
+									for (const icon of iconDiffs[$chosenCategory].newIcons) {
 										addIcon(new CustomEvent('click', { detail: icon }));
-									});
+									}
 								}}
 							>
 								Add All
+							</button>
+							<button
+								class="btn inline float-right"
+								on:click={async () => {
+									for (const icon of iconDiffs[$chosenCategory].newIcons) {
+										const importedIcon = await nounFetch(icon, $nounProjectAuth);
+										addIcon(new CustomEvent('click', { detail: importedIcon }));
+									}
+								}}
+							>
+								Add All + Load TNP
 							</button>
 						</h2>
 						<IconList icons={iconDiffs[$chosenCategory]?.newIcons} on:addIcon={addIcon} newIcons />
