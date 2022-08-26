@@ -113,9 +113,6 @@ module.exports = function (grunt) {
 			}
 		},
 		copy: {
-			editor: {
-				files: [{ expand: true, cwd: 'editor/build', src: ['**'], dest: 'dist/editor/' }]
-			},
 			iconMeta: {
 				files: [{ expand: true, cwd: 'icons', src: ['**/*.json'], dest: 'dist/icons/' }]
 			}
