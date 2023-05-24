@@ -33,30 +33,23 @@ module.exports = function (grunt) {
 					transform: [
 						{
 							svgo: {
-								// V1.3.2 schema due to outdated dep
+								// V3.0.2 schema
 								plugins: [
-									{ removeStyleElement: true },
-									{ removeScriptElement: true },
+									'removeStyleElement',
+									'removeScriptElement',
 									{
-										unsetColours: {
-											type: 'perItem',
-											fn: (node) => {
-												if (node.isElem('svg')) {
-													node.addAttr({
-														name: 'fill',
-														prefix: '',
-														value: 'currentColor',
-														local: 'fill'
-													});
-													node.addAttr({
-														name: 'color',
-														prefix: '',
-														value: 'currentColor',
-														local: 'fill'
-													});
+										name: 'unsetColours',
+										// type: 'perItem',
+										fn: (node) => {
+											return {
+												element: {
+													enter: (node, parentNode) => {
+														if (node.name === 'svg') {
+															node.attributes.fill = 'currentColor';
+														}
+													}
 												}
-												return node;
-											}
+											};
 										}
 									}
 								]
@@ -122,85 +115,82 @@ module.exports = function (grunt) {
 				full: true, // Have to do this otherwise order is wrong
 				plugins: [
 					// DEFAULT
-					{ cleanupAttrs: true },
-					{ removeDoctype: true },
-					{ removeXMLProcInst: true },
-					{ removeComments: true },
-					{ removeMetadata: true },
-					{ removeTitle: true },
-					{ removeDesc: true },
-					{ removeUselessDefs: true },
-					{ removeEditorsNSData: true },
-					{ removeEmptyAttrs: true },
-					{ removeHiddenElems: true },
-					{ removeEmptyText: true },
-					{ removeEmptyContainers: true },
-					{ removeViewBox: true },
-					{ cleanupEnableBackground: true },
-					{ minifyStyles: true },
-					{ convertColors: true },
-					{ convertPathData: true },
-					{ convertTransform: true },
-					{ removeUnknownsAndDefaults: true },
-					{ removeNonInheritableGroupAttrs: true },
-					{ removeUselessStrokeAndFill: true },
-					{ removeUnusedNS: true },
-					{ cleanupIDs: true },
-					{ cleanupNumericValues: true },
-					{ moveElemsAttrsToGroup: true },
-					{ moveGroupAttrsToElems: true },
-					{ collapseGroups: true },
-					{ mergePaths: true },
-					{ convertShapeToPath: true },
-					{ convertEllipseToCircle: true },
-					{ sortDefsChildren: true },
+					{ name: 'cleanupAttrs' },
+					{ name: 'removeDoctype' },
+					{ name: 'removeXMLProcInst' },
+					{ name: 'removeComments' },
+					{ name: 'removeMetadata' },
+					{ name: 'removeTitle' },
+					{ name: 'removeDesc' },
+					{ name: 'removeUselessDefs' },
+					{ name: 'removeEditorsNSData' },
+					{ name: 'removeEmptyAttrs' },
+					{ name: 'removeHiddenElems' },
+					{ name: 'removeEmptyText' },
+					{ name: 'removeEmptyContainers' },
+					{ name: 'removeViewBox' },
+					{ name: 'cleanupEnableBackground' },
+					{ name: 'minifyStyles' },
+					{ name: 'convertColors' },
+					{ name: 'convertPathData' },
+					{ name: 'convertTransform' },
+					{ name: 'removeUnknownsAndDefaults' },
+					{ name: 'removeNonInheritableGroupAttrs' },
+					{ name: 'removeUselessStrokeAndFill' },
+					{ name: 'removeUnusedNS' },
+					{ name: 'cleanupIds' },
+					{ name: 'cleanupNumericValues' },
+					{ name: 'moveElemsAttrsToGroup' },
+					{ name: 'moveGroupAttrsToElems' },
+					{ name: 'collapseGroups' },
+					{ name: 'mergePaths' },
+					{ name: 'convertShapeToPath' },
+					{ name: 'convertEllipseToCircle' },
+					{ name: 'sortDefsChildren' },
 					// CUSTOM
-					{ removeDimensions: true },
-					{ inlineStyles: { onlyMatchedOnce: false } },
-					{ convertStyleToAttrs: true },
+					{ name: 'removeDimensions' },
 					{
-						unsetColours: {
-							type: 'perItem',
-							fn: (node) => {
-								props = ['fill', 'stroke', 'color'];
-								props.forEach((prop) => {
-									const attr = node.attr(prop)?.value;
-									if (attr) {
-										if (
-											![
-												'transparent',
-												'none',
-												'#0000',
-												'#00000000',
-												'#fff',
-												'#ffffff',
-												'white'
-											].includes(attr)
-										) {
-											// Node isn't transparent or white, so make it currentcolour (black)
-											node.addAttr({
-												name: prop,
-												prefix: '',
-												value: 'currentColor',
-												local: prop
-											});
-										} else {
-											// Node is transparent or white, so set it to none to remove useless white
-											node.addAttr({
-												name: prop,
-												prefix: '',
-												value: 'none',
-												local: prop
-											});
+						name: 'inlineStyles',
+						props: { onlyMatchedOnce: false }
+					},
+					{ name: 'convertStyleToAttrs' },
+					{
+						name: 'unsetColours',
+						fn: (node) => {
+							return {
+								element: {
+									enter: (node, parentNode) => {
+										props = ['fill', 'stroke', 'color'];
+										props.forEach((prop) => {
+											const attr = node.attributes[prop];
+											if (attr) {
+												if (
+													![
+														'transparent',
+														'none',
+														'#0000',
+														'#00000000',
+														'#fff',
+														'#ffffff',
+														'white'
+													].includes(attr)
+												) {
+													// Node isn't transparent or white, so make it currentcolour (black)
+													node.attributes[prop] = 'currentColor';
+												} else {
+													// Node is transparent or white, so set it to none to remove useless white
+													node.attributes[prop] = 'none';
+												}
+											}
+										});
+										if (node.name === 'svg') {
+											node.attributes['fill'] = 'currentColor';
+											node.attributes['color'] = '#000';
 										}
+										return node;
 									}
-								});
-								if (node.isElem('svg')) {
-									node.addAttr({ name: 'fill', prefix: '', value: 'currentColor', local: 'fill' });
-									node.addAttr({ name: 'color', prefix: '', value: '#000', local: 'fill' });
 								}
-								return node;
-							}
+							};
 						}
 					}
 				]

@@ -1,8 +1,9 @@
 // console.log('Loading function');
 
-const aws = require('aws-sdk');
+const { S3Client, GetObjectCommand } = require('@aws-sdk/client-s3');
+const { text } = require('node:stream/consumers');
 
-const s3 = new aws.S3({ apiVersion: '2006-03-01' });
+const s3 = new S3Client();
 
 exports.handler = async (event, context) => {
 	// console.log('Received event:', JSON.stringify(event, null, 2));
@@ -18,19 +19,20 @@ exports.handler = async (event, context) => {
 	};
 	// console.log('Loading Object:', JSON.stringify(params, null, 2));
 	try {
-		const { ContentType, Body } = await s3.getObject(params).promise();
+		const command = new GetObjectCommand(params);
+		const { ContentType, Body } = await s3.send(command);
 		// console.log('CONTENT TYPE:', ContentType);
-		const svgContents = Body.toString('utf-8');
+		const svgContents = await text(Body);
+		// console.log('Body:', svgContents);
 		const output = svgContents.replace(
 			/#0{3,6}|black|rgb\(0,0,0\)|rgba\(0,0,0,1\)/g,
 			`#${match[2]}`
 		);
-		const response = {
+		return {
 			statusCode: 200,
 			headers: { 'content-type': ContentType, 'Access-Control-Allow-Origin': '*' },
 			body: output
 		};
-		return response;
 	} catch (err) {
 		console.log(err);
 		const message = `Error getting object ${key} from bucket. Make sure they exist and your bucket is in the same region as this function.`;
